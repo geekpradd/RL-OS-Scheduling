@@ -1,0 +1,4097 @@
+INSTANCE -l 1:1,1:1,1:1,1:1,1:1
+ SETTING -m rr -q 8
+
+Job: 0
+job arrival 1,burst_time 1,turnaround_time: 1, wait: 0, response 0
+Job: 1
+job arrival 1,burst_time 1,turnaround_time: 2, wait: 1, response 1
+Job: 2
+job arrival 1,burst_time 1,turnaround_time: 3, wait: 2, response 2
+Job: 3
+job arrival 1,burst_time 1,turnaround_time: 4, wait: 3, response 3
+Job: 4
+job arrival 1,burst_time 1,turnaround_time: 5, wait: 4, response 4
+Global Statistics
+average turnaround_time: 3.0
+average waiting_time: 2.0
+average response_time: 2.0
+throughput: 833.3333333333334
+boost jobs each: 0
+INSTANCE -l 1:1,1:1,1:1,1:1,1:1
+ SETTING -m fcfs
+
+Job: 5
+job arrival 1,burst_time 1,turnaround_time: 1, wait: 0, response 0
+Job: 6
+job arrival 1,burst_time 1,turnaround_time: 2, wait: 1, response 1
+Job: 7
+job arrival 1,burst_time 1,turnaround_time: 3, wait: 2, response 2
+Job: 8
+job arrival 1,burst_time 1,turnaround_time: 4, wait: 3, response 3
+Job: 9
+job arrival 1,burst_time 1,turnaround_time: 5, wait: 4, response 4
+Global Statistics
+average turnaround_time: 3.0
+average waiting_time: 2.0
+average response_time: 2.0
+throughput: 833.3333333333334
+boost jobs each: 0
+INSTANCE -l 1:1,1:1,1:1,1:1,1:1
+ SETTING -q 8,16
+
+Job: 10
+job arrival 1,burst_time 1,turnaround_time: 1, wait: 0, response 0
+Job: 11
+job arrival 1,burst_time 1,turnaround_time: 2, wait: 1, response 1
+Job: 12
+job arrival 1,burst_time 1,turnaround_time: 3, wait: 2, response 2
+Job: 13
+job arrival 1,burst_time 1,turnaround_time: 4, wait: 3, response 3
+Job: 14
+job arrival 1,burst_time 1,turnaround_time: 5, wait: 4, response 4
+Global Statistics
+average turnaround_time: 3.0
+average waiting_time: 2.0
+average response_time: 2.0
+throughput: 833.3333333333334
+boost jobs each: 0
+INSTANCE -l 1:1,1:1,1:1,1:1,1:1
+ SETTING -q 8,16,24
+
+Job: 15
+job arrival 1,burst_time 1,turnaround_time: 1, wait: 0, response 0
+Job: 16
+job arrival 1,burst_time 1,turnaround_time: 2, wait: 1, response 1
+Job: 17
+job arrival 1,burst_time 1,turnaround_time: 3, wait: 2, response 2
+Job: 18
+job arrival 1,burst_time 1,turnaround_time: 4, wait: 3, response 3
+Job: 19
+job arrival 1,burst_time 1,turnaround_time: 5, wait: 4, response 4
+Global Statistics
+average turnaround_time: 3.0
+average waiting_time: 2.0
+average response_time: 2.0
+throughput: 833.3333333333334
+boost jobs each: 0
+INSTANCE -l 1:1,1:1,1:1,1:1,1:1
+ SETTING -q 8,16,24,32
+
+Job: 20
+job arrival 1,burst_time 1,turnaround_time: 1, wait: 0, response 0
+Job: 21
+job arrival 1,burst_time 1,turnaround_time: 2, wait: 1, response 1
+Job: 22
+job arrival 1,burst_time 1,turnaround_time: 3, wait: 2, response 2
+Job: 23
+job arrival 1,burst_time 1,turnaround_time: 4, wait: 3, response 3
+Job: 24
+job arrival 1,burst_time 1,turnaround_time: 5, wait: 4, response 4
+Global Statistics
+average turnaround_time: 3.0
+average waiting_time: 2.0
+average response_time: 2.0
+throughput: 833.3333333333334
+boost jobs each: 0
+INSTANCE -l 1:1,1:1,1:1,1:1,1:1
+ SETTING -q 8,16 -m auto_boost -f 0.25
+
+Job: 25
+job arrival 1,burst_time 1,turnaround_time: 1, wait: 0, response 0
+Job: 26
+job arrival 1,burst_time 1,turnaround_time: 2, wait: 1, response 1
+Job: 27
+job arrival 1,burst_time 1,turnaround_time: 3, wait: 2, response 2
+Job: 28
+job arrival 1,burst_time 1,turnaround_time: 4, wait: 3, response 3
+Job: 29
+job arrival 1,burst_time 1,turnaround_time: 5, wait: 4, response 4
+Global Statistics
+average turnaround_time: 3.0
+average waiting_time: 2.0
+average response_time: 2.0
+throughput: 833.3333333333334
+boost jobs each: 1
+INSTANCE -l 1:1,1:1,1:1,1:1,1:1
+ SETTING -q 8,16,24 -m auto_boost -f 0.5
+
+Job: 30
+job arrival 1,burst_time 1,turnaround_time: 1, wait: 0, response 0
+Job: 31
+job arrival 1,burst_time 1,turnaround_time: 2, wait: 1, response 1
+Job: 32
+job arrival 1,burst_time 1,turnaround_time: 3, wait: 2, response 2
+Job: 33
+job arrival 1,burst_time 1,turnaround_time: 4, wait: 3, response 3
+Job: 34
+job arrival 1,burst_time 1,turnaround_time: 5, wait: 4, response 4
+Global Statistics
+average turnaround_time: 3.0
+average waiting_time: 2.0
+average response_time: 2.0
+throughput: 833.3333333333334
+boost jobs each: 2
+INSTANCE -l 1:1,1:1,1:1,1:1,1:1
+ SETTING -q 8,16,24,32 -m auto_boost -f 0.75
+Job: 35
+job arrival 1,burst_time 1,turnaround_time: 1, wait: 0, response 0
+Job: 36
+job arrival 1,burst_time 1,turnaround_time: 2, wait: 1, response 1
+Job: 37
+job arrival 1,burst_time 1,turnaround_time: 3, wait: 2, response 2
+Job: 38
+job arrival 1,burst_time 1,turnaround_time: 4, wait: 3, response 3
+Job: 39
+job arrival 1,burst_time 1,turnaround_time: 5, wait: 4, response 4
+Global Statistics
+average turnaround_time: 3.0
+average waiting_time: 2.0
+average response_time: 2.0
+throughput: 833.3333333333334
+boost jobs each: 3
+INSTANCE -l 1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1
+ SETTING -m rr -q 8
+
+Job: 40
+job arrival 1,burst_time 1,turnaround_time: 1, wait: 0, response 0
+Job: 41
+job arrival 1,burst_time 1,turnaround_time: 2, wait: 1, response 1
+Job: 42
+job arrival 1,burst_time 1,turnaround_time: 3, wait: 2, response 2
+Job: 43
+job arrival 1,burst_time 1,turnaround_time: 4, wait: 3, response 3
+Job: 44
+job arrival 1,burst_time 1,turnaround_time: 5, wait: 4, response 4
+Job: 45
+job arrival 1,burst_time 1,turnaround_time: 6, wait: 5, response 5
+Job: 46
+job arrival 1,burst_time 1,turnaround_time: 7, wait: 6, response 6
+Job: 47
+job arrival 1,burst_time 1,turnaround_time: 8, wait: 7, response 7
+Job: 48
+job arrival 1,burst_time 1,turnaround_time: 9, wait: 8, response 8
+Job: 49
+job arrival 1,burst_time 1,turnaround_time: 10, wait: 9, response 9
+Global Statistics
+average turnaround_time: 5.5
+average waiting_time: 4.5
+average response_time: 4.5
+throughput: 909.090909090909
+boost jobs each: 0
+INSTANCE -l 1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1
+ SETTING -m fcfs
+
+Job: 50
+job arrival 1,burst_time 1,turnaround_time: 1, wait: 0, response 0
+Job: 51
+job arrival 1,burst_time 1,turnaround_time: 2, wait: 1, response 1
+Job: 52
+job arrival 1,burst_time 1,turnaround_time: 3, wait: 2, response 2
+Job: 53
+job arrival 1,burst_time 1,turnaround_time: 4, wait: 3, response 3
+Job: 54
+job arrival 1,burst_time 1,turnaround_time: 5, wait: 4, response 4
+Job: 55
+job arrival 1,burst_time 1,turnaround_time: 6, wait: 5, response 5
+Job: 56
+job arrival 1,burst_time 1,turnaround_time: 7, wait: 6, response 6
+Job: 57
+job arrival 1,burst_time 1,turnaround_time: 8, wait: 7, response 7
+Job: 58
+job arrival 1,burst_time 1,turnaround_time: 9, wait: 8, response 8
+Job: 59
+job arrival 1,burst_time 1,turnaround_time: 10, wait: 9, response 9
+Global Statistics
+average turnaround_time: 5.5
+average waiting_time: 4.5
+average response_time: 4.5
+throughput: 909.090909090909
+boost jobs each: 0
+INSTANCE -l 1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1
+ SETTING -q 8,16
+
+Job: 60
+job arrival 1,burst_time 1,turnaround_time: 1, wait: 0, response 0
+Job: 61
+job arrival 1,burst_time 1,turnaround_time: 2, wait: 1, response 1
+Job: 62
+job arrival 1,burst_time 1,turnaround_time: 3, wait: 2, response 2
+Job: 63
+job arrival 1,burst_time 1,turnaround_time: 4, wait: 3, response 3
+Job: 64
+job arrival 1,burst_time 1,turnaround_time: 5, wait: 4, response 4
+Job: 65
+job arrival 1,burst_time 1,turnaround_time: 6, wait: 5, response 5
+Job: 66
+job arrival 1,burst_time 1,turnaround_time: 7, wait: 6, response 6
+Job: 67
+job arrival 1,burst_time 1,turnaround_time: 8, wait: 7, response 7
+Job: 68
+job arrival 1,burst_time 1,turnaround_time: 9, wait: 8, response 8
+Job: 69
+job arrival 1,burst_time 1,turnaround_time: 10, wait: 9, response 9
+Global Statistics
+average turnaround_time: 5.5
+average waiting_time: 4.5
+average response_time: 4.5
+throughput: 909.090909090909
+boost jobs each: 0
+INSTANCE -l 1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1
+ SETTING -q 8,16,24
+
+Job: 70
+job arrival 1,burst_time 1,turnaround_time: 1, wait: 0, response 0
+Job: 71
+job arrival 1,burst_time 1,turnaround_time: 2, wait: 1, response 1
+Job: 72
+job arrival 1,burst_time 1,turnaround_time: 3, wait: 2, response 2
+Job: 73
+job arrival 1,burst_time 1,turnaround_time: 4, wait: 3, response 3
+Job: 74
+job arrival 1,burst_time 1,turnaround_time: 5, wait: 4, response 4
+Job: 75
+job arrival 1,burst_time 1,turnaround_time: 6, wait: 5, response 5
+Job: 76
+job arrival 1,burst_time 1,turnaround_time: 7, wait: 6, response 6
+Job: 77
+job arrival 1,burst_time 1,turnaround_time: 8, wait: 7, response 7
+Job: 78
+job arrival 1,burst_time 1,turnaround_time: 9, wait: 8, response 8
+Job: 79
+job arrival 1,burst_time 1,turnaround_time: 10, wait: 9, response 9
+Global Statistics
+average turnaround_time: 5.5
+average waiting_time: 4.5
+average response_time: 4.5
+throughput: 909.090909090909
+boost jobs each: 0
+INSTANCE -l 1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1
+ SETTING -q 8,16,24,32
+
+Job: 80
+job arrival 1,burst_time 1,turnaround_time: 1, wait: 0, response 0
+Job: 81
+job arrival 1,burst_time 1,turnaround_time: 2, wait: 1, response 1
+Job: 82
+job arrival 1,burst_time 1,turnaround_time: 3, wait: 2, response 2
+Job: 83
+job arrival 1,burst_time 1,turnaround_time: 4, wait: 3, response 3
+Job: 84
+job arrival 1,burst_time 1,turnaround_time: 5, wait: 4, response 4
+Job: 85
+job arrival 1,burst_time 1,turnaround_time: 6, wait: 5, response 5
+Job: 86
+job arrival 1,burst_time 1,turnaround_time: 7, wait: 6, response 6
+Job: 87
+job arrival 1,burst_time 1,turnaround_time: 8, wait: 7, response 7
+Job: 88
+job arrival 1,burst_time 1,turnaround_time: 9, wait: 8, response 8
+Job: 89
+job arrival 1,burst_time 1,turnaround_time: 10, wait: 9, response 9
+Global Statistics
+average turnaround_time: 5.5
+average waiting_time: 4.5
+average response_time: 4.5
+throughput: 909.090909090909
+boost jobs each: 0
+INSTANCE -l 1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1
+ SETTING -q 8,16 -m auto_boost -f 0.25
+
+Job: 90
+job arrival 1,burst_time 1,turnaround_time: 1, wait: 0, response 0
+Job: 91
+job arrival 1,burst_time 1,turnaround_time: 2, wait: 1, response 1
+Job: 92
+job arrival 1,burst_time 1,turnaround_time: 3, wait: 2, response 2
+Job: 93
+job arrival 1,burst_time 1,turnaround_time: 4, wait: 3, response 3
+Job: 94
+job arrival 1,burst_time 1,turnaround_time: 5, wait: 4, response 4
+Job: 95
+job arrival 1,burst_time 1,turnaround_time: 6, wait: 5, response 5
+Job: 96
+job arrival 1,burst_time 1,turnaround_time: 7, wait: 6, response 6
+Job: 97
+job arrival 1,burst_time 1,turnaround_time: 8, wait: 7, response 7
+Job: 98
+job arrival 1,burst_time 1,turnaround_time: 9, wait: 8, response 8
+Job: 99
+job arrival 1,burst_time 1,turnaround_time: 10, wait: 9, response 9
+Global Statistics
+average turnaround_time: 5.5
+average waiting_time: 4.5
+average response_time: 4.5
+throughput: 909.090909090909
+boost jobs each: 2
+INSTANCE -l 1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1
+ SETTING -q 8,16,24 -m auto_boost -f 0.5
+
+Job: 100
+job arrival 1,burst_time 1,turnaround_time: 1, wait: 0, response 0
+Job: 101
+job arrival 1,burst_time 1,turnaround_time: 2, wait: 1, response 1
+Job: 102
+job arrival 1,burst_time 1,turnaround_time: 3, wait: 2, response 2
+Job: 103
+job arrival 1,burst_time 1,turnaround_time: 4, wait: 3, response 3
+Job: 104
+job arrival 1,burst_time 1,turnaround_time: 5, wait: 4, response 4
+Job: 105
+job arrival 1,burst_time 1,turnaround_time: 6, wait: 5, response 5
+Job: 106
+job arrival 1,burst_time 1,turnaround_time: 7, wait: 6, response 6
+Job: 107
+job arrival 1,burst_time 1,turnaround_time: 8, wait: 7, response 7
+Job: 108
+job arrival 1,burst_time 1,turnaround_time: 9, wait: 8, response 8
+Job: 109
+job arrival 1,burst_time 1,turnaround_time: 10, wait: 9, response 9
+Global Statistics
+average turnaround_time: 5.5
+average waiting_time: 4.5
+average response_time: 4.5
+throughput: 909.090909090909
+boost jobs each: 5
+INSTANCE -l 1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1
+ SETTING -q 8,16,24,32 -m auto_boost -f 0.75
+Job: 110
+job arrival 1,burst_time 1,turnaround_time: 1, wait: 0, response 0
+Job: 111
+job arrival 1,burst_time 1,turnaround_time: 2, wait: 1, response 1
+Job: 112
+job arrival 1,burst_time 1,turnaround_time: 3, wait: 2, response 2
+Job: 113
+job arrival 1,burst_time 1,turnaround_time: 4, wait: 3, response 3
+Job: 114
+job arrival 1,burst_time 1,turnaround_time: 5, wait: 4, response 4
+Job: 115
+job arrival 1,burst_time 1,turnaround_time: 6, wait: 5, response 5
+Job: 116
+job arrival 1,burst_time 1,turnaround_time: 7, wait: 6, response 6
+Job: 117
+job arrival 1,burst_time 1,turnaround_time: 8, wait: 7, response 7
+Job: 118
+job arrival 1,burst_time 1,turnaround_time: 9, wait: 8, response 8
+Job: 119
+job arrival 1,burst_time 1,turnaround_time: 10, wait: 9, response 9
+Global Statistics
+average turnaround_time: 5.5
+average waiting_time: 4.5
+average response_time: 4.5
+throughput: 909.090909090909
+boost jobs each: 7
+INSTANCE -l 1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1
+ SETTING -m rr -q 8
+
+Job: 120
+job arrival 1,burst_time 1,turnaround_time: 1, wait: 0, response 0
+Job: 121
+job arrival 1,burst_time 1,turnaround_time: 2, wait: 1, response 1
+Job: 122
+job arrival 1,burst_time 1,turnaround_time: 3, wait: 2, response 2
+Job: 123
+job arrival 1,burst_time 1,turnaround_time: 4, wait: 3, response 3
+Job: 124
+job arrival 1,burst_time 1,turnaround_time: 5, wait: 4, response 4
+Job: 125
+job arrival 1,burst_time 1,turnaround_time: 6, wait: 5, response 5
+Job: 126
+job arrival 1,burst_time 1,turnaround_time: 7, wait: 6, response 6
+Job: 127
+job arrival 1,burst_time 1,turnaround_time: 8, wait: 7, response 7
+Job: 128
+job arrival 1,burst_time 1,turnaround_time: 9, wait: 8, response 8
+Job: 129
+job arrival 1,burst_time 1,turnaround_time: 10, wait: 9, response 9
+Job: 130
+job arrival 1,burst_time 1,turnaround_time: 11, wait: 10, response 10
+Job: 131
+job arrival 1,burst_time 1,turnaround_time: 12, wait: 11, response 11
+Job: 132
+job arrival 1,burst_time 1,turnaround_time: 13, wait: 12, response 12
+Job: 133
+job arrival 1,burst_time 1,turnaround_time: 14, wait: 13, response 13
+Job: 134
+job arrival 1,burst_time 1,turnaround_time: 15, wait: 14, response 14
+Job: 135
+job arrival 1,burst_time 1,turnaround_time: 16, wait: 15, response 15
+Job: 136
+job arrival 1,burst_time 1,turnaround_time: 17, wait: 16, response 16
+Job: 137
+job arrival 1,burst_time 1,turnaround_time: 18, wait: 17, response 17
+Job: 138
+job arrival 1,burst_time 1,turnaround_time: 19, wait: 18, response 18
+Job: 139
+job arrival 1,burst_time 1,turnaround_time: 20, wait: 19, response 19
+Global Statistics
+average turnaround_time: 10.5
+average waiting_time: 9.5
+average response_time: 9.5
+throughput: 952.3809523809523
+boost jobs each: 0
+INSTANCE -l 1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1
+ SETTING -m fcfs
+
+Job: 140
+job arrival 1,burst_time 1,turnaround_time: 1, wait: 0, response 0
+Job: 141
+job arrival 1,burst_time 1,turnaround_time: 2, wait: 1, response 1
+Job: 142
+job arrival 1,burst_time 1,turnaround_time: 3, wait: 2, response 2
+Job: 143
+job arrival 1,burst_time 1,turnaround_time: 4, wait: 3, response 3
+Job: 144
+job arrival 1,burst_time 1,turnaround_time: 5, wait: 4, response 4
+Job: 145
+job arrival 1,burst_time 1,turnaround_time: 6, wait: 5, response 5
+Job: 146
+job arrival 1,burst_time 1,turnaround_time: 7, wait: 6, response 6
+Job: 147
+job arrival 1,burst_time 1,turnaround_time: 8, wait: 7, response 7
+Job: 148
+job arrival 1,burst_time 1,turnaround_time: 9, wait: 8, response 8
+Job: 149
+job arrival 1,burst_time 1,turnaround_time: 10, wait: 9, response 9
+Job: 150
+job arrival 1,burst_time 1,turnaround_time: 11, wait: 10, response 10
+Job: 151
+job arrival 1,burst_time 1,turnaround_time: 12, wait: 11, response 11
+Job: 152
+job arrival 1,burst_time 1,turnaround_time: 13, wait: 12, response 12
+Job: 153
+job arrival 1,burst_time 1,turnaround_time: 14, wait: 13, response 13
+Job: 154
+job arrival 1,burst_time 1,turnaround_time: 15, wait: 14, response 14
+Job: 155
+job arrival 1,burst_time 1,turnaround_time: 16, wait: 15, response 15
+Job: 156
+job arrival 1,burst_time 1,turnaround_time: 17, wait: 16, response 16
+Job: 157
+job arrival 1,burst_time 1,turnaround_time: 18, wait: 17, response 17
+Job: 158
+job arrival 1,burst_time 1,turnaround_time: 19, wait: 18, response 18
+Job: 159
+job arrival 1,burst_time 1,turnaround_time: 20, wait: 19, response 19
+Global Statistics
+average turnaround_time: 10.5
+average waiting_time: 9.5
+average response_time: 9.5
+throughput: 952.3809523809523
+boost jobs each: 0
+INSTANCE -l 1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1
+ SETTING -q 8,16
+
+Job: 160
+job arrival 1,burst_time 1,turnaround_time: 1, wait: 0, response 0
+Job: 161
+job arrival 1,burst_time 1,turnaround_time: 2, wait: 1, response 1
+Job: 162
+job arrival 1,burst_time 1,turnaround_time: 3, wait: 2, response 2
+Job: 163
+job arrival 1,burst_time 1,turnaround_time: 4, wait: 3, response 3
+Job: 164
+job arrival 1,burst_time 1,turnaround_time: 5, wait: 4, response 4
+Job: 165
+job arrival 1,burst_time 1,turnaround_time: 6, wait: 5, response 5
+Job: 166
+job arrival 1,burst_time 1,turnaround_time: 7, wait: 6, response 6
+Job: 167
+job arrival 1,burst_time 1,turnaround_time: 8, wait: 7, response 7
+Job: 168
+job arrival 1,burst_time 1,turnaround_time: 9, wait: 8, response 8
+Job: 169
+job arrival 1,burst_time 1,turnaround_time: 10, wait: 9, response 9
+Job: 170
+job arrival 1,burst_time 1,turnaround_time: 11, wait: 10, response 10
+Job: 171
+job arrival 1,burst_time 1,turnaround_time: 12, wait: 11, response 11
+Job: 172
+job arrival 1,burst_time 1,turnaround_time: 13, wait: 12, response 12
+Job: 173
+job arrival 1,burst_time 1,turnaround_time: 14, wait: 13, response 13
+Job: 174
+job arrival 1,burst_time 1,turnaround_time: 15, wait: 14, response 14
+Job: 175
+job arrival 1,burst_time 1,turnaround_time: 16, wait: 15, response 15
+Job: 176
+job arrival 1,burst_time 1,turnaround_time: 17, wait: 16, response 16
+Job: 177
+job arrival 1,burst_time 1,turnaround_time: 18, wait: 17, response 17
+Job: 178
+job arrival 1,burst_time 1,turnaround_time: 19, wait: 18, response 18
+Job: 179
+job arrival 1,burst_time 1,turnaround_time: 20, wait: 19, response 19
+Global Statistics
+average turnaround_time: 10.5
+average waiting_time: 9.5
+average response_time: 9.5
+throughput: 952.3809523809523
+boost jobs each: 0
+INSTANCE -l 1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1
+ SETTING -q 8,16,24
+
+Job: 180
+job arrival 1,burst_time 1,turnaround_time: 1, wait: 0, response 0
+Job: 181
+job arrival 1,burst_time 1,turnaround_time: 2, wait: 1, response 1
+Job: 182
+job arrival 1,burst_time 1,turnaround_time: 3, wait: 2, response 2
+Job: 183
+job arrival 1,burst_time 1,turnaround_time: 4, wait: 3, response 3
+Job: 184
+job arrival 1,burst_time 1,turnaround_time: 5, wait: 4, response 4
+Job: 185
+job arrival 1,burst_time 1,turnaround_time: 6, wait: 5, response 5
+Job: 186
+job arrival 1,burst_time 1,turnaround_time: 7, wait: 6, response 6
+Job: 187
+job arrival 1,burst_time 1,turnaround_time: 8, wait: 7, response 7
+Job: 188
+job arrival 1,burst_time 1,turnaround_time: 9, wait: 8, response 8
+Job: 189
+job arrival 1,burst_time 1,turnaround_time: 10, wait: 9, response 9
+Job: 190
+job arrival 1,burst_time 1,turnaround_time: 11, wait: 10, response 10
+Job: 191
+job arrival 1,burst_time 1,turnaround_time: 12, wait: 11, response 11
+Job: 192
+job arrival 1,burst_time 1,turnaround_time: 13, wait: 12, response 12
+Job: 193
+job arrival 1,burst_time 1,turnaround_time: 14, wait: 13, response 13
+Job: 194
+job arrival 1,burst_time 1,turnaround_time: 15, wait: 14, response 14
+Job: 195
+job arrival 1,burst_time 1,turnaround_time: 16, wait: 15, response 15
+Job: 196
+job arrival 1,burst_time 1,turnaround_time: 17, wait: 16, response 16
+Job: 197
+job arrival 1,burst_time 1,turnaround_time: 18, wait: 17, response 17
+Job: 198
+job arrival 1,burst_time 1,turnaround_time: 19, wait: 18, response 18
+Job: 199
+job arrival 1,burst_time 1,turnaround_time: 20, wait: 19, response 19
+Global Statistics
+average turnaround_time: 10.5
+average waiting_time: 9.5
+average response_time: 9.5
+throughput: 952.3809523809523
+boost jobs each: 0
+INSTANCE -l 1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1
+ SETTING -q 8,16,24,32
+
+Job: 200
+job arrival 1,burst_time 1,turnaround_time: 1, wait: 0, response 0
+Job: 201
+job arrival 1,burst_time 1,turnaround_time: 2, wait: 1, response 1
+Job: 202
+job arrival 1,burst_time 1,turnaround_time: 3, wait: 2, response 2
+Job: 203
+job arrival 1,burst_time 1,turnaround_time: 4, wait: 3, response 3
+Job: 204
+job arrival 1,burst_time 1,turnaround_time: 5, wait: 4, response 4
+Job: 205
+job arrival 1,burst_time 1,turnaround_time: 6, wait: 5, response 5
+Job: 206
+job arrival 1,burst_time 1,turnaround_time: 7, wait: 6, response 6
+Job: 207
+job arrival 1,burst_time 1,turnaround_time: 8, wait: 7, response 7
+Job: 208
+job arrival 1,burst_time 1,turnaround_time: 9, wait: 8, response 8
+Job: 209
+job arrival 1,burst_time 1,turnaround_time: 10, wait: 9, response 9
+Job: 210
+job arrival 1,burst_time 1,turnaround_time: 11, wait: 10, response 10
+Job: 211
+job arrival 1,burst_time 1,turnaround_time: 12, wait: 11, response 11
+Job: 212
+job arrival 1,burst_time 1,turnaround_time: 13, wait: 12, response 12
+Job: 213
+job arrival 1,burst_time 1,turnaround_time: 14, wait: 13, response 13
+Job: 214
+job arrival 1,burst_time 1,turnaround_time: 15, wait: 14, response 14
+Job: 215
+job arrival 1,burst_time 1,turnaround_time: 16, wait: 15, response 15
+Job: 216
+job arrival 1,burst_time 1,turnaround_time: 17, wait: 16, response 16
+Job: 217
+job arrival 1,burst_time 1,turnaround_time: 18, wait: 17, response 17
+Job: 218
+job arrival 1,burst_time 1,turnaround_time: 19, wait: 18, response 18
+Job: 219
+job arrival 1,burst_time 1,turnaround_time: 20, wait: 19, response 19
+Global Statistics
+average turnaround_time: 10.5
+average waiting_time: 9.5
+average response_time: 9.5
+throughput: 952.3809523809523
+boost jobs each: 0
+INSTANCE -l 1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1
+ SETTING -q 8,16 -m auto_boost -f 0.25
+
+Job: 220
+job arrival 1,burst_time 1,turnaround_time: 1, wait: 0, response 0
+Job: 221
+job arrival 1,burst_time 1,turnaround_time: 2, wait: 1, response 1
+Job: 222
+job arrival 1,burst_time 1,turnaround_time: 3, wait: 2, response 2
+Job: 223
+job arrival 1,burst_time 1,turnaround_time: 4, wait: 3, response 3
+Job: 224
+job arrival 1,burst_time 1,turnaround_time: 5, wait: 4, response 4
+Job: 225
+job arrival 1,burst_time 1,turnaround_time: 6, wait: 5, response 5
+Job: 226
+job arrival 1,burst_time 1,turnaround_time: 7, wait: 6, response 6
+Job: 227
+job arrival 1,burst_time 1,turnaround_time: 8, wait: 7, response 7
+Job: 228
+job arrival 1,burst_time 1,turnaround_time: 9, wait: 8, response 8
+Job: 229
+job arrival 1,burst_time 1,turnaround_time: 10, wait: 9, response 9
+Job: 230
+job arrival 1,burst_time 1,turnaround_time: 11, wait: 10, response 10
+Job: 231
+job arrival 1,burst_time 1,turnaround_time: 12, wait: 11, response 11
+Job: 232
+job arrival 1,burst_time 1,turnaround_time: 13, wait: 12, response 12
+Job: 233
+job arrival 1,burst_time 1,turnaround_time: 14, wait: 13, response 13
+Job: 234
+job arrival 1,burst_time 1,turnaround_time: 15, wait: 14, response 14
+Job: 235
+job arrival 1,burst_time 1,turnaround_time: 16, wait: 15, response 15
+Job: 236
+job arrival 1,burst_time 1,turnaround_time: 17, wait: 16, response 16
+Job: 237
+job arrival 1,burst_time 1,turnaround_time: 18, wait: 17, response 17
+Job: 238
+job arrival 1,burst_time 1,turnaround_time: 19, wait: 18, response 18
+Job: 239
+job arrival 1,burst_time 1,turnaround_time: 20, wait: 19, response 19
+Global Statistics
+average turnaround_time: 10.5
+average waiting_time: 9.5
+average response_time: 9.5
+throughput: 952.3809523809523
+boost jobs each: 5
+INSTANCE -l 1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1
+ SETTING -q 8,16,24 -m auto_boost -f 0.5
+
+Job: 240
+job arrival 1,burst_time 1,turnaround_time: 1, wait: 0, response 0
+Job: 241
+job arrival 1,burst_time 1,turnaround_time: 2, wait: 1, response 1
+Job: 242
+job arrival 1,burst_time 1,turnaround_time: 3, wait: 2, response 2
+Job: 243
+job arrival 1,burst_time 1,turnaround_time: 4, wait: 3, response 3
+Job: 244
+job arrival 1,burst_time 1,turnaround_time: 5, wait: 4, response 4
+Job: 245
+job arrival 1,burst_time 1,turnaround_time: 6, wait: 5, response 5
+Job: 246
+job arrival 1,burst_time 1,turnaround_time: 7, wait: 6, response 6
+Job: 247
+job arrival 1,burst_time 1,turnaround_time: 8, wait: 7, response 7
+Job: 248
+job arrival 1,burst_time 1,turnaround_time: 9, wait: 8, response 8
+Job: 249
+job arrival 1,burst_time 1,turnaround_time: 10, wait: 9, response 9
+Job: 250
+job arrival 1,burst_time 1,turnaround_time: 11, wait: 10, response 10
+Job: 251
+job arrival 1,burst_time 1,turnaround_time: 12, wait: 11, response 11
+Job: 252
+job arrival 1,burst_time 1,turnaround_time: 13, wait: 12, response 12
+Job: 253
+job arrival 1,burst_time 1,turnaround_time: 14, wait: 13, response 13
+Job: 254
+job arrival 1,burst_time 1,turnaround_time: 15, wait: 14, response 14
+Job: 255
+job arrival 1,burst_time 1,turnaround_time: 16, wait: 15, response 15
+Job: 256
+job arrival 1,burst_time 1,turnaround_time: 17, wait: 16, response 16
+Job: 257
+job arrival 1,burst_time 1,turnaround_time: 18, wait: 17, response 17
+Job: 258
+job arrival 1,burst_time 1,turnaround_time: 19, wait: 18, response 18
+Job: 259
+job arrival 1,burst_time 1,turnaround_time: 20, wait: 19, response 19
+Global Statistics
+average turnaround_time: 10.5
+average waiting_time: 9.5
+average response_time: 9.5
+throughput: 952.3809523809523
+boost jobs each: 10
+INSTANCE -l 1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1
+ SETTING -q 8,16,24,32 -m auto_boost -f 0.75
+Job: 260
+job arrival 1,burst_time 1,turnaround_time: 1, wait: 0, response 0
+Job: 261
+job arrival 1,burst_time 1,turnaround_time: 2, wait: 1, response 1
+Job: 262
+job arrival 1,burst_time 1,turnaround_time: 3, wait: 2, response 2
+Job: 263
+job arrival 1,burst_time 1,turnaround_time: 4, wait: 3, response 3
+Job: 264
+job arrival 1,burst_time 1,turnaround_time: 5, wait: 4, response 4
+Job: 265
+job arrival 1,burst_time 1,turnaround_time: 6, wait: 5, response 5
+Job: 266
+job arrival 1,burst_time 1,turnaround_time: 7, wait: 6, response 6
+Job: 267
+job arrival 1,burst_time 1,turnaround_time: 8, wait: 7, response 7
+Job: 268
+job arrival 1,burst_time 1,turnaround_time: 9, wait: 8, response 8
+Job: 269
+job arrival 1,burst_time 1,turnaround_time: 10, wait: 9, response 9
+Job: 270
+job arrival 1,burst_time 1,turnaround_time: 11, wait: 10, response 10
+Job: 271
+job arrival 1,burst_time 1,turnaround_time: 12, wait: 11, response 11
+Job: 272
+job arrival 1,burst_time 1,turnaround_time: 13, wait: 12, response 12
+Job: 273
+job arrival 1,burst_time 1,turnaround_time: 14, wait: 13, response 13
+Job: 274
+job arrival 1,burst_time 1,turnaround_time: 15, wait: 14, response 14
+Job: 275
+job arrival 1,burst_time 1,turnaround_time: 16, wait: 15, response 15
+Job: 276
+job arrival 1,burst_time 1,turnaround_time: 17, wait: 16, response 16
+Job: 277
+job arrival 1,burst_time 1,turnaround_time: 18, wait: 17, response 17
+Job: 278
+job arrival 1,burst_time 1,turnaround_time: 19, wait: 18, response 18
+Job: 279
+job arrival 1,burst_time 1,turnaround_time: 20, wait: 19, response 19
+Global Statistics
+average turnaround_time: 10.5
+average waiting_time: 9.5
+average response_time: 9.5
+throughput: 952.3809523809523
+boost jobs each: 15
+INSTANCE -l 1:1,2:1,3:1,4:1,5:1
+ SETTING -m rr -q 8
+
+Job: 280
+job arrival 1,burst_time 1,turnaround_time: 1, wait: 0, response 0
+Job: 281
+job arrival 1,burst_time 2,turnaround_time: 3, wait: 1, response 1
+Job: 282
+job arrival 1,burst_time 3,turnaround_time: 6, wait: 3, response 3
+Job: 283
+job arrival 1,burst_time 4,turnaround_time: 10, wait: 6, response 6
+Job: 284
+job arrival 1,burst_time 5,turnaround_time: 15, wait: 10, response 10
+Global Statistics
+average turnaround_time: 7.0
+average waiting_time: 4.0
+average response_time: 4.0
+throughput: 312.5
+boost jobs each: 0
+INSTANCE -l 1:1,2:1,3:1,4:1,5:1
+ SETTING -m fcfs
+
+Job: 285
+job arrival 1,burst_time 1,turnaround_time: 1, wait: 0, response 0
+Job: 286
+job arrival 1,burst_time 2,turnaround_time: 3, wait: 1, response 1
+Job: 287
+job arrival 1,burst_time 3,turnaround_time: 6, wait: 3, response 3
+Job: 288
+job arrival 1,burst_time 4,turnaround_time: 10, wait: 6, response 6
+Job: 289
+job arrival 1,burst_time 5,turnaround_time: 15, wait: 10, response 10
+Global Statistics
+average turnaround_time: 7.0
+average waiting_time: 4.0
+average response_time: 4.0
+throughput: 312.5
+boost jobs each: 0
+INSTANCE -l 1:1,2:1,3:1,4:1,5:1
+ SETTING -q 8,16
+
+Job: 290
+job arrival 1,burst_time 1,turnaround_time: 1, wait: 0, response 0
+Job: 291
+job arrival 1,burst_time 2,turnaround_time: 3, wait: 1, response 1
+Job: 292
+job arrival 1,burst_time 3,turnaround_time: 6, wait: 3, response 3
+Job: 293
+job arrival 1,burst_time 4,turnaround_time: 10, wait: 6, response 6
+Job: 294
+job arrival 1,burst_time 5,turnaround_time: 15, wait: 10, response 10
+Global Statistics
+average turnaround_time: 7.0
+average waiting_time: 4.0
+average response_time: 4.0
+throughput: 312.5
+boost jobs each: 0
+INSTANCE -l 1:1,2:1,3:1,4:1,5:1
+ SETTING -q 8,16,24
+
+Job: 295
+job arrival 1,burst_time 1,turnaround_time: 1, wait: 0, response 0
+Job: 296
+job arrival 1,burst_time 2,turnaround_time: 3, wait: 1, response 1
+Job: 297
+job arrival 1,burst_time 3,turnaround_time: 6, wait: 3, response 3
+Job: 298
+job arrival 1,burst_time 4,turnaround_time: 10, wait: 6, response 6
+Job: 299
+job arrival 1,burst_time 5,turnaround_time: 15, wait: 10, response 10
+Global Statistics
+average turnaround_time: 7.0
+average waiting_time: 4.0
+average response_time: 4.0
+throughput: 312.5
+boost jobs each: 0
+INSTANCE -l 1:1,2:1,3:1,4:1,5:1
+ SETTING -q 8,16,24,32
+
+Job: 300
+job arrival 1,burst_time 1,turnaround_time: 1, wait: 0, response 0
+Job: 301
+job arrival 1,burst_time 2,turnaround_time: 3, wait: 1, response 1
+Job: 302
+job arrival 1,burst_time 3,turnaround_time: 6, wait: 3, response 3
+Job: 303
+job arrival 1,burst_time 4,turnaround_time: 10, wait: 6, response 6
+Job: 304
+job arrival 1,burst_time 5,turnaround_time: 15, wait: 10, response 10
+Global Statistics
+average turnaround_time: 7.0
+average waiting_time: 4.0
+average response_time: 4.0
+throughput: 312.5
+boost jobs each: 0
+INSTANCE -l 1:1,2:1,3:1,4:1,5:1
+ SETTING -q 8,16 -m auto_boost -f 0.25
+
+Job: 305
+job arrival 1,burst_time 1,turnaround_time: 1, wait: 0, response 0
+Job: 306
+job arrival 1,burst_time 2,turnaround_time: 3, wait: 1, response 1
+Job: 307
+job arrival 1,burst_time 3,turnaround_time: 6, wait: 3, response 3
+Job: 308
+job arrival 1,burst_time 4,turnaround_time: 10, wait: 6, response 6
+Job: 309
+job arrival 1,burst_time 5,turnaround_time: 15, wait: 10, response 10
+Global Statistics
+average turnaround_time: 7.0
+average waiting_time: 4.0
+average response_time: 4.0
+throughput: 312.5
+boost jobs each: 3
+INSTANCE -l 1:1,2:1,3:1,4:1,5:1
+ SETTING -q 8,16,24 -m auto_boost -f 0.5
+
+Job: 310
+job arrival 1,burst_time 1,turnaround_time: 1, wait: 0, response 0
+Job: 311
+job arrival 1,burst_time 2,turnaround_time: 3, wait: 1, response 1
+Job: 312
+job arrival 1,burst_time 3,turnaround_time: 6, wait: 3, response 3
+Job: 313
+job arrival 1,burst_time 4,turnaround_time: 10, wait: 6, response 6
+Job: 314
+job arrival 1,burst_time 5,turnaround_time: 15, wait: 10, response 10
+Global Statistics
+average turnaround_time: 7.0
+average waiting_time: 4.0
+average response_time: 4.0
+throughput: 312.5
+boost jobs each: 7
+INSTANCE -l 1:1,2:1,3:1,4:1,5:1
+ SETTING -q 8,16,24,32 -m auto_boost -f 0.75
+Job: 315
+job arrival 1,burst_time 1,turnaround_time: 1, wait: 0, response 0
+Job: 316
+job arrival 1,burst_time 2,turnaround_time: 3, wait: 1, response 1
+Job: 317
+job arrival 1,burst_time 3,turnaround_time: 6, wait: 3, response 3
+Job: 318
+job arrival 1,burst_time 4,turnaround_time: 10, wait: 6, response 6
+Job: 319
+job arrival 1,burst_time 5,turnaround_time: 15, wait: 10, response 10
+Global Statistics
+average turnaround_time: 7.0
+average waiting_time: 4.0
+average response_time: 4.0
+throughput: 312.5
+boost jobs each: 11
+removed 328 at 44
+removed 329 at 52
+INSTANCE -l 1:1,2:1,3:1,4:1,5:1,6:1,7:1,8:1,9:1,10:1
+ SETTING -m rr -q 8
+
+Job: 320
+job arrival 1,burst_time 1,turnaround_time: 1, wait: 0, response 0
+Job: 321
+job arrival 1,burst_time 2,turnaround_time: 3, wait: 1, response 1
+Job: 322
+job arrival 1,burst_time 3,turnaround_time: 6, wait: 3, response 3
+Job: 323
+job arrival 1,burst_time 4,turnaround_time: 10, wait: 6, response 6
+Job: 324
+job arrival 1,burst_time 5,turnaround_time: 15, wait: 10, response 10
+Job: 325
+job arrival 1,burst_time 6,turnaround_time: 21, wait: 15, response 15
+Job: 326
+job arrival 1,burst_time 7,turnaround_time: 28, wait: 21, response 21
+Job: 327
+job arrival 1,burst_time 8,turnaround_time: 36, wait: 28, response 28
+Job: 328
+job arrival 1,burst_time 9,turnaround_time: 53, wait: 44, response 36
+Job: 329
+job arrival 1,burst_time 10,turnaround_time: 55, wait: 45, response 44
+Global Statistics
+average turnaround_time: 22.8
+average waiting_time: 17.3
+average response_time: 16.4
+throughput: 178.57142857142858
+boost jobs each: 0
+INSTANCE -l 1:1,2:1,3:1,4:1,5:1,6:1,7:1,8:1,9:1,10:1
+ SETTING -m fcfs
+
+Job: 330
+job arrival 1,burst_time 1,turnaround_time: 1, wait: 0, response 0
+Job: 331
+job arrival 1,burst_time 2,turnaround_time: 3, wait: 1, response 1
+Job: 332
+job arrival 1,burst_time 3,turnaround_time: 6, wait: 3, response 3
+Job: 333
+job arrival 1,burst_time 4,turnaround_time: 10, wait: 6, response 6
+Job: 334
+job arrival 1,burst_time 5,turnaround_time: 15, wait: 10, response 10
+Job: 335
+job arrival 1,burst_time 6,turnaround_time: 21, wait: 15, response 15
+Job: 336
+job arrival 1,burst_time 7,turnaround_time: 28, wait: 21, response 21
+Job: 337
+job arrival 1,burst_time 8,turnaround_time: 36, wait: 28, response 28
+Job: 338
+job arrival 1,burst_time 9,turnaround_time: 45, wait: 36, response 36
+Job: 339
+job arrival 1,burst_time 10,turnaround_time: 55, wait: 45, response 45
+Global Statistics
+average turnaround_time: 22.0
+average waiting_time: 16.5
+average response_time: 16.5
+throughput: 178.57142857142858
+boost jobs each: 0
+removed 348 at 44
+removed 349 at 52
+INSTANCE -l 1:1,2:1,3:1,4:1,5:1,6:1,7:1,8:1,9:1,10:1
+ SETTING -q 8,16
+
+Job: 340
+job arrival 1,burst_time 1,turnaround_time: 1, wait: 0, response 0
+Job: 341
+job arrival 1,burst_time 2,turnaround_time: 3, wait: 1, response 1
+Job: 342
+job arrival 1,burst_time 3,turnaround_time: 6, wait: 3, response 3
+Job: 343
+job arrival 1,burst_time 4,turnaround_time: 10, wait: 6, response 6
+Job: 344
+job arrival 1,burst_time 5,turnaround_time: 15, wait: 10, response 10
+Job: 345
+job arrival 1,burst_time 6,turnaround_time: 21, wait: 15, response 15
+Job: 346
+job arrival 1,burst_time 7,turnaround_time: 28, wait: 21, response 21
+Job: 347
+job arrival 1,burst_time 8,turnaround_time: 36, wait: 28, response 28
+Job: 348
+job arrival 1,burst_time 9,turnaround_time: 53, wait: 44, response 36
+Job: 349
+job arrival 1,burst_time 10,turnaround_time: 55, wait: 45, response 44
+Global Statistics
+average turnaround_time: 22.8
+average waiting_time: 17.3
+average response_time: 16.4
+throughput: 178.57142857142858
+boost jobs each: 0
+removed 358 at 44
+removed 359 at 52
+INSTANCE -l 1:1,2:1,3:1,4:1,5:1,6:1,7:1,8:1,9:1,10:1
+ SETTING -q 8,16,24
+
+Job: 350
+job arrival 1,burst_time 1,turnaround_time: 1, wait: 0, response 0
+Job: 351
+job arrival 1,burst_time 2,turnaround_time: 3, wait: 1, response 1
+Job: 352
+job arrival 1,burst_time 3,turnaround_time: 6, wait: 3, response 3
+Job: 353
+job arrival 1,burst_time 4,turnaround_time: 10, wait: 6, response 6
+Job: 354
+job arrival 1,burst_time 5,turnaround_time: 15, wait: 10, response 10
+Job: 355
+job arrival 1,burst_time 6,turnaround_time: 21, wait: 15, response 15
+Job: 356
+job arrival 1,burst_time 7,turnaround_time: 28, wait: 21, response 21
+Job: 357
+job arrival 1,burst_time 8,turnaround_time: 36, wait: 28, response 28
+Job: 358
+job arrival 1,burst_time 9,turnaround_time: 53, wait: 44, response 36
+Job: 359
+job arrival 1,burst_time 10,turnaround_time: 55, wait: 45, response 44
+Global Statistics
+average turnaround_time: 22.8
+average waiting_time: 17.3
+average response_time: 16.4
+throughput: 178.57142857142858
+boost jobs each: 0
+removed 368 at 44
+removed 369 at 52
+INSTANCE -l 1:1,2:1,3:1,4:1,5:1,6:1,7:1,8:1,9:1,10:1
+ SETTING -q 8,16,24,32
+
+Job: 360
+job arrival 1,burst_time 1,turnaround_time: 1, wait: 0, response 0
+Job: 361
+job arrival 1,burst_time 2,turnaround_time: 3, wait: 1, response 1
+Job: 362
+job arrival 1,burst_time 3,turnaround_time: 6, wait: 3, response 3
+Job: 363
+job arrival 1,burst_time 4,turnaround_time: 10, wait: 6, response 6
+Job: 364
+job arrival 1,burst_time 5,turnaround_time: 15, wait: 10, response 10
+Job: 365
+job arrival 1,burst_time 6,turnaround_time: 21, wait: 15, response 15
+Job: 366
+job arrival 1,burst_time 7,turnaround_time: 28, wait: 21, response 21
+Job: 367
+job arrival 1,burst_time 8,turnaround_time: 36, wait: 28, response 28
+Job: 368
+job arrival 1,burst_time 9,turnaround_time: 53, wait: 44, response 36
+Job: 369
+job arrival 1,burst_time 10,turnaround_time: 55, wait: 45, response 44
+Global Statistics
+average turnaround_time: 22.8
+average waiting_time: 17.3
+average response_time: 16.4
+throughput: 178.57142857142858
+boost jobs each: 0
+INSTANCE -l 1:1,2:1,3:1,4:1,5:1,6:1,7:1,8:1,9:1,10:1
+ SETTING -q 8,16 -m auto_boost -f 0.25
+
+Job: 370
+job arrival 1,burst_time 1,turnaround_time: 1, wait: 0, response 0
+Job: 371
+job arrival 1,burst_time 2,turnaround_time: 3, wait: 1, response 1
+Job: 372
+job arrival 1,burst_time 3,turnaround_time: 6, wait: 3, response 3
+Job: 373
+job arrival 1,burst_time 4,turnaround_time: 10, wait: 6, response 6
+Job: 374
+job arrival 1,burst_time 5,turnaround_time: 15, wait: 10, response 10
+Job: 375
+job arrival 1,burst_time 6,turnaround_time: 21, wait: 15, response 15
+Job: 376
+job arrival 1,burst_time 7,turnaround_time: 28, wait: 21, response 21
+Job: 377
+job arrival 1,burst_time 8,turnaround_time: 36, wait: 28, response 28
+Job: 378
+job arrival 1,burst_time 9,turnaround_time: 45, wait: 36, response 36
+Job: 379
+job arrival 1,burst_time 10,turnaround_time: 55, wait: 45, response 45
+Global Statistics
+average turnaround_time: 22.0
+average waiting_time: 16.5
+average response_time: 16.5
+throughput: 178.57142857142858
+boost jobs each: 13
+removed 388 at 44
+removed 389 at 52
+INSTANCE -l 1:1,2:1,3:1,4:1,5:1,6:1,7:1,8:1,9:1,10:1
+ SETTING -q 8,16,24 -m auto_boost -f 0.5
+
+Job: 380
+job arrival 1,burst_time 1,turnaround_time: 1, wait: 0, response 0
+Job: 381
+job arrival 1,burst_time 2,turnaround_time: 3, wait: 1, response 1
+Job: 382
+job arrival 1,burst_time 3,turnaround_time: 6, wait: 3, response 3
+Job: 383
+job arrival 1,burst_time 4,turnaround_time: 10, wait: 6, response 6
+Job: 384
+job arrival 1,burst_time 5,turnaround_time: 15, wait: 10, response 10
+Job: 385
+job arrival 1,burst_time 6,turnaround_time: 21, wait: 15, response 15
+Job: 386
+job arrival 1,burst_time 7,turnaround_time: 28, wait: 21, response 21
+Job: 387
+job arrival 1,burst_time 8,turnaround_time: 36, wait: 28, response 28
+Job: 388
+job arrival 1,burst_time 9,turnaround_time: 53, wait: 44, response 36
+Job: 389
+job arrival 1,burst_time 10,turnaround_time: 55, wait: 45, response 44
+Global Statistics
+average turnaround_time: 22.8
+average waiting_time: 17.3
+average response_time: 16.4
+throughput: 178.57142857142858
+boost jobs each: 27
+removed 399 at 53
+INSTANCE -l 1:1,2:1,3:1,4:1,5:1,6:1,7:1,8:1,9:1,10:1
+ SETTING -q 8,16,24,32 -m auto_boost -f 0.75
+Job: 390
+job arrival 1,burst_time 1,turnaround_time: 1, wait: 0, response 0
+Job: 391
+job arrival 1,burst_time 2,turnaround_time: 3, wait: 1, response 1
+Job: 392
+job arrival 1,burst_time 3,turnaround_time: 6, wait: 3, response 3
+Job: 393
+job arrival 1,burst_time 4,turnaround_time: 10, wait: 6, response 6
+Job: 394
+job arrival 1,burst_time 5,turnaround_time: 15, wait: 10, response 10
+Job: 395
+job arrival 1,burst_time 6,turnaround_time: 21, wait: 15, response 15
+Job: 396
+job arrival 1,burst_time 7,turnaround_time: 28, wait: 21, response 21
+Job: 397
+job arrival 1,burst_time 8,turnaround_time: 36, wait: 28, response 28
+Job: 398
+job arrival 1,burst_time 9,turnaround_time: 45, wait: 36, response 36
+Job: 399
+job arrival 1,burst_time 10,turnaround_time: 55, wait: 45, response 45
+Global Statistics
+average turnaround_time: 22.0
+average waiting_time: 16.5
+average response_time: 16.5
+throughput: 178.57142857142858
+boost jobs each: 41
+removed 408 at 44
+removed 409 at 52
+removed 410 at 60
+removed 411 at 68
+removed 412 at 76
+removed 413 at 84
+removed 414 at 92
+removed 415 at 100
+removed 416 at 108
+removed 417 at 116
+removed 418 at 124
+removed 419 at 132
+removed 416 at 176
+removed 417 at 184
+removed 418 at 192
+removed 419 at 200
+INSTANCE -l 1:1,2:1,3:1,4:1,5:1,6:1,7:1,8:1,9:1,10:1,11:1,12:1,13:1,14:1,15:1,16:1,17:1,18:1,19:1,20:1
+ SETTING -m rr -q 8
+
+Job: 400
+job arrival 1,burst_time 1,turnaround_time: 1, wait: 0, response 0
+Job: 401
+job arrival 1,burst_time 2,turnaround_time: 3, wait: 1, response 1
+Job: 402
+job arrival 1,burst_time 3,turnaround_time: 6, wait: 3, response 3
+Job: 403
+job arrival 1,burst_time 4,turnaround_time: 10, wait: 6, response 6
+Job: 404
+job arrival 1,burst_time 5,turnaround_time: 15, wait: 10, response 10
+Job: 405
+job arrival 1,burst_time 6,turnaround_time: 21, wait: 15, response 15
+Job: 406
+job arrival 1,burst_time 7,turnaround_time: 28, wait: 21, response 21
+Job: 407
+job arrival 1,burst_time 8,turnaround_time: 36, wait: 28, response 28
+Job: 408
+job arrival 1,burst_time 9,turnaround_time: 133, wait: 124, response 36
+Job: 409
+job arrival 1,burst_time 10,turnaround_time: 135, wait: 125, response 44
+Job: 410
+job arrival 1,burst_time 11,turnaround_time: 138, wait: 127, response 52
+Job: 411
+job arrival 1,burst_time 12,turnaround_time: 142, wait: 130, response 60
+Job: 412
+job arrival 1,burst_time 13,turnaround_time: 147, wait: 134, response 68
+Job: 413
+job arrival 1,burst_time 14,turnaround_time: 153, wait: 139, response 76
+Job: 414
+job arrival 1,burst_time 15,turnaround_time: 160, wait: 145, response 84
+Job: 415
+job arrival 1,burst_time 16,turnaround_time: 168, wait: 152, response 92
+Job: 416
+job arrival 1,burst_time 17,turnaround_time: 201, wait: 184, response 100
+Job: 417
+job arrival 1,burst_time 18,turnaround_time: 203, wait: 185, response 108
+Job: 418
+job arrival 1,burst_time 19,turnaround_time: 206, wait: 187, response 116
+Job: 419
+job arrival 1,burst_time 20,turnaround_time: 210, wait: 190, response 124
+Global Statistics
+average turnaround_time: 105.8
+average waiting_time: 95.3
+average response_time: 52.2
+throughput: 94.78672985781989
+boost jobs each: 0
+INSTANCE -l 1:1,2:1,3:1,4:1,5:1,6:1,7:1,8:1,9:1,10:1,11:1,12:1,13:1,14:1,15:1,16:1,17:1,18:1,19:1,20:1
+ SETTING -m fcfs
+
+Job: 420
+job arrival 1,burst_time 1,turnaround_time: 1, wait: 0, response 0
+Job: 421
+job arrival 1,burst_time 2,turnaround_time: 3, wait: 1, response 1
+Job: 422
+job arrival 1,burst_time 3,turnaround_time: 6, wait: 3, response 3
+Job: 423
+job arrival 1,burst_time 4,turnaround_time: 10, wait: 6, response 6
+Job: 424
+job arrival 1,burst_time 5,turnaround_time: 15, wait: 10, response 10
+Job: 425
+job arrival 1,burst_time 6,turnaround_time: 21, wait: 15, response 15
+Job: 426
+job arrival 1,burst_time 7,turnaround_time: 28, wait: 21, response 21
+Job: 427
+job arrival 1,burst_time 8,turnaround_time: 36, wait: 28, response 28
+Job: 428
+job arrival 1,burst_time 9,turnaround_time: 45, wait: 36, response 36
+Job: 429
+job arrival 1,burst_time 10,turnaround_time: 55, wait: 45, response 45
+Job: 430
+job arrival 1,burst_time 11,turnaround_time: 66, wait: 55, response 55
+Job: 431
+job arrival 1,burst_time 12,turnaround_time: 78, wait: 66, response 66
+Job: 432
+job arrival 1,burst_time 13,turnaround_time: 91, wait: 78, response 78
+Job: 433
+job arrival 1,burst_time 14,turnaround_time: 105, wait: 91, response 91
+Job: 434
+job arrival 1,burst_time 15,turnaround_time: 120, wait: 105, response 105
+Job: 435
+job arrival 1,burst_time 16,turnaround_time: 136, wait: 120, response 120
+Job: 436
+job arrival 1,burst_time 17,turnaround_time: 153, wait: 136, response 136
+Job: 437
+job arrival 1,burst_time 18,turnaround_time: 171, wait: 153, response 153
+Job: 438
+job arrival 1,burst_time 19,turnaround_time: 190, wait: 171, response 171
+Job: 439
+job arrival 1,burst_time 20,turnaround_time: 210, wait: 190, response 190
+Global Statistics
+average turnaround_time: 77.0
+average waiting_time: 66.5
+average response_time: 66.5
+throughput: 94.78672985781989
+boost jobs each: 0
+removed 448 at 44
+removed 449 at 52
+removed 450 at 60
+removed 451 at 68
+removed 452 at 76
+removed 453 at 84
+removed 454 at 92
+removed 455 at 100
+removed 456 at 108
+removed 457 at 116
+removed 458 at 124
+removed 459 at 132
+INSTANCE -l 1:1,2:1,3:1,4:1,5:1,6:1,7:1,8:1,9:1,10:1,11:1,12:1,13:1,14:1,15:1,16:1,17:1,18:1,19:1,20:1
+ SETTING -q 8,16
+
+Job: 440
+job arrival 1,burst_time 1,turnaround_time: 1, wait: 0, response 0
+Job: 441
+job arrival 1,burst_time 2,turnaround_time: 3, wait: 1, response 1
+Job: 442
+job arrival 1,burst_time 3,turnaround_time: 6, wait: 3, response 3
+Job: 443
+job arrival 1,burst_time 4,turnaround_time: 10, wait: 6, response 6
+Job: 444
+job arrival 1,burst_time 5,turnaround_time: 15, wait: 10, response 10
+Job: 445
+job arrival 1,burst_time 6,turnaround_time: 21, wait: 15, response 15
+Job: 446
+job arrival 1,burst_time 7,turnaround_time: 28, wait: 21, response 21
+Job: 447
+job arrival 1,burst_time 8,turnaround_time: 36, wait: 28, response 28
+Job: 448
+job arrival 1,burst_time 9,turnaround_time: 133, wait: 124, response 36
+Job: 449
+job arrival 1,burst_time 10,turnaround_time: 135, wait: 125, response 44
+Job: 450
+job arrival 1,burst_time 11,turnaround_time: 138, wait: 127, response 52
+Job: 451
+job arrival 1,burst_time 12,turnaround_time: 142, wait: 130, response 60
+Job: 452
+job arrival 1,burst_time 13,turnaround_time: 147, wait: 134, response 68
+Job: 453
+job arrival 1,burst_time 14,turnaround_time: 153, wait: 139, response 76
+Job: 454
+job arrival 1,burst_time 15,turnaround_time: 160, wait: 145, response 84
+Job: 455
+job arrival 1,burst_time 16,turnaround_time: 168, wait: 152, response 92
+Job: 456
+job arrival 1,burst_time 17,turnaround_time: 177, wait: 160, response 100
+Job: 457
+job arrival 1,burst_time 18,turnaround_time: 187, wait: 169, response 108
+Job: 458
+job arrival 1,burst_time 19,turnaround_time: 198, wait: 179, response 116
+Job: 459
+job arrival 1,burst_time 20,turnaround_time: 210, wait: 190, response 124
+Global Statistics
+average turnaround_time: 103.4
+average waiting_time: 92.9
+average response_time: 52.2
+throughput: 94.78672985781989
+boost jobs each: 0
+removed 468 at 44
+removed 469 at 52
+removed 470 at 60
+removed 471 at 68
+removed 472 at 76
+removed 473 at 84
+removed 474 at 92
+removed 475 at 100
+removed 476 at 108
+removed 477 at 116
+removed 478 at 124
+removed 479 at 132
+INSTANCE -l 1:1,2:1,3:1,4:1,5:1,6:1,7:1,8:1,9:1,10:1,11:1,12:1,13:1,14:1,15:1,16:1,17:1,18:1,19:1,20:1
+ SETTING -q 8,16,24
+
+Job: 460
+job arrival 1,burst_time 1,turnaround_time: 1, wait: 0, response 0
+Job: 461
+job arrival 1,burst_time 2,turnaround_time: 3, wait: 1, response 1
+Job: 462
+job arrival 1,burst_time 3,turnaround_time: 6, wait: 3, response 3
+Job: 463
+job arrival 1,burst_time 4,turnaround_time: 10, wait: 6, response 6
+Job: 464
+job arrival 1,burst_time 5,turnaround_time: 15, wait: 10, response 10
+Job: 465
+job arrival 1,burst_time 6,turnaround_time: 21, wait: 15, response 15
+Job: 466
+job arrival 1,burst_time 7,turnaround_time: 28, wait: 21, response 21
+Job: 467
+job arrival 1,burst_time 8,turnaround_time: 36, wait: 28, response 28
+Job: 468
+job arrival 1,burst_time 9,turnaround_time: 133, wait: 124, response 36
+Job: 469
+job arrival 1,burst_time 10,turnaround_time: 135, wait: 125, response 44
+Job: 470
+job arrival 1,burst_time 11,turnaround_time: 138, wait: 127, response 52
+Job: 471
+job arrival 1,burst_time 12,turnaround_time: 142, wait: 130, response 60
+Job: 472
+job arrival 1,burst_time 13,turnaround_time: 147, wait: 134, response 68
+Job: 473
+job arrival 1,burst_time 14,turnaround_time: 153, wait: 139, response 76
+Job: 474
+job arrival 1,burst_time 15,turnaround_time: 160, wait: 145, response 84
+Job: 475
+job arrival 1,burst_time 16,turnaround_time: 168, wait: 152, response 92
+Job: 476
+job arrival 1,burst_time 17,turnaround_time: 177, wait: 160, response 100
+Job: 477
+job arrival 1,burst_time 18,turnaround_time: 187, wait: 169, response 108
+Job: 478
+job arrival 1,burst_time 19,turnaround_time: 198, wait: 179, response 116
+Job: 479
+job arrival 1,burst_time 20,turnaround_time: 210, wait: 190, response 124
+Global Statistics
+average turnaround_time: 103.4
+average waiting_time: 92.9
+average response_time: 52.2
+throughput: 94.78672985781989
+boost jobs each: 0
+removed 488 at 44
+removed 489 at 52
+removed 490 at 60
+removed 491 at 68
+removed 492 at 76
+removed 493 at 84
+removed 494 at 92
+removed 495 at 100
+removed 496 at 108
+removed 497 at 116
+removed 498 at 124
+removed 499 at 132
+INSTANCE -l 1:1,2:1,3:1,4:1,5:1,6:1,7:1,8:1,9:1,10:1,11:1,12:1,13:1,14:1,15:1,16:1,17:1,18:1,19:1,20:1
+ SETTING -q 8,16,24,32
+
+Job: 480
+job arrival 1,burst_time 1,turnaround_time: 1, wait: 0, response 0
+Job: 481
+job arrival 1,burst_time 2,turnaround_time: 3, wait: 1, response 1
+Job: 482
+job arrival 1,burst_time 3,turnaround_time: 6, wait: 3, response 3
+Job: 483
+job arrival 1,burst_time 4,turnaround_time: 10, wait: 6, response 6
+Job: 484
+job arrival 1,burst_time 5,turnaround_time: 15, wait: 10, response 10
+Job: 485
+job arrival 1,burst_time 6,turnaround_time: 21, wait: 15, response 15
+Job: 486
+job arrival 1,burst_time 7,turnaround_time: 28, wait: 21, response 21
+Job: 487
+job arrival 1,burst_time 8,turnaround_time: 36, wait: 28, response 28
+Job: 488
+job arrival 1,burst_time 9,turnaround_time: 133, wait: 124, response 36
+Job: 489
+job arrival 1,burst_time 10,turnaround_time: 135, wait: 125, response 44
+Job: 490
+job arrival 1,burst_time 11,turnaround_time: 138, wait: 127, response 52
+Job: 491
+job arrival 1,burst_time 12,turnaround_time: 142, wait: 130, response 60
+Job: 492
+job arrival 1,burst_time 13,turnaround_time: 147, wait: 134, response 68
+Job: 493
+job arrival 1,burst_time 14,turnaround_time: 153, wait: 139, response 76
+Job: 494
+job arrival 1,burst_time 15,turnaround_time: 160, wait: 145, response 84
+Job: 495
+job arrival 1,burst_time 16,turnaround_time: 168, wait: 152, response 92
+Job: 496
+job arrival 1,burst_time 17,turnaround_time: 177, wait: 160, response 100
+Job: 497
+job arrival 1,burst_time 18,turnaround_time: 187, wait: 169, response 108
+Job: 498
+job arrival 1,burst_time 19,turnaround_time: 198, wait: 179, response 116
+Job: 499
+job arrival 1,burst_time 20,turnaround_time: 210, wait: 190, response 124
+Global Statistics
+average turnaround_time: 103.4
+average waiting_time: 92.9
+average response_time: 52.2
+throughput: 94.78672985781989
+boost jobs each: 0
+removed 508 at 44
+removed 510 at 63
+removed 511 at 71
+removed 512 at 79
+removed 513 at 87
+removed 514 at 95
+removed 515 at 103
+removed 516 at 144
+removed 517 at 152
+removed 516 at 163
+removed 517 at 171
+removed 518 at 179
+removed 519 at 187
+INSTANCE -l 1:1,2:1,3:1,4:1,5:1,6:1,7:1,8:1,9:1,10:1,11:1,12:1,13:1,14:1,15:1,16:1,17:1,18:1,19:1,20:1
+ SETTING -q 8,16 -m auto_boost -f 0.25
+
+Job: 500
+job arrival 1,burst_time 1,turnaround_time: 1, wait: 0, response 0
+Job: 501
+job arrival 1,burst_time 2,turnaround_time: 3, wait: 1, response 1
+Job: 502
+job arrival 1,burst_time 3,turnaround_time: 6, wait: 3, response 3
+Job: 503
+job arrival 1,burst_time 4,turnaround_time: 10, wait: 6, response 6
+Job: 504
+job arrival 1,burst_time 5,turnaround_time: 15, wait: 10, response 10
+Job: 505
+job arrival 1,burst_time 6,turnaround_time: 21, wait: 15, response 15
+Job: 506
+job arrival 1,burst_time 7,turnaround_time: 28, wait: 21, response 21
+Job: 507
+job arrival 1,burst_time 8,turnaround_time: 36, wait: 28, response 28
+Job: 508
+job arrival 1,burst_time 9,turnaround_time: 52, wait: 43, response 36
+Job: 509
+job arrival 1,burst_time 10,turnaround_time: 55, wait: 45, response 44
+Job: 510
+job arrival 1,burst_time 11,turnaround_time: 106, wait: 95, response 55
+Job: 511
+job arrival 1,burst_time 12,turnaround_time: 110, wait: 98, response 63
+Job: 512
+job arrival 1,burst_time 13,turnaround_time: 115, wait: 102, response 71
+Job: 513
+job arrival 1,burst_time 14,turnaround_time: 121, wait: 107, response 79
+Job: 514
+job arrival 1,burst_time 15,turnaround_time: 128, wait: 113, response 87
+Job: 515
+job arrival 1,burst_time 16,turnaround_time: 136, wait: 120, response 95
+Job: 516
+job arrival 1,burst_time 17,turnaround_time: 188, wait: 171, response 136
+Job: 517
+job arrival 1,burst_time 18,turnaround_time: 190, wait: 172, response 144
+Job: 518
+job arrival 1,burst_time 19,turnaround_time: 198, wait: 179, response 152
+Job: 519
+job arrival 1,burst_time 20,turnaround_time: 210, wait: 190, response 179
+Global Statistics
+average turnaround_time: 86.45
+average waiting_time: 75.95
+average response_time: 61.25
+throughput: 94.78672985781989
+boost jobs each: 52
+removed 528 at 44
+removed 529 at 52
+removed 530 at 60
+removed 531 at 68
+removed 532 at 76
+removed 533 at 84
+removed 534 at 92
+removed 535 at 100
+removed 536 at 148
+removed 537 at 156
+removed 538 at 164
+removed 539 at 172
+INSTANCE -l 1:1,2:1,3:1,4:1,5:1,6:1,7:1,8:1,9:1,10:1,11:1,12:1,13:1,14:1,15:1,16:1,17:1,18:1,19:1,20:1
+ SETTING -q 8,16,24 -m auto_boost -f 0.5
+
+Job: 520
+job arrival 1,burst_time 1,turnaround_time: 1, wait: 0, response 0
+Job: 521
+job arrival 1,burst_time 2,turnaround_time: 3, wait: 1, response 1
+Job: 522
+job arrival 1,burst_time 3,turnaround_time: 6, wait: 3, response 3
+Job: 523
+job arrival 1,burst_time 4,turnaround_time: 10, wait: 6, response 6
+Job: 524
+job arrival 1,burst_time 5,turnaround_time: 15, wait: 10, response 10
+Job: 525
+job arrival 1,burst_time 6,turnaround_time: 21, wait: 15, response 15
+Job: 526
+job arrival 1,burst_time 7,turnaround_time: 28, wait: 21, response 21
+Job: 527
+job arrival 1,burst_time 8,turnaround_time: 36, wait: 28, response 28
+Job: 528
+job arrival 1,burst_time 9,turnaround_time: 105, wait: 96, response 36
+Job: 529
+job arrival 1,burst_time 10,turnaround_time: 107, wait: 97, response 44
+Job: 530
+job arrival 1,burst_time 11,turnaround_time: 110, wait: 99, response 52
+Job: 531
+job arrival 1,burst_time 12,turnaround_time: 114, wait: 102, response 60
+Job: 532
+job arrival 1,burst_time 13,turnaround_time: 119, wait: 106, response 68
+Job: 533
+job arrival 1,burst_time 14,turnaround_time: 125, wait: 111, response 76
+Job: 534
+job arrival 1,burst_time 15,turnaround_time: 132, wait: 117, response 84
+Job: 535
+job arrival 1,burst_time 16,turnaround_time: 140, wait: 124, response 92
+Job: 536
+job arrival 1,burst_time 17,turnaround_time: 177, wait: 160, response 100
+Job: 537
+job arrival 1,burst_time 18,turnaround_time: 187, wait: 169, response 148
+Job: 538
+job arrival 1,burst_time 19,turnaround_time: 198, wait: 179, response 156
+Job: 539
+job arrival 1,burst_time 20,turnaround_time: 210, wait: 190, response 164
+Global Statistics
+average turnaround_time: 92.2
+average waiting_time: 81.7
+average response_time: 58.2
+throughput: 94.78672985781989
+boost jobs each: 105
+removed 548 at 44
+removed 549 at 52
+removed 550 at 60
+removed 551 at 68
+removed 552 at 76
+removed 553 at 84
+removed 554 at 92
+removed 555 at 100
+removed 556 at 108
+removed 557 at 116
+removed 558 at 124
+removed 559 at 132
+removed 556 at 176
+removed 557 at 184
+removed 558 at 192
+removed 559 at 200
+INSTANCE -l 1:1,2:1,3:1,4:1,5:1,6:1,7:1,8:1,9:1,10:1,11:1,12:1,13:1,14:1,15:1,16:1,17:1,18:1,19:1,20:1
+ SETTING -q 8,16,24,32 -m auto_boost -f 0.75
+Job: 540
+job arrival 1,burst_time 1,turnaround_time: 1, wait: 0, response 0
+Job: 541
+job arrival 1,burst_time 2,turnaround_time: 3, wait: 1, response 1
+Job: 542
+job arrival 1,burst_time 3,turnaround_time: 6, wait: 3, response 3
+Job: 543
+job arrival 1,burst_time 4,turnaround_time: 10, wait: 6, response 6
+Job: 544
+job arrival 1,burst_time 5,turnaround_time: 15, wait: 10, response 10
+Job: 545
+job arrival 1,burst_time 6,turnaround_time: 21, wait: 15, response 15
+Job: 546
+job arrival 1,burst_time 7,turnaround_time: 28, wait: 21, response 21
+Job: 547
+job arrival 1,burst_time 8,turnaround_time: 36, wait: 28, response 28
+Job: 548
+job arrival 1,burst_time 9,turnaround_time: 133, wait: 124, response 36
+Job: 549
+job arrival 1,burst_time 10,turnaround_time: 135, wait: 125, response 44
+Job: 550
+job arrival 1,burst_time 11,turnaround_time: 138, wait: 127, response 52
+Job: 551
+job arrival 1,burst_time 12,turnaround_time: 142, wait: 130, response 60
+Job: 552
+job arrival 1,burst_time 13,turnaround_time: 147, wait: 134, response 68
+Job: 553
+job arrival 1,burst_time 14,turnaround_time: 153, wait: 139, response 76
+Job: 554
+job arrival 1,burst_time 15,turnaround_time: 160, wait: 145, response 84
+Job: 555
+job arrival 1,burst_time 16,turnaround_time: 168, wait: 152, response 92
+Job: 556
+job arrival 1,burst_time 17,turnaround_time: 201, wait: 184, response 100
+Job: 557
+job arrival 1,burst_time 18,turnaround_time: 203, wait: 185, response 108
+Job: 558
+job arrival 1,burst_time 19,turnaround_time: 206, wait: 187, response 116
+Job: 559
+job arrival 1,burst_time 20,turnaround_time: 210, wait: 190, response 124
+Global Statistics
+average turnaround_time: 105.8
+average waiting_time: 95.3
+average response_time: 52.2
+throughput: 94.78672985781989
+boost jobs each: 157
+INSTANCE -l 5:1,5:2,5:3,5:4,5:5
+ SETTING -m rr -q 8
+
+Job: 560
+job arrival 1,burst_time 5,turnaround_time: 5, wait: 0, response 0
+Job: 561
+job arrival 2,burst_time 5,turnaround_time: 9, wait: 4, response 4
+Job: 562
+job arrival 3,burst_time 5,turnaround_time: 13, wait: 8, response 8
+Job: 563
+job arrival 4,burst_time 5,turnaround_time: 17, wait: 12, response 12
+Job: 564
+job arrival 5,burst_time 5,turnaround_time: 21, wait: 16, response 16
+Global Statistics
+average turnaround_time: 13.0
+average waiting_time: 8.0
+average response_time: 8.0
+throughput: 192.30769230769232
+boost jobs each: 0
+INSTANCE -l 5:1,5:2,5:3,5:4,5:5
+ SETTING -m fcfs
+
+Job: 565
+job arrival 1,burst_time 5,turnaround_time: 5, wait: 0, response 0
+Job: 566
+job arrival 2,burst_time 5,turnaround_time: 9, wait: 4, response 4
+Job: 567
+job arrival 3,burst_time 5,turnaround_time: 13, wait: 8, response 8
+Job: 568
+job arrival 4,burst_time 5,turnaround_time: 17, wait: 12, response 12
+Job: 569
+job arrival 5,burst_time 5,turnaround_time: 21, wait: 16, response 16
+Global Statistics
+average turnaround_time: 13.0
+average waiting_time: 8.0
+average response_time: 8.0
+throughput: 192.30769230769232
+boost jobs each: 0
+INSTANCE -l 5:1,5:2,5:3,5:4,5:5
+ SETTING -q 8,16
+
+Job: 570
+job arrival 1,burst_time 5,turnaround_time: 5, wait: 0, response 0
+Job: 571
+job arrival 2,burst_time 5,turnaround_time: 9, wait: 4, response 4
+Job: 572
+job arrival 3,burst_time 5,turnaround_time: 13, wait: 8, response 8
+Job: 573
+job arrival 4,burst_time 5,turnaround_time: 17, wait: 12, response 12
+Job: 574
+job arrival 5,burst_time 5,turnaround_time: 21, wait: 16, response 16
+Global Statistics
+average turnaround_time: 13.0
+average waiting_time: 8.0
+average response_time: 8.0
+throughput: 192.30769230769232
+boost jobs each: 0
+INSTANCE -l 5:1,5:2,5:3,5:4,5:5
+ SETTING -q 8,16,24
+
+Job: 575
+job arrival 1,burst_time 5,turnaround_time: 5, wait: 0, response 0
+Job: 576
+job arrival 2,burst_time 5,turnaround_time: 9, wait: 4, response 4
+Job: 577
+job arrival 3,burst_time 5,turnaround_time: 13, wait: 8, response 8
+Job: 578
+job arrival 4,burst_time 5,turnaround_time: 17, wait: 12, response 12
+Job: 579
+job arrival 5,burst_time 5,turnaround_time: 21, wait: 16, response 16
+Global Statistics
+average turnaround_time: 13.0
+average waiting_time: 8.0
+average response_time: 8.0
+throughput: 192.30769230769232
+boost jobs each: 0
+INSTANCE -l 5:1,5:2,5:3,5:4,5:5
+ SETTING -q 8,16,24,32
+
+Job: 580
+job arrival 1,burst_time 5,turnaround_time: 5, wait: 0, response 0
+Job: 581
+job arrival 2,burst_time 5,turnaround_time: 9, wait: 4, response 4
+Job: 582
+job arrival 3,burst_time 5,turnaround_time: 13, wait: 8, response 8
+Job: 583
+job arrival 4,burst_time 5,turnaround_time: 17, wait: 12, response 12
+Job: 584
+job arrival 5,burst_time 5,turnaround_time: 21, wait: 16, response 16
+Global Statistics
+average turnaround_time: 13.0
+average waiting_time: 8.0
+average response_time: 8.0
+throughput: 192.30769230769232
+boost jobs each: 0
+INSTANCE -l 5:1,5:2,5:3,5:4,5:5
+ SETTING -q 8,16 -m auto_boost -f 0.25
+
+Job: 585
+job arrival 1,burst_time 5,turnaround_time: 5, wait: 0, response 0
+Job: 586
+job arrival 2,burst_time 5,turnaround_time: 9, wait: 4, response 4
+Job: 587
+job arrival 3,burst_time 5,turnaround_time: 13, wait: 8, response 8
+Job: 588
+job arrival 4,burst_time 5,turnaround_time: 17, wait: 12, response 12
+Job: 589
+job arrival 5,burst_time 5,turnaround_time: 21, wait: 16, response 16
+Global Statistics
+average turnaround_time: 13.0
+average waiting_time: 8.0
+average response_time: 8.0
+throughput: 192.30769230769232
+boost jobs each: 6
+INSTANCE -l 5:1,5:2,5:3,5:4,5:5
+ SETTING -q 8,16,24 -m auto_boost -f 0.5
+
+Job: 590
+job arrival 1,burst_time 5,turnaround_time: 5, wait: 0, response 0
+Job: 591
+job arrival 2,burst_time 5,turnaround_time: 9, wait: 4, response 4
+Job: 592
+job arrival 3,burst_time 5,turnaround_time: 13, wait: 8, response 8
+Job: 593
+job arrival 4,burst_time 5,turnaround_time: 17, wait: 12, response 12
+Job: 594
+job arrival 5,burst_time 5,turnaround_time: 21, wait: 16, response 16
+Global Statistics
+average turnaround_time: 13.0
+average waiting_time: 8.0
+average response_time: 8.0
+throughput: 192.30769230769232
+boost jobs each: 12
+INSTANCE -l 5:1,5:2,5:3,5:4,5:5
+ SETTING -q 8,16,24,32 -m auto_boost -f 0.75
+Job: 595
+job arrival 1,burst_time 5,turnaround_time: 5, wait: 0, response 0
+Job: 596
+job arrival 2,burst_time 5,turnaround_time: 9, wait: 4, response 4
+Job: 597
+job arrival 3,burst_time 5,turnaround_time: 13, wait: 8, response 8
+Job: 598
+job arrival 4,burst_time 5,turnaround_time: 17, wait: 12, response 12
+Job: 599
+job arrival 5,burst_time 5,turnaround_time: 21, wait: 16, response 16
+Global Statistics
+average turnaround_time: 13.0
+average waiting_time: 8.0
+average response_time: 8.0
+throughput: 192.30769230769232
+boost jobs each: 18
+INSTANCE -l 5:1,5:2,5:3,5:4,5:5,5:6,5:7,5:8,5:9,5:10
+ SETTING -m rr -q 8
+
+Job: 600
+job arrival 1,burst_time 5,turnaround_time: 5, wait: 0, response 0
+Job: 601
+job arrival 2,burst_time 5,turnaround_time: 9, wait: 4, response 4
+Job: 602
+job arrival 3,burst_time 5,turnaround_time: 13, wait: 8, response 8
+Job: 603
+job arrival 4,burst_time 5,turnaround_time: 17, wait: 12, response 12
+Job: 604
+job arrival 5,burst_time 5,turnaround_time: 21, wait: 16, response 16
+Job: 605
+job arrival 6,burst_time 5,turnaround_time: 25, wait: 20, response 20
+Job: 606
+job arrival 7,burst_time 5,turnaround_time: 29, wait: 24, response 24
+Job: 607
+job arrival 8,burst_time 5,turnaround_time: 33, wait: 28, response 28
+Job: 608
+job arrival 9,burst_time 5,turnaround_time: 37, wait: 32, response 32
+Job: 609
+job arrival 10,burst_time 5,turnaround_time: 41, wait: 36, response 36
+Global Statistics
+average turnaround_time: 23.0
+average waiting_time: 18.0
+average response_time: 18.0
+throughput: 196.078431372549
+boost jobs each: 0
+INSTANCE -l 5:1,5:2,5:3,5:4,5:5,5:6,5:7,5:8,5:9,5:10
+ SETTING -m fcfs
+
+Job: 610
+job arrival 1,burst_time 5,turnaround_time: 5, wait: 0, response 0
+Job: 611
+job arrival 2,burst_time 5,turnaround_time: 9, wait: 4, response 4
+Job: 612
+job arrival 3,burst_time 5,turnaround_time: 13, wait: 8, response 8
+Job: 613
+job arrival 4,burst_time 5,turnaround_time: 17, wait: 12, response 12
+Job: 614
+job arrival 5,burst_time 5,turnaround_time: 21, wait: 16, response 16
+Job: 615
+job arrival 6,burst_time 5,turnaround_time: 25, wait: 20, response 20
+Job: 616
+job arrival 7,burst_time 5,turnaround_time: 29, wait: 24, response 24
+Job: 617
+job arrival 8,burst_time 5,turnaround_time: 33, wait: 28, response 28
+Job: 618
+job arrival 9,burst_time 5,turnaround_time: 37, wait: 32, response 32
+Job: 619
+job arrival 10,burst_time 5,turnaround_time: 41, wait: 36, response 36
+Global Statistics
+average turnaround_time: 23.0
+average waiting_time: 18.0
+average response_time: 18.0
+throughput: 196.078431372549
+boost jobs each: 0
+INSTANCE -l 5:1,5:2,5:3,5:4,5:5,5:6,5:7,5:8,5:9,5:10
+ SETTING -q 8,16
+
+Job: 620
+job arrival 1,burst_time 5,turnaround_time: 5, wait: 0, response 0
+Job: 621
+job arrival 2,burst_time 5,turnaround_time: 9, wait: 4, response 4
+Job: 622
+job arrival 3,burst_time 5,turnaround_time: 13, wait: 8, response 8
+Job: 623
+job arrival 4,burst_time 5,turnaround_time: 17, wait: 12, response 12
+Job: 624
+job arrival 5,burst_time 5,turnaround_time: 21, wait: 16, response 16
+Job: 625
+job arrival 6,burst_time 5,turnaround_time: 25, wait: 20, response 20
+Job: 626
+job arrival 7,burst_time 5,turnaround_time: 29, wait: 24, response 24
+Job: 627
+job arrival 8,burst_time 5,turnaround_time: 33, wait: 28, response 28
+Job: 628
+job arrival 9,burst_time 5,turnaround_time: 37, wait: 32, response 32
+Job: 629
+job arrival 10,burst_time 5,turnaround_time: 41, wait: 36, response 36
+Global Statistics
+average turnaround_time: 23.0
+average waiting_time: 18.0
+average response_time: 18.0
+throughput: 196.078431372549
+boost jobs each: 0
+INSTANCE -l 5:1,5:2,5:3,5:4,5:5,5:6,5:7,5:8,5:9,5:10
+ SETTING -q 8,16,24
+
+Job: 630
+job arrival 1,burst_time 5,turnaround_time: 5, wait: 0, response 0
+Job: 631
+job arrival 2,burst_time 5,turnaround_time: 9, wait: 4, response 4
+Job: 632
+job arrival 3,burst_time 5,turnaround_time: 13, wait: 8, response 8
+Job: 633
+job arrival 4,burst_time 5,turnaround_time: 17, wait: 12, response 12
+Job: 634
+job arrival 5,burst_time 5,turnaround_time: 21, wait: 16, response 16
+Job: 635
+job arrival 6,burst_time 5,turnaround_time: 25, wait: 20, response 20
+Job: 636
+job arrival 7,burst_time 5,turnaround_time: 29, wait: 24, response 24
+Job: 637
+job arrival 8,burst_time 5,turnaround_time: 33, wait: 28, response 28
+Job: 638
+job arrival 9,burst_time 5,turnaround_time: 37, wait: 32, response 32
+Job: 639
+job arrival 10,burst_time 5,turnaround_time: 41, wait: 36, response 36
+Global Statistics
+average turnaround_time: 23.0
+average waiting_time: 18.0
+average response_time: 18.0
+throughput: 196.078431372549
+boost jobs each: 0
+INSTANCE -l 5:1,5:2,5:3,5:4,5:5,5:6,5:7,5:8,5:9,5:10
+ SETTING -q 8,16,24,32
+
+Job: 640
+job arrival 1,burst_time 5,turnaround_time: 5, wait: 0, response 0
+Job: 641
+job arrival 2,burst_time 5,turnaround_time: 9, wait: 4, response 4
+Job: 642
+job arrival 3,burst_time 5,turnaround_time: 13, wait: 8, response 8
+Job: 643
+job arrival 4,burst_time 5,turnaround_time: 17, wait: 12, response 12
+Job: 644
+job arrival 5,burst_time 5,turnaround_time: 21, wait: 16, response 16
+Job: 645
+job arrival 6,burst_time 5,turnaround_time: 25, wait: 20, response 20
+Job: 646
+job arrival 7,burst_time 5,turnaround_time: 29, wait: 24, response 24
+Job: 647
+job arrival 8,burst_time 5,turnaround_time: 33, wait: 28, response 28
+Job: 648
+job arrival 9,burst_time 5,turnaround_time: 37, wait: 32, response 32
+Job: 649
+job arrival 10,burst_time 5,turnaround_time: 41, wait: 36, response 36
+Global Statistics
+average turnaround_time: 23.0
+average waiting_time: 18.0
+average response_time: 18.0
+throughput: 196.078431372549
+boost jobs each: 0
+INSTANCE -l 5:1,5:2,5:3,5:4,5:5,5:6,5:7,5:8,5:9,5:10
+ SETTING -q 8,16 -m auto_boost -f 0.25
+
+Job: 650
+job arrival 1,burst_time 5,turnaround_time: 5, wait: 0, response 0
+Job: 651
+job arrival 2,burst_time 5,turnaround_time: 9, wait: 4, response 4
+Job: 652
+job arrival 3,burst_time 5,turnaround_time: 13, wait: 8, response 8
+Job: 653
+job arrival 4,burst_time 5,turnaround_time: 17, wait: 12, response 12
+Job: 654
+job arrival 5,burst_time 5,turnaround_time: 21, wait: 16, response 16
+Job: 655
+job arrival 6,burst_time 5,turnaround_time: 25, wait: 20, response 20
+Job: 656
+job arrival 7,burst_time 5,turnaround_time: 29, wait: 24, response 24
+Job: 657
+job arrival 8,burst_time 5,turnaround_time: 33, wait: 28, response 28
+Job: 658
+job arrival 9,burst_time 5,turnaround_time: 37, wait: 32, response 32
+Job: 659
+job arrival 10,burst_time 5,turnaround_time: 41, wait: 36, response 36
+Global Statistics
+average turnaround_time: 23.0
+average waiting_time: 18.0
+average response_time: 18.0
+throughput: 196.078431372549
+boost jobs each: 12
+INSTANCE -l 5:1,5:2,5:3,5:4,5:5,5:6,5:7,5:8,5:9,5:10
+ SETTING -q 8,16,24 -m auto_boost -f 0.5
+
+Job: 660
+job arrival 1,burst_time 5,turnaround_time: 5, wait: 0, response 0
+Job: 661
+job arrival 2,burst_time 5,turnaround_time: 9, wait: 4, response 4
+Job: 662
+job arrival 3,burst_time 5,turnaround_time: 13, wait: 8, response 8
+Job: 663
+job arrival 4,burst_time 5,turnaround_time: 17, wait: 12, response 12
+Job: 664
+job arrival 5,burst_time 5,turnaround_time: 21, wait: 16, response 16
+Job: 665
+job arrival 6,burst_time 5,turnaround_time: 25, wait: 20, response 20
+Job: 666
+job arrival 7,burst_time 5,turnaround_time: 29, wait: 24, response 24
+Job: 667
+job arrival 8,burst_time 5,turnaround_time: 33, wait: 28, response 28
+Job: 668
+job arrival 9,burst_time 5,turnaround_time: 37, wait: 32, response 32
+Job: 669
+job arrival 10,burst_time 5,turnaround_time: 41, wait: 36, response 36
+Global Statistics
+average turnaround_time: 23.0
+average waiting_time: 18.0
+average response_time: 18.0
+throughput: 196.078431372549
+boost jobs each: 25
+INSTANCE -l 5:1,5:2,5:3,5:4,5:5,5:6,5:7,5:8,5:9,5:10
+ SETTING -q 8,16,24,32 -m auto_boost -f 0.75
+Job: 670
+job arrival 1,burst_time 5,turnaround_time: 5, wait: 0, response 0
+Job: 671
+job arrival 2,burst_time 5,turnaround_time: 9, wait: 4, response 4
+Job: 672
+job arrival 3,burst_time 5,turnaround_time: 13, wait: 8, response 8
+Job: 673
+job arrival 4,burst_time 5,turnaround_time: 17, wait: 12, response 12
+Job: 674
+job arrival 5,burst_time 5,turnaround_time: 21, wait: 16, response 16
+Job: 675
+job arrival 6,burst_time 5,turnaround_time: 25, wait: 20, response 20
+Job: 676
+job arrival 7,burst_time 5,turnaround_time: 29, wait: 24, response 24
+Job: 677
+job arrival 8,burst_time 5,turnaround_time: 33, wait: 28, response 28
+Job: 678
+job arrival 9,burst_time 5,turnaround_time: 37, wait: 32, response 32
+Job: 679
+job arrival 10,burst_time 5,turnaround_time: 41, wait: 36, response 36
+Global Statistics
+average turnaround_time: 23.0
+average waiting_time: 18.0
+average response_time: 18.0
+throughput: 196.078431372549
+boost jobs each: 37
+INSTANCE -l 5:1,5:2,5:3,5:4,5:5,5:6,5:7,5:8,5:9,5:10,5:11,5:12,5:13,5:14,5:15,5:16,5:17,5:18,5:19,5:20
+ SETTING -m rr -q 8
+
+Job: 680
+job arrival 1,burst_time 5,turnaround_time: 5, wait: 0, response 0
+Job: 681
+job arrival 2,burst_time 5,turnaround_time: 9, wait: 4, response 4
+Job: 682
+job arrival 3,burst_time 5,turnaround_time: 13, wait: 8, response 8
+Job: 683
+job arrival 4,burst_time 5,turnaround_time: 17, wait: 12, response 12
+Job: 684
+job arrival 5,burst_time 5,turnaround_time: 21, wait: 16, response 16
+Job: 685
+job arrival 6,burst_time 5,turnaround_time: 25, wait: 20, response 20
+Job: 686
+job arrival 7,burst_time 5,turnaround_time: 29, wait: 24, response 24
+Job: 687
+job arrival 8,burst_time 5,turnaround_time: 33, wait: 28, response 28
+Job: 688
+job arrival 9,burst_time 5,turnaround_time: 37, wait: 32, response 32
+Job: 689
+job arrival 10,burst_time 5,turnaround_time: 41, wait: 36, response 36
+Job: 690
+job arrival 11,burst_time 5,turnaround_time: 45, wait: 40, response 40
+Job: 691
+job arrival 12,burst_time 5,turnaround_time: 49, wait: 44, response 44
+Job: 692
+job arrival 13,burst_time 5,turnaround_time: 53, wait: 48, response 48
+Job: 693
+job arrival 14,burst_time 5,turnaround_time: 57, wait: 52, response 52
+Job: 694
+job arrival 15,burst_time 5,turnaround_time: 61, wait: 56, response 56
+Job: 695
+job arrival 16,burst_time 5,turnaround_time: 65, wait: 60, response 60
+Job: 696
+job arrival 17,burst_time 5,turnaround_time: 69, wait: 64, response 64
+Job: 697
+job arrival 18,burst_time 5,turnaround_time: 73, wait: 68, response 68
+Job: 698
+job arrival 19,burst_time 5,turnaround_time: 77, wait: 72, response 72
+Job: 699
+job arrival 20,burst_time 5,turnaround_time: 81, wait: 76, response 76
+Global Statistics
+average turnaround_time: 43.0
+average waiting_time: 38.0
+average response_time: 38.0
+throughput: 198.01980198019803
+boost jobs each: 0
+INSTANCE -l 5:1,5:2,5:3,5:4,5:5,5:6,5:7,5:8,5:9,5:10,5:11,5:12,5:13,5:14,5:15,5:16,5:17,5:18,5:19,5:20
+ SETTING -m fcfs
+
+Job: 700
+job arrival 1,burst_time 5,turnaround_time: 5, wait: 0, response 0
+Job: 701
+job arrival 2,burst_time 5,turnaround_time: 9, wait: 4, response 4
+Job: 702
+job arrival 3,burst_time 5,turnaround_time: 13, wait: 8, response 8
+Job: 703
+job arrival 4,burst_time 5,turnaround_time: 17, wait: 12, response 12
+Job: 704
+job arrival 5,burst_time 5,turnaround_time: 21, wait: 16, response 16
+Job: 705
+job arrival 6,burst_time 5,turnaround_time: 25, wait: 20, response 20
+Job: 706
+job arrival 7,burst_time 5,turnaround_time: 29, wait: 24, response 24
+Job: 707
+job arrival 8,burst_time 5,turnaround_time: 33, wait: 28, response 28
+Job: 708
+job arrival 9,burst_time 5,turnaround_time: 37, wait: 32, response 32
+Job: 709
+job arrival 10,burst_time 5,turnaround_time: 41, wait: 36, response 36
+Job: 710
+job arrival 11,burst_time 5,turnaround_time: 45, wait: 40, response 40
+Job: 711
+job arrival 12,burst_time 5,turnaround_time: 49, wait: 44, response 44
+Job: 712
+job arrival 13,burst_time 5,turnaround_time: 53, wait: 48, response 48
+Job: 713
+job arrival 14,burst_time 5,turnaround_time: 57, wait: 52, response 52
+Job: 714
+job arrival 15,burst_time 5,turnaround_time: 61, wait: 56, response 56
+Job: 715
+job arrival 16,burst_time 5,turnaround_time: 65, wait: 60, response 60
+Job: 716
+job arrival 17,burst_time 5,turnaround_time: 69, wait: 64, response 64
+Job: 717
+job arrival 18,burst_time 5,turnaround_time: 73, wait: 68, response 68
+Job: 718
+job arrival 19,burst_time 5,turnaround_time: 77, wait: 72, response 72
+Job: 719
+job arrival 20,burst_time 5,turnaround_time: 81, wait: 76, response 76
+Global Statistics
+average turnaround_time: 43.0
+average waiting_time: 38.0
+average response_time: 38.0
+throughput: 198.01980198019803
+boost jobs each: 0
+INSTANCE -l 5:1,5:2,5:3,5:4,5:5,5:6,5:7,5:8,5:9,5:10,5:11,5:12,5:13,5:14,5:15,5:16,5:17,5:18,5:19,5:20
+ SETTING -q 8,16
+
+Job: 720
+job arrival 1,burst_time 5,turnaround_time: 5, wait: 0, response 0
+Job: 721
+job arrival 2,burst_time 5,turnaround_time: 9, wait: 4, response 4
+Job: 722
+job arrival 3,burst_time 5,turnaround_time: 13, wait: 8, response 8
+Job: 723
+job arrival 4,burst_time 5,turnaround_time: 17, wait: 12, response 12
+Job: 724
+job arrival 5,burst_time 5,turnaround_time: 21, wait: 16, response 16
+Job: 725
+job arrival 6,burst_time 5,turnaround_time: 25, wait: 20, response 20
+Job: 726
+job arrival 7,burst_time 5,turnaround_time: 29, wait: 24, response 24
+Job: 727
+job arrival 8,burst_time 5,turnaround_time: 33, wait: 28, response 28
+Job: 728
+job arrival 9,burst_time 5,turnaround_time: 37, wait: 32, response 32
+Job: 729
+job arrival 10,burst_time 5,turnaround_time: 41, wait: 36, response 36
+Job: 730
+job arrival 11,burst_time 5,turnaround_time: 45, wait: 40, response 40
+Job: 731
+job arrival 12,burst_time 5,turnaround_time: 49, wait: 44, response 44
+Job: 732
+job arrival 13,burst_time 5,turnaround_time: 53, wait: 48, response 48
+Job: 733
+job arrival 14,burst_time 5,turnaround_time: 57, wait: 52, response 52
+Job: 734
+job arrival 15,burst_time 5,turnaround_time: 61, wait: 56, response 56
+Job: 735
+job arrival 16,burst_time 5,turnaround_time: 65, wait: 60, response 60
+Job: 736
+job arrival 17,burst_time 5,turnaround_time: 69, wait: 64, response 64
+Job: 737
+job arrival 18,burst_time 5,turnaround_time: 73, wait: 68, response 68
+Job: 738
+job arrival 19,burst_time 5,turnaround_time: 77, wait: 72, response 72
+Job: 739
+job arrival 20,burst_time 5,turnaround_time: 81, wait: 76, response 76
+Global Statistics
+average turnaround_time: 43.0
+average waiting_time: 38.0
+average response_time: 38.0
+throughput: 198.01980198019803
+boost jobs each: 0
+INSTANCE -l 5:1,5:2,5:3,5:4,5:5,5:6,5:7,5:8,5:9,5:10,5:11,5:12,5:13,5:14,5:15,5:16,5:17,5:18,5:19,5:20
+ SETTING -q 8,16,24
+
+Job: 740
+job arrival 1,burst_time 5,turnaround_time: 5, wait: 0, response 0
+Job: 741
+job arrival 2,burst_time 5,turnaround_time: 9, wait: 4, response 4
+Job: 742
+job arrival 3,burst_time 5,turnaround_time: 13, wait: 8, response 8
+Job: 743
+job arrival 4,burst_time 5,turnaround_time: 17, wait: 12, response 12
+Job: 744
+job arrival 5,burst_time 5,turnaround_time: 21, wait: 16, response 16
+Job: 745
+job arrival 6,burst_time 5,turnaround_time: 25, wait: 20, response 20
+Job: 746
+job arrival 7,burst_time 5,turnaround_time: 29, wait: 24, response 24
+Job: 747
+job arrival 8,burst_time 5,turnaround_time: 33, wait: 28, response 28
+Job: 748
+job arrival 9,burst_time 5,turnaround_time: 37, wait: 32, response 32
+Job: 749
+job arrival 10,burst_time 5,turnaround_time: 41, wait: 36, response 36
+Job: 750
+job arrival 11,burst_time 5,turnaround_time: 45, wait: 40, response 40
+Job: 751
+job arrival 12,burst_time 5,turnaround_time: 49, wait: 44, response 44
+Job: 752
+job arrival 13,burst_time 5,turnaround_time: 53, wait: 48, response 48
+Job: 753
+job arrival 14,burst_time 5,turnaround_time: 57, wait: 52, response 52
+Job: 754
+job arrival 15,burst_time 5,turnaround_time: 61, wait: 56, response 56
+Job: 755
+job arrival 16,burst_time 5,turnaround_time: 65, wait: 60, response 60
+Job: 756
+job arrival 17,burst_time 5,turnaround_time: 69, wait: 64, response 64
+Job: 757
+job arrival 18,burst_time 5,turnaround_time: 73, wait: 68, response 68
+Job: 758
+job arrival 19,burst_time 5,turnaround_time: 77, wait: 72, response 72
+Job: 759
+job arrival 20,burst_time 5,turnaround_time: 81, wait: 76, response 76
+Global Statistics
+average turnaround_time: 43.0
+average waiting_time: 38.0
+average response_time: 38.0
+throughput: 198.01980198019803
+boost jobs each: 0
+INSTANCE -l 5:1,5:2,5:3,5:4,5:5,5:6,5:7,5:8,5:9,5:10,5:11,5:12,5:13,5:14,5:15,5:16,5:17,5:18,5:19,5:20
+ SETTING -q 8,16,24,32
+
+Job: 760
+job arrival 1,burst_time 5,turnaround_time: 5, wait: 0, response 0
+Job: 761
+job arrival 2,burst_time 5,turnaround_time: 9, wait: 4, response 4
+Job: 762
+job arrival 3,burst_time 5,turnaround_time: 13, wait: 8, response 8
+Job: 763
+job arrival 4,burst_time 5,turnaround_time: 17, wait: 12, response 12
+Job: 764
+job arrival 5,burst_time 5,turnaround_time: 21, wait: 16, response 16
+Job: 765
+job arrival 6,burst_time 5,turnaround_time: 25, wait: 20, response 20
+Job: 766
+job arrival 7,burst_time 5,turnaround_time: 29, wait: 24, response 24
+Job: 767
+job arrival 8,burst_time 5,turnaround_time: 33, wait: 28, response 28
+Job: 768
+job arrival 9,burst_time 5,turnaround_time: 37, wait: 32, response 32
+Job: 769
+job arrival 10,burst_time 5,turnaround_time: 41, wait: 36, response 36
+Job: 770
+job arrival 11,burst_time 5,turnaround_time: 45, wait: 40, response 40
+Job: 771
+job arrival 12,burst_time 5,turnaround_time: 49, wait: 44, response 44
+Job: 772
+job arrival 13,burst_time 5,turnaround_time: 53, wait: 48, response 48
+Job: 773
+job arrival 14,burst_time 5,turnaround_time: 57, wait: 52, response 52
+Job: 774
+job arrival 15,burst_time 5,turnaround_time: 61, wait: 56, response 56
+Job: 775
+job arrival 16,burst_time 5,turnaround_time: 65, wait: 60, response 60
+Job: 776
+job arrival 17,burst_time 5,turnaround_time: 69, wait: 64, response 64
+Job: 777
+job arrival 18,burst_time 5,turnaround_time: 73, wait: 68, response 68
+Job: 778
+job arrival 19,burst_time 5,turnaround_time: 77, wait: 72, response 72
+Job: 779
+job arrival 20,burst_time 5,turnaround_time: 81, wait: 76, response 76
+Global Statistics
+average turnaround_time: 43.0
+average waiting_time: 38.0
+average response_time: 38.0
+throughput: 198.01980198019803
+boost jobs each: 0
+INSTANCE -l 5:1,5:2,5:3,5:4,5:5,5:6,5:7,5:8,5:9,5:10,5:11,5:12,5:13,5:14,5:15,5:16,5:17,5:18,5:19,5:20
+ SETTING -q 8,16 -m auto_boost -f 0.25
+
+Job: 780
+job arrival 1,burst_time 5,turnaround_time: 5, wait: 0, response 0
+Job: 781
+job arrival 2,burst_time 5,turnaround_time: 9, wait: 4, response 4
+Job: 782
+job arrival 3,burst_time 5,turnaround_time: 13, wait: 8, response 8
+Job: 783
+job arrival 4,burst_time 5,turnaround_time: 17, wait: 12, response 12
+Job: 784
+job arrival 5,burst_time 5,turnaround_time: 21, wait: 16, response 16
+Job: 785
+job arrival 6,burst_time 5,turnaround_time: 25, wait: 20, response 20
+Job: 786
+job arrival 7,burst_time 5,turnaround_time: 29, wait: 24, response 24
+Job: 787
+job arrival 8,burst_time 5,turnaround_time: 33, wait: 28, response 28
+Job: 788
+job arrival 9,burst_time 5,turnaround_time: 37, wait: 32, response 32
+Job: 789
+job arrival 10,burst_time 5,turnaround_time: 41, wait: 36, response 36
+Job: 790
+job arrival 11,burst_time 5,turnaround_time: 45, wait: 40, response 40
+Job: 791
+job arrival 12,burst_time 5,turnaround_time: 49, wait: 44, response 44
+Job: 792
+job arrival 13,burst_time 5,turnaround_time: 53, wait: 48, response 48
+Job: 793
+job arrival 14,burst_time 5,turnaround_time: 57, wait: 52, response 52
+Job: 794
+job arrival 15,burst_time 5,turnaround_time: 61, wait: 56, response 56
+Job: 795
+job arrival 16,burst_time 5,turnaround_time: 65, wait: 60, response 60
+Job: 796
+job arrival 17,burst_time 5,turnaround_time: 69, wait: 64, response 64
+Job: 797
+job arrival 18,burst_time 5,turnaround_time: 73, wait: 68, response 68
+Job: 798
+job arrival 19,burst_time 5,turnaround_time: 77, wait: 72, response 72
+Job: 799
+job arrival 20,burst_time 5,turnaround_time: 81, wait: 76, response 76
+Global Statistics
+average turnaround_time: 43.0
+average waiting_time: 38.0
+average response_time: 38.0
+throughput: 198.01980198019803
+boost jobs each: 25
+INSTANCE -l 5:1,5:2,5:3,5:4,5:5,5:6,5:7,5:8,5:9,5:10,5:11,5:12,5:13,5:14,5:15,5:16,5:17,5:18,5:19,5:20
+ SETTING -q 8,16,24 -m auto_boost -f 0.5
+
+Job: 800
+job arrival 1,burst_time 5,turnaround_time: 5, wait: 0, response 0
+Job: 801
+job arrival 2,burst_time 5,turnaround_time: 9, wait: 4, response 4
+Job: 802
+job arrival 3,burst_time 5,turnaround_time: 13, wait: 8, response 8
+Job: 803
+job arrival 4,burst_time 5,turnaround_time: 17, wait: 12, response 12
+Job: 804
+job arrival 5,burst_time 5,turnaround_time: 21, wait: 16, response 16
+Job: 805
+job arrival 6,burst_time 5,turnaround_time: 25, wait: 20, response 20
+Job: 806
+job arrival 7,burst_time 5,turnaround_time: 29, wait: 24, response 24
+Job: 807
+job arrival 8,burst_time 5,turnaround_time: 33, wait: 28, response 28
+Job: 808
+job arrival 9,burst_time 5,turnaround_time: 37, wait: 32, response 32
+Job: 809
+job arrival 10,burst_time 5,turnaround_time: 41, wait: 36, response 36
+Job: 810
+job arrival 11,burst_time 5,turnaround_time: 45, wait: 40, response 40
+Job: 811
+job arrival 12,burst_time 5,turnaround_time: 49, wait: 44, response 44
+Job: 812
+job arrival 13,burst_time 5,turnaround_time: 53, wait: 48, response 48
+Job: 813
+job arrival 14,burst_time 5,turnaround_time: 57, wait: 52, response 52
+Job: 814
+job arrival 15,burst_time 5,turnaround_time: 61, wait: 56, response 56
+Job: 815
+job arrival 16,burst_time 5,turnaround_time: 65, wait: 60, response 60
+Job: 816
+job arrival 17,burst_time 5,turnaround_time: 69, wait: 64, response 64
+Job: 817
+job arrival 18,burst_time 5,turnaround_time: 73, wait: 68, response 68
+Job: 818
+job arrival 19,burst_time 5,turnaround_time: 77, wait: 72, response 72
+Job: 819
+job arrival 20,burst_time 5,turnaround_time: 81, wait: 76, response 76
+Global Statistics
+average turnaround_time: 43.0
+average waiting_time: 38.0
+average response_time: 38.0
+throughput: 198.01980198019803
+boost jobs each: 50
+INSTANCE -l 5:1,5:2,5:3,5:4,5:5,5:6,5:7,5:8,5:9,5:10,5:11,5:12,5:13,5:14,5:15,5:16,5:17,5:18,5:19,5:20
+ SETTING -q 8,16,24,32 -m auto_boost -f 0.75
+Job: 820
+job arrival 1,burst_time 5,turnaround_time: 5, wait: 0, response 0
+Job: 821
+job arrival 2,burst_time 5,turnaround_time: 9, wait: 4, response 4
+Job: 822
+job arrival 3,burst_time 5,turnaround_time: 13, wait: 8, response 8
+Job: 823
+job arrival 4,burst_time 5,turnaround_time: 17, wait: 12, response 12
+Job: 824
+job arrival 5,burst_time 5,turnaround_time: 21, wait: 16, response 16
+Job: 825
+job arrival 6,burst_time 5,turnaround_time: 25, wait: 20, response 20
+Job: 826
+job arrival 7,burst_time 5,turnaround_time: 29, wait: 24, response 24
+Job: 827
+job arrival 8,burst_time 5,turnaround_time: 33, wait: 28, response 28
+Job: 828
+job arrival 9,burst_time 5,turnaround_time: 37, wait: 32, response 32
+Job: 829
+job arrival 10,burst_time 5,turnaround_time: 41, wait: 36, response 36
+Job: 830
+job arrival 11,burst_time 5,turnaround_time: 45, wait: 40, response 40
+Job: 831
+job arrival 12,burst_time 5,turnaround_time: 49, wait: 44, response 44
+Job: 832
+job arrival 13,burst_time 5,turnaround_time: 53, wait: 48, response 48
+Job: 833
+job arrival 14,burst_time 5,turnaround_time: 57, wait: 52, response 52
+Job: 834
+job arrival 15,burst_time 5,turnaround_time: 61, wait: 56, response 56
+Job: 835
+job arrival 16,burst_time 5,turnaround_time: 65, wait: 60, response 60
+Job: 836
+job arrival 17,burst_time 5,turnaround_time: 69, wait: 64, response 64
+Job: 837
+job arrival 18,burst_time 5,turnaround_time: 73, wait: 68, response 68
+Job: 838
+job arrival 19,burst_time 5,turnaround_time: 77, wait: 72, response 72
+Job: 839
+job arrival 20,burst_time 5,turnaround_time: 81, wait: 76, response 76
+Global Statistics
+average turnaround_time: 43.0
+average waiting_time: 38.0
+average response_time: 38.0
+throughput: 198.01980198019803
+boost jobs each: 75
+removed 842 at 9
+removed 841 at 17
+INSTANCE -l 6:13,9:6,9:2,8:16,8:13
+ SETTING -m rr -q 8
+
+Job: 840
+job arrival 13,burst_time 6,turnaround_time: 12, wait: 6, response 6
+Job: 841
+job arrival 6,burst_time 9,turnaround_time: 36, wait: 27, response 4
+Job: 842
+job arrival 2,burst_time 9,turnaround_time: 17, wait: 8, response 0
+Job: 843
+job arrival 16,burst_time 8,turnaround_time: 25, wait: 17, response 17
+Job: 844
+job arrival 13,burst_time 8,turnaround_time: 20, wait: 12, response 12
+Global Statistics
+average turnaround_time: 22.0
+average waiting_time: 14.0
+average response_time: 7.8
+throughput: 119.04761904761904
+boost jobs each: 0
+INSTANCE -l 6:13,9:6,9:2,8:16,8:13
+ SETTING -m fcfs
+
+Job: 845
+job arrival 13,burst_time 6,turnaround_time: 13, wait: 7, response 7
+Job: 846
+job arrival 6,burst_time 9,turnaround_time: 14, wait: 5, response 5
+Job: 847
+job arrival 2,burst_time 9,turnaround_time: 9, wait: 0, response 0
+Job: 848
+job arrival 16,burst_time 8,turnaround_time: 26, wait: 18, response 18
+Job: 849
+job arrival 13,burst_time 8,turnaround_time: 21, wait: 13, response 13
+Global Statistics
+average turnaround_time: 16.6
+average waiting_time: 8.6
+average response_time: 8.6
+throughput: 119.04761904761904
+boost jobs each: 0
+removed 852 at 9
+removed 851 at 17
+INSTANCE -l 6:13,9:6,9:2,8:16,8:13
+ SETTING -q 8,16
+
+Job: 850
+job arrival 13,burst_time 6,turnaround_time: 11, wait: 5, response 5
+Job: 851
+job arrival 6,burst_time 9,turnaround_time: 36, wait: 27, response 4
+Job: 852
+job arrival 2,burst_time 9,turnaround_time: 39, wait: 30, response 0
+Job: 853
+job arrival 16,burst_time 8,turnaround_time: 24, wait: 16, response 16
+Job: 854
+job arrival 13,burst_time 8,turnaround_time: 19, wait: 11, response 11
+Global Statistics
+average turnaround_time: 25.8
+average waiting_time: 17.8
+average response_time: 7.2
+throughput: 119.04761904761904
+boost jobs each: 0
+removed 857 at 9
+removed 856 at 17
+INSTANCE -l 6:13,9:6,9:2,8:16,8:13
+ SETTING -q 8,16,24
+
+Job: 855
+job arrival 13,burst_time 6,turnaround_time: 11, wait: 5, response 5
+Job: 856
+job arrival 6,burst_time 9,turnaround_time: 36, wait: 27, response 4
+Job: 857
+job arrival 2,burst_time 9,turnaround_time: 39, wait: 30, response 0
+Job: 858
+job arrival 16,burst_time 8,turnaround_time: 24, wait: 16, response 16
+Job: 859
+job arrival 13,burst_time 8,turnaround_time: 19, wait: 11, response 11
+Global Statistics
+average turnaround_time: 25.8
+average waiting_time: 17.8
+average response_time: 7.2
+throughput: 119.04761904761904
+boost jobs each: 0
+removed 862 at 9
+removed 861 at 17
+INSTANCE -l 6:13,9:6,9:2,8:16,8:13
+ SETTING -q 8,16,24,32
+
+Job: 860
+job arrival 13,burst_time 6,turnaround_time: 11, wait: 5, response 5
+Job: 861
+job arrival 6,burst_time 9,turnaround_time: 36, wait: 27, response 4
+Job: 862
+job arrival 2,burst_time 9,turnaround_time: 39, wait: 30, response 0
+Job: 863
+job arrival 16,burst_time 8,turnaround_time: 24, wait: 16, response 16
+Job: 864
+job arrival 13,burst_time 8,turnaround_time: 19, wait: 11, response 11
+Global Statistics
+average turnaround_time: 25.8
+average waiting_time: 17.8
+average response_time: 7.2
+throughput: 119.04761904761904
+boost jobs each: 0
+removed 867 at 9
+INSTANCE -l 6:13,9:6,9:2,8:16,8:13
+ SETTING -q 8,16 -m auto_boost -f 0.25
+
+Job: 865
+job arrival 13,burst_time 6,turnaround_time: 3, wait: -3, response -3
+Job: 866
+job arrival 6,burst_time 9,turnaround_time: 19, wait: 10, response 10
+Job: 867
+job arrival 2,burst_time 9,turnaround_time: 24, wait: 15, response 0
+Job: 868
+job arrival 16,burst_time 8,turnaround_time: 18, wait: 10, response 10
+Job: 869
+job arrival 13,burst_time 8,turnaround_time: 29, wait: 21, response 21
+Global Statistics
+average turnaround_time: 18.6
+average waiting_time: 10.6
+average response_time: 7.6
+throughput: 119.04761904761904
+boost jobs each: 10
+removed 872 at 9
+removed 871 at 17
+INSTANCE -l 6:13,9:6,9:2,8:16,8:13
+ SETTING -q 8,16,24 -m auto_boost -f 0.5
+
+Job: 870
+job arrival 13,burst_time 6,turnaround_time: 11, wait: 5, response 5
+Job: 871
+job arrival 6,burst_time 9,turnaround_time: 19, wait: 10, response 4
+Job: 872
+job arrival 2,burst_time 9,turnaround_time: 24, wait: 15, response 0
+Job: 873
+job arrival 16,burst_time 8,turnaround_time: 18, wait: 10, response 10
+Job: 874
+job arrival 13,burst_time 8,turnaround_time: 29, wait: 21, response 21
+Global Statistics
+average turnaround_time: 20.2
+average waiting_time: 12.2
+average response_time: 8.0
+throughput: 119.04761904761904
+boost jobs each: 20
+removed 877 at 9
+removed 876 at 17
+INSTANCE -l 6:13,9:6,9:2,8:16,8:13
+ SETTING -q 8,16,24,32 -m auto_boost -f 0.75
+Job: 875
+job arrival 13,burst_time 6,turnaround_time: 11, wait: 5, response 5
+Job: 876
+job arrival 6,burst_time 9,turnaround_time: 25, wait: 16, response 4
+Job: 877
+job arrival 2,burst_time 9,turnaround_time: 30, wait: 21, response 0
+Job: 878
+job arrival 16,burst_time 8,turnaround_time: 24, wait: 16, response 16
+Job: 879
+job arrival 13,burst_time 8,turnaround_time: 29, wait: 21, response 11
+Global Statistics
+average turnaround_time: 23.8
+average waiting_time: 15.8
+average response_time: 7.2
+throughput: 119.04761904761904
+boost jobs each: 30
+removed 889 at 27
+removed 880 at 35
+removed 881 at 43
+removed 882 at 57
+INSTANCE -l 9:11,10:11,9:19,7:19,3:7,7:10,3:18,3:8,3:17,10:10
+ SETTING -m rr -q 8
+
+Job: 880
+job arrival 11,burst_time 9,turnaround_time: 57, wait: 48, response 17
+Job: 881
+job arrival 11,burst_time 10,turnaround_time: 59, wait: 49, response 25
+Job: 882
+job arrival 19,burst_time 9,turnaround_time: 52, wait: 43, response 31
+Job: 883
+job arrival 19,burst_time 7,turnaround_time: 46, wait: 39, response 39
+Job: 884
+job arrival 7,burst_time 3,turnaround_time: 3, wait: 0, response 0
+Job: 885
+job arrival 10,burst_time 7,turnaround_time: 10, wait: 3, response 3
+Job: 886
+job arrival 18,burst_time 3,turnaround_time: 32, wait: 29, response 29
+Job: 887
+job arrival 8,burst_time 3,turnaround_time: 5, wait: 2, response 2
+Job: 888
+job arrival 17,burst_time 3,turnaround_time: 30, wait: 27, response 27
+Job: 889
+job arrival 10,burst_time 10,turnaround_time: 57, wait: 47, response 10
+Global Statistics
+average turnaround_time: 35.1
+average waiting_time: 28.7
+average response_time: 18.3
+throughput: 140.84507042253523
+boost jobs each: 0
+INSTANCE -l 9:11,10:11,9:19,7:19,3:7,7:10,3:18,3:8,3:17,10:10
+ SETTING -m fcfs
+
+Job: 890
+job arrival 11,burst_time 9,turnaround_time: 28, wait: 19, response 19
+Job: 891
+job arrival 11,burst_time 10,turnaround_time: 38, wait: 28, response 28
+Job: 892
+job arrival 19,burst_time 9,turnaround_time: 45, wait: 36, response 36
+Job: 893
+job arrival 19,burst_time 7,turnaround_time: 52, wait: 45, response 45
+Job: 894
+job arrival 7,burst_time 3,turnaround_time: 3, wait: 0, response 0
+Job: 895
+job arrival 10,burst_time 7,turnaround_time: 10, wait: 3, response 3
+Job: 896
+job arrival 18,burst_time 3,turnaround_time: 37, wait: 34, response 34
+Job: 897
+job arrival 8,burst_time 3,turnaround_time: 5, wait: 2, response 2
+Job: 898
+job arrival 17,burst_time 3,turnaround_time: 35, wait: 32, response 32
+Job: 899
+job arrival 10,burst_time 10,turnaround_time: 20, wait: 10, response 10
+Global Statistics
+average turnaround_time: 27.3
+average waiting_time: 20.9
+average response_time: 20.9
+throughput: 140.84507042253523
+boost jobs each: 0
+removed 909 at 27
+removed 900 at 35
+removed 901 at 43
+removed 902 at 57
+INSTANCE -l 9:11,10:11,9:19,7:19,3:7,7:10,3:18,3:8,3:17,10:10
+ SETTING -q 8,16
+
+Job: 900
+job arrival 11,burst_time 9,turnaround_time: 57, wait: 48, response 17
+Job: 901
+job arrival 11,burst_time 10,turnaround_time: 59, wait: 49, response 25
+Job: 902
+job arrival 19,burst_time 9,turnaround_time: 52, wait: 43, response 31
+Job: 903
+job arrival 19,burst_time 7,turnaround_time: 46, wait: 39, response 39
+Job: 904
+job arrival 7,burst_time 3,turnaround_time: 3, wait: 0, response 0
+Job: 905
+job arrival 10,burst_time 7,turnaround_time: 10, wait: 3, response 3
+Job: 906
+job arrival 18,burst_time 3,turnaround_time: 32, wait: 29, response 29
+Job: 907
+job arrival 8,burst_time 3,turnaround_time: 5, wait: 2, response 2
+Job: 908
+job arrival 17,burst_time 3,turnaround_time: 30, wait: 27, response 27
+Job: 909
+job arrival 10,burst_time 10,turnaround_time: 57, wait: 47, response 10
+Global Statistics
+average turnaround_time: 35.1
+average waiting_time: 28.7
+average response_time: 18.3
+throughput: 140.84507042253523
+boost jobs each: 0
+removed 919 at 27
+removed 910 at 35
+removed 911 at 43
+removed 912 at 57
+INSTANCE -l 9:11,10:11,9:19,7:19,3:7,7:10,3:18,3:8,3:17,10:10
+ SETTING -q 8,16,24
+
+Job: 910
+job arrival 11,burst_time 9,turnaround_time: 57, wait: 48, response 17
+Job: 911
+job arrival 11,burst_time 10,turnaround_time: 59, wait: 49, response 25
+Job: 912
+job arrival 19,burst_time 9,turnaround_time: 52, wait: 43, response 31
+Job: 913
+job arrival 19,burst_time 7,turnaround_time: 46, wait: 39, response 39
+Job: 914
+job arrival 7,burst_time 3,turnaround_time: 3, wait: 0, response 0
+Job: 915
+job arrival 10,burst_time 7,turnaround_time: 10, wait: 3, response 3
+Job: 916
+job arrival 18,burst_time 3,turnaround_time: 32, wait: 29, response 29
+Job: 917
+job arrival 8,burst_time 3,turnaround_time: 5, wait: 2, response 2
+Job: 918
+job arrival 17,burst_time 3,turnaround_time: 30, wait: 27, response 27
+Job: 919
+job arrival 10,burst_time 10,turnaround_time: 57, wait: 47, response 10
+Global Statistics
+average turnaround_time: 35.1
+average waiting_time: 28.7
+average response_time: 18.3
+throughput: 140.84507042253523
+boost jobs each: 0
+removed 929 at 27
+removed 920 at 35
+removed 921 at 43
+removed 922 at 57
+INSTANCE -l 9:11,10:11,9:19,7:19,3:7,7:10,3:18,3:8,3:17,10:10
+ SETTING -q 8,16,24,32
+
+Job: 920
+job arrival 11,burst_time 9,turnaround_time: 57, wait: 48, response 17
+Job: 921
+job arrival 11,burst_time 10,turnaround_time: 59, wait: 49, response 25
+Job: 922
+job arrival 19,burst_time 9,turnaround_time: 52, wait: 43, response 31
+Job: 923
+job arrival 19,burst_time 7,turnaround_time: 46, wait: 39, response 39
+Job: 924
+job arrival 7,burst_time 3,turnaround_time: 3, wait: 0, response 0
+Job: 925
+job arrival 10,burst_time 7,turnaround_time: 10, wait: 3, response 3
+Job: 926
+job arrival 18,burst_time 3,turnaround_time: 32, wait: 29, response 29
+Job: 927
+job arrival 8,burst_time 3,turnaround_time: 5, wait: 2, response 2
+Job: 928
+job arrival 17,burst_time 3,turnaround_time: 30, wait: 27, response 27
+Job: 929
+job arrival 10,burst_time 10,turnaround_time: 57, wait: 47, response 10
+Global Statistics
+average turnaround_time: 35.1
+average waiting_time: 28.7
+average response_time: 18.3
+throughput: 140.84507042253523
+boost jobs each: 0
+removed 930 at 23
+removed 931 at 31
+removed 932 at 42
+INSTANCE -l 9:11,10:11,9:19,7:19,3:7,7:10,3:18,3:8,3:17,10:10
+ SETTING -q 8,16 -m auto_boost -f 0.25
+
+Job: 930
+job arrival 11,burst_time 9,turnaround_time: 22, wait: 13, response 5
+Job: 931
+job arrival 11,burst_time 10,turnaround_time: 24, wait: 14, response 13
+Job: 932
+job arrival 19,burst_time 9,turnaround_time: 30, wait: 21, response 16
+Job: 933
+job arrival 19,burst_time 7,turnaround_time: 32, wait: 25, response 24
+Job: 934
+job arrival 7,burst_time 3,turnaround_time: 3, wait: 0, response 0
+Job: 935
+job arrival 10,burst_time 7,turnaround_time: 45, wait: 38, response 3
+Job: 936
+job arrival 18,burst_time 3,turnaround_time: 40, wait: 37, response 37
+Job: 937
+job arrival 8,burst_time 3,turnaround_time: 5, wait: 2, response 2
+Job: 938
+job arrival 17,burst_time 3,turnaround_time: 44, wait: 41, response 41
+Job: 939
+job arrival 10,burst_time 10,turnaround_time: 61, wait: 51, response 51
+Global Statistics
+average turnaround_time: 30.6
+average waiting_time: 24.2
+average response_time: 19.2
+throughput: 140.84507042253523
+boost jobs each: 16
+removed 949 at 27
+removed 941 at 44
+removed 942 at 52
+INSTANCE -l 9:11,10:11,9:19,7:19,3:7,7:10,3:18,3:8,3:17,10:10
+ SETTING -q 8,16,24 -m auto_boost -f 0.5
+
+Job: 940
+job arrival 11,burst_time 9,turnaround_time: 26, wait: 17, response 17
+Job: 941
+job arrival 11,burst_time 10,turnaround_time: 55, wait: 45, response 26
+Job: 942
+job arrival 19,burst_time 9,turnaround_time: 48, wait: 39, response 26
+Job: 943
+job arrival 19,burst_time 7,turnaround_time: 41, wait: 34, response 34
+Job: 944
+job arrival 7,burst_time 3,turnaround_time: 3, wait: 0, response 0
+Job: 945
+job arrival 10,burst_time 7,turnaround_time: 10, wait: 3, response 3
+Job: 946
+job arrival 18,burst_time 3,turnaround_time: 45, wait: 42, response 42
+Job: 947
+job arrival 8,burst_time 3,turnaround_time: 5, wait: 2, response 2
+Job: 948
+job arrival 17,burst_time 3,turnaround_time: 52, wait: 49, response 46
+Job: 949
+job arrival 10,burst_time 10,turnaround_time: 61, wait: 51, response 10
+Global Statistics
+average turnaround_time: 34.6
+average waiting_time: 28.2
+average response_time: 20.6
+throughput: 140.84507042253523
+boost jobs each: 32
+removed 959 at 27
+removed 950 at 35
+removed 951 at 43
+removed 952 at 58
+INSTANCE -l 9:11,10:11,9:19,7:19,3:7,7:10,3:18,3:8,3:17,10:10
+ SETTING -q 8,16,24,32 -m auto_boost -f 0.75
+Job: 950
+job arrival 11,burst_time 9,turnaround_time: 38, wait: 29, response 17
+Job: 951
+job arrival 11,burst_time 10,turnaround_time: 40, wait: 30, response 25
+Job: 952
+job arrival 19,burst_time 9,turnaround_time: 52, wait: 43, response 32
+Job: 953
+job arrival 19,burst_time 7,turnaround_time: 47, wait: 40, response 40
+Job: 954
+job arrival 7,burst_time 3,turnaround_time: 3, wait: 0, response 0
+Job: 955
+job arrival 10,burst_time 7,turnaround_time: 10, wait: 3, response 3
+Job: 956
+job arrival 18,burst_time 3,turnaround_time: 50, wait: 47, response 29
+Job: 957
+job arrival 8,burst_time 3,turnaround_time: 5, wait: 2, response 2
+Job: 958
+job arrival 17,burst_time 3,turnaround_time: 30, wait: 27, response 27
+Job: 959
+job arrival 10,burst_time 10,turnaround_time: 60, wait: 50, response 10
+Global Statistics
+average turnaround_time: 33.5
+average waiting_time: 27.1
+average response_time: 18.5
+throughput: 140.84507042253523
+boost jobs each: 48
+removed 973 at 23
+removed 961 at 53
+removed 974 at 98
+removed 963 at 106
+INSTANCE -l 1:2,9:6,7:15,9:18,5:6,8:8,3:9,7:2,3:9,4:4,2:16,7:1,5:12,10:2,10:17,4:10,1:2,6:5,6:2,5:4
+ SETTING -m rr -q 8
+
+Job: 960
+job arrival 2,burst_time 1,turnaround_time: 7, wait: 6, response 6
+Job: 961
+job arrival 6,burst_time 9,turnaround_time: 104, wait: 95, response 40
+Job: 962
+job arrival 15,burst_time 7,turnaround_time: 74, wait: 67, response 67
+Job: 963
+job arrival 18,burst_time 9,turnaround_time: 95, wait: 86, response 81
+Job: 964
+job arrival 6,burst_time 5,turnaround_time: 53, wait: 48, response 48
+Job: 965
+job arrival 8,burst_time 8,turnaround_time: 59, wait: 51, response 51
+Job: 966
+job arrival 9,burst_time 3,turnaround_time: 61, wait: 58, response 58
+Job: 967
+job arrival 2,burst_time 7,turnaround_time: 14, wait: 7, response 7
+Job: 968
+job arrival 9,burst_time 3,turnaround_time: 64, wait: 61, response 61
+Job: 969
+job arrival 4,burst_time 4,turnaround_time: 31, wait: 27, response 27
+Job: 970
+job arrival 16,burst_time 2,turnaround_time: 75, wait: 73, response 73
+Job: 971
+job arrival 1,burst_time 7,turnaround_time: 7, wait: 0, response 0
+Job: 972
+job arrival 12,burst_time 5,turnaround_time: 70, wait: 65, response 65
+Job: 973
+job arrival 2,burst_time 10,turnaround_time: 107, wait: 97, response 14
+Job: 974
+job arrival 17,burst_time 10,turnaround_time: 95, wait: 85, response 74
+Job: 975
+job arrival 10,burst_time 4,turnaround_time: 67, wait: 63, response 63
+Job: 976
+job arrival 2,burst_time 1,turnaround_time: 23, wait: 22, response 22
+Job: 977
+job arrival 5,burst_time 6,turnaround_time: 41, wait: 35, response 35
+Job: 978
+job arrival 2,burst_time 6,turnaround_time: 29, wait: 23, response 23
+Job: 979
+job arrival 4,burst_time 5,turnaround_time: 36, wait: 31, response 31
+Global Statistics
+average turnaround_time: 55.6
+average waiting_time: 50.0
+average response_time: 42.3
+throughput: 176.99115044247787
+boost jobs each: 0
+INSTANCE -l 1:2,9:6,7:15,9:18,5:6,8:8,3:9,7:2,3:9,4:4,2:16,7:1,5:12,10:2,10:17,4:10,1:2,6:5,6:2,5:4
+ SETTING -m fcfs
+
+Job: 980
+job arrival 2,burst_time 1,turnaround_time: 7, wait: 6, response 6
+Job: 981
+job arrival 6,burst_time 9,turnaround_time: 51, wait: 42, response 42
+Job: 982
+job arrival 15,burst_time 7,turnaround_time: 77, wait: 70, response 70
+Job: 983
+job arrival 18,burst_time 9,turnaround_time: 95, wait: 86, response 86
+Job: 984
+job arrival 6,burst_time 5,turnaround_time: 56, wait: 51, response 51
+Job: 985
+job arrival 8,burst_time 8,turnaround_time: 62, wait: 54, response 54
+Job: 986
+job arrival 9,burst_time 3,turnaround_time: 64, wait: 61, response 61
+Job: 987
+job arrival 2,burst_time 7,turnaround_time: 14, wait: 7, response 7
+Job: 988
+job arrival 9,burst_time 3,turnaround_time: 67, wait: 64, response 64
+Job: 989
+job arrival 4,burst_time 4,turnaround_time: 33, wait: 29, response 29
+Job: 990
+job arrival 16,burst_time 2,turnaround_time: 78, wait: 76, response 76
+Job: 991
+job arrival 1,burst_time 7,turnaround_time: 7, wait: 0, response 0
+Job: 992
+job arrival 12,burst_time 5,turnaround_time: 73, wait: 68, response 68
+Job: 993
+job arrival 2,burst_time 10,turnaround_time: 24, wait: 14, response 14
+Job: 994
+job arrival 17,burst_time 10,turnaround_time: 87, wait: 77, response 77
+Job: 995
+job arrival 10,burst_time 4,turnaround_time: 70, wait: 66, response 66
+Job: 996
+job arrival 2,burst_time 1,turnaround_time: 25, wait: 24, response 24
+Job: 997
+job arrival 5,burst_time 6,turnaround_time: 43, wait: 37, response 37
+Job: 998
+job arrival 2,burst_time 6,turnaround_time: 31, wait: 25, response 25
+Job: 999
+job arrival 4,burst_time 5,turnaround_time: 38, wait: 33, response 33
+Global Statistics
+average turnaround_time: 50.1
+average waiting_time: 44.5
+average response_time: 44.5
+throughput: 176.99115044247787
+boost jobs each: 0
+removed 1013 at 23
+removed 1001 at 53
+removed 1014 at 98
+removed 1003 at 106
+INSTANCE -l 1:2,9:6,7:15,9:18,5:6,8:8,3:9,7:2,3:9,4:4,2:16,7:1,5:12,10:2,10:17,4:10,1:2,6:5,6:2,5:4
+ SETTING -q 8,16
+
+Job: 1000
+job arrival 2,burst_time 1,turnaround_time: 7, wait: 6, response 6
+Job: 1001
+job arrival 6,burst_time 9,turnaround_time: 104, wait: 95, response 40
+Job: 1002
+job arrival 15,burst_time 7,turnaround_time: 74, wait: 67, response 67
+Job: 1003
+job arrival 18,burst_time 9,turnaround_time: 95, wait: 86, response 81
+Job: 1004
+job arrival 6,burst_time 5,turnaround_time: 53, wait: 48, response 48
+Job: 1005
+job arrival 8,burst_time 8,turnaround_time: 59, wait: 51, response 51
+Job: 1006
+job arrival 9,burst_time 3,turnaround_time: 61, wait: 58, response 58
+Job: 1007
+job arrival 2,burst_time 7,turnaround_time: 14, wait: 7, response 7
+Job: 1008
+job arrival 9,burst_time 3,turnaround_time: 64, wait: 61, response 61
+Job: 1009
+job arrival 4,burst_time 4,turnaround_time: 31, wait: 27, response 27
+Job: 1010
+job arrival 16,burst_time 2,turnaround_time: 75, wait: 73, response 73
+Job: 1011
+job arrival 1,burst_time 7,turnaround_time: 7, wait: 0, response 0
+Job: 1012
+job arrival 12,burst_time 5,turnaround_time: 70, wait: 65, response 65
+Job: 1013
+job arrival 2,burst_time 10,turnaround_time: 107, wait: 97, response 14
+Job: 1014
+job arrival 17,burst_time 10,turnaround_time: 95, wait: 85, response 74
+Job: 1015
+job arrival 10,burst_time 4,turnaround_time: 67, wait: 63, response 63
+Job: 1016
+job arrival 2,burst_time 1,turnaround_time: 23, wait: 22, response 22
+Job: 1017
+job arrival 5,burst_time 6,turnaround_time: 41, wait: 35, response 35
+Job: 1018
+job arrival 2,burst_time 6,turnaround_time: 29, wait: 23, response 23
+Job: 1019
+job arrival 4,burst_time 5,turnaround_time: 36, wait: 31, response 31
+Global Statistics
+average turnaround_time: 55.6
+average waiting_time: 50.0
+average response_time: 42.3
+throughput: 176.99115044247787
+boost jobs each: 0
+removed 1033 at 23
+removed 1021 at 53
+removed 1034 at 98
+removed 1023 at 106
+INSTANCE -l 1:2,9:6,7:15,9:18,5:6,8:8,3:9,7:2,3:9,4:4,2:16,7:1,5:12,10:2,10:17,4:10,1:2,6:5,6:2,5:4
+ SETTING -q 8,16,24
+
+Job: 1020
+job arrival 2,burst_time 1,turnaround_time: 7, wait: 6, response 6
+Job: 1021
+job arrival 6,burst_time 9,turnaround_time: 104, wait: 95, response 40
+Job: 1022
+job arrival 15,burst_time 7,turnaround_time: 74, wait: 67, response 67
+Job: 1023
+job arrival 18,burst_time 9,turnaround_time: 95, wait: 86, response 81
+Job: 1024
+job arrival 6,burst_time 5,turnaround_time: 53, wait: 48, response 48
+Job: 1025
+job arrival 8,burst_time 8,turnaround_time: 59, wait: 51, response 51
+Job: 1026
+job arrival 9,burst_time 3,turnaround_time: 61, wait: 58, response 58
+Job: 1027
+job arrival 2,burst_time 7,turnaround_time: 14, wait: 7, response 7
+Job: 1028
+job arrival 9,burst_time 3,turnaround_time: 64, wait: 61, response 61
+Job: 1029
+job arrival 4,burst_time 4,turnaround_time: 31, wait: 27, response 27
+Job: 1030
+job arrival 16,burst_time 2,turnaround_time: 75, wait: 73, response 73
+Job: 1031
+job arrival 1,burst_time 7,turnaround_time: 7, wait: 0, response 0
+Job: 1032
+job arrival 12,burst_time 5,turnaround_time: 70, wait: 65, response 65
+Job: 1033
+job arrival 2,burst_time 10,turnaround_time: 107, wait: 97, response 14
+Job: 1034
+job arrival 17,burst_time 10,turnaround_time: 95, wait: 85, response 74
+Job: 1035
+job arrival 10,burst_time 4,turnaround_time: 67, wait: 63, response 63
+Job: 1036
+job arrival 2,burst_time 1,turnaround_time: 23, wait: 22, response 22
+Job: 1037
+job arrival 5,burst_time 6,turnaround_time: 41, wait: 35, response 35
+Job: 1038
+job arrival 2,burst_time 6,turnaround_time: 29, wait: 23, response 23
+Job: 1039
+job arrival 4,burst_time 5,turnaround_time: 36, wait: 31, response 31
+Global Statistics
+average turnaround_time: 55.6
+average waiting_time: 50.0
+average response_time: 42.3
+throughput: 176.99115044247787
+boost jobs each: 0
+removed 1053 at 23
+removed 1041 at 53
+removed 1054 at 98
+removed 1043 at 106
+INSTANCE -l 1:2,9:6,7:15,9:18,5:6,8:8,3:9,7:2,3:9,4:4,2:16,7:1,5:12,10:2,10:17,4:10,1:2,6:5,6:2,5:4
+ SETTING -q 8,16,24,32
+
+Job: 1040
+job arrival 2,burst_time 1,turnaround_time: 7, wait: 6, response 6
+Job: 1041
+job arrival 6,burst_time 9,turnaround_time: 104, wait: 95, response 40
+Job: 1042
+job arrival 15,burst_time 7,turnaround_time: 74, wait: 67, response 67
+Job: 1043
+job arrival 18,burst_time 9,turnaround_time: 95, wait: 86, response 81
+Job: 1044
+job arrival 6,burst_time 5,turnaround_time: 53, wait: 48, response 48
+Job: 1045
+job arrival 8,burst_time 8,turnaround_time: 59, wait: 51, response 51
+Job: 1046
+job arrival 9,burst_time 3,turnaround_time: 61, wait: 58, response 58
+Job: 1047
+job arrival 2,burst_time 7,turnaround_time: 14, wait: 7, response 7
+Job: 1048
+job arrival 9,burst_time 3,turnaround_time: 64, wait: 61, response 61
+Job: 1049
+job arrival 4,burst_time 4,turnaround_time: 31, wait: 27, response 27
+Job: 1050
+job arrival 16,burst_time 2,turnaround_time: 75, wait: 73, response 73
+Job: 1051
+job arrival 1,burst_time 7,turnaround_time: 7, wait: 0, response 0
+Job: 1052
+job arrival 12,burst_time 5,turnaround_time: 70, wait: 65, response 65
+Job: 1053
+job arrival 2,burst_time 10,turnaround_time: 107, wait: 97, response 14
+Job: 1054
+job arrival 17,burst_time 10,turnaround_time: 95, wait: 85, response 74
+Job: 1055
+job arrival 10,burst_time 4,turnaround_time: 67, wait: 63, response 63
+Job: 1056
+job arrival 2,burst_time 1,turnaround_time: 23, wait: 22, response 22
+Job: 1057
+job arrival 5,burst_time 6,turnaround_time: 41, wait: 35, response 35
+Job: 1058
+job arrival 2,burst_time 6,turnaround_time: 29, wait: 23, response 23
+Job: 1059
+job arrival 4,burst_time 5,turnaround_time: 36, wait: 31, response 31
+Global Statistics
+average turnaround_time: 55.6
+average waiting_time: 50.0
+average response_time: 42.3
+throughput: 176.99115044247787
+boost jobs each: 0
+removed 1073 at 23
+removed 1061 at 35
+removed 1063 at 50
+removed 1074 at 92
+INSTANCE -l 1:2,9:6,7:15,9:18,5:6,8:8,3:9,7:2,3:9,4:4,2:16,7:1,5:12,10:2,10:17,4:10,1:2,6:5,6:2,5:4
+ SETTING -q 8,16 -m auto_boost -f 0.25
+
+Job: 1060
+job arrival 2,burst_time 1,turnaround_time: 7, wait: 6, response 6
+Job: 1061
+job arrival 6,burst_time 9,turnaround_time: 51, wait: 42, response 22
+Job: 1062
+job arrival 15,burst_time 7,turnaround_time: 28, wait: 21, response 21
+Job: 1063
+job arrival 18,burst_time 9,turnaround_time: 40, wait: 31, response 25
+Job: 1064
+job arrival 6,burst_time 5,turnaround_time: 50, wait: 45, response 45
+Job: 1065
+job arrival 8,burst_time 8,turnaround_time: 58, wait: 50, response 50
+Job: 1066
+job arrival 9,burst_time 3,turnaround_time: 60, wait: 57, response 57
+Job: 1067
+job arrival 2,burst_time 7,turnaround_time: 14, wait: 7, response 7
+Job: 1068
+job arrival 9,burst_time 3,turnaround_time: 63, wait: 60, response 60
+Job: 1069
+job arrival 4,burst_time 4,turnaround_time: 72, wait: 68, response 68
+Job: 1070
+job arrival 16,burst_time 2,turnaround_time: 62, wait: 60, response 60
+Job: 1071
+job arrival 1,burst_time 7,turnaround_time: 7, wait: 0, response 0
+Job: 1072
+job arrival 12,burst_time 5,turnaround_time: 71, wait: 66, response 66
+Job: 1073
+job arrival 2,burst_time 10,turnaround_time: 83, wait: 73, response 14
+Job: 1074
+job arrival 17,burst_time 10,turnaround_time: 96, wait: 86, response 68
+Job: 1075
+job arrival 10,burst_time 4,turnaround_time: 87, wait: 83, response 83
+Job: 1076
+job arrival 2,burst_time 1,turnaround_time: 23, wait: 22, response 22
+Job: 1077
+job arrival 5,burst_time 6,turnaround_time: 98, wait: 92, response 92
+Job: 1078
+job arrival 2,burst_time 6,turnaround_time: 104, wait: 98, response 23
+Job: 1079
+job arrival 4,burst_time 5,turnaround_time: 107, wait: 102, response 102
+Global Statistics
+average turnaround_time: 59.05
+average waiting_time: 53.45
+average response_time: 44.55
+throughput: 176.99115044247787
+boost jobs each: 28
+removed 1093 at 23
+removed 1081 at 53
+removed 1083 at 71
+removed 1094 at 105
+INSTANCE -l 1:2,9:6,7:15,9:18,5:6,8:8,3:9,7:2,3:9,4:4,2:16,7:1,5:12,10:2,10:17,4:10,1:2,6:5,6:2,5:4
+ SETTING -q 8,16,24 -m auto_boost -f 0.5
+
+Job: 1080
+job arrival 2,burst_time 1,turnaround_time: 7, wait: 6, response 6
+Job: 1081
+job arrival 6,burst_time 9,turnaround_time: 51, wait: 42, response 40
+Job: 1082
+job arrival 15,burst_time 7,turnaround_time: 49, wait: 42, response 42
+Job: 1083
+job arrival 18,burst_time 9,turnaround_time: 93, wait: 84, response 46
+Job: 1084
+job arrival 6,burst_time 5,turnaround_time: 69, wait: 64, response 48
+Job: 1085
+job arrival 8,burst_time 8,turnaround_time: 75, wait: 67, response 67
+Job: 1086
+job arrival 9,burst_time 3,turnaround_time: 77, wait: 74, response 74
+Job: 1087
+job arrival 2,burst_time 7,turnaround_time: 14, wait: 7, response 7
+Job: 1088
+job arrival 9,burst_time 3,turnaround_time: 80, wait: 77, response 77
+Job: 1089
+job arrival 4,burst_time 4,turnaround_time: 31, wait: 27, response 27
+Job: 1090
+job arrival 16,burst_time 2,turnaround_time: 75, wait: 73, response 73
+Job: 1091
+job arrival 1,burst_time 7,turnaround_time: 7, wait: 0, response 0
+Job: 1092
+job arrival 12,burst_time 5,turnaround_time: 84, wait: 79, response 79
+Job: 1093
+job arrival 2,burst_time 10,turnaround_time: 96, wait: 86, response 14
+Job: 1094
+job arrival 17,burst_time 10,turnaround_time: 96, wait: 86, response 81
+Job: 1095
+job arrival 10,burst_time 4,turnaround_time: 100, wait: 96, response 96
+Job: 1096
+job arrival 2,burst_time 1,turnaround_time: 23, wait: 22, response 22
+Job: 1097
+job arrival 5,burst_time 6,turnaround_time: 41, wait: 35, response 35
+Job: 1098
+job arrival 2,burst_time 6,turnaround_time: 29, wait: 23, response 23
+Job: 1099
+job arrival 4,burst_time 5,turnaround_time: 36, wait: 31, response 31
+Global Statistics
+average turnaround_time: 56.65
+average waiting_time: 51.05
+average response_time: 44.4
+throughput: 176.99115044247787
+boost jobs each: 56
+removed 1113 at 23
+removed 1101 at 53
+removed 1103 at 97
+removed 1114 at 109
+INSTANCE -l 1:2,9:6,7:15,9:18,5:6,8:8,3:9,7:2,3:9,4:4,2:16,7:1,5:12,10:2,10:17,4:10,1:2,6:5,6:2,5:4
+ SETTING -q 8,16,24,32 -m auto_boost -f 0.75
+Job: 1100
+job arrival 2,burst_time 1,turnaround_time: 7, wait: 6, response 6
+Job: 1101
+job arrival 6,burst_time 9,turnaround_time: 79, wait: 70, response 40
+Job: 1102
+job arrival 15,burst_time 7,turnaround_time: 75, wait: 68, response 67
+Job: 1103
+job arrival 18,burst_time 9,turnaround_time: 93, wait: 84, response 72
+Job: 1104
+job arrival 6,burst_time 5,turnaround_time: 53, wait: 48, response 48
+Job: 1105
+job arrival 8,burst_time 8,turnaround_time: 59, wait: 51, response 51
+Job: 1106
+job arrival 9,burst_time 3,turnaround_time: 61, wait: 58, response 58
+Job: 1107
+job arrival 2,burst_time 7,turnaround_time: 14, wait: 7, response 7
+Job: 1108
+job arrival 9,burst_time 3,turnaround_time: 64, wait: 61, response 61
+Job: 1109
+job arrival 4,burst_time 4,turnaround_time: 31, wait: 27, response 27
+Job: 1110
+job arrival 16,burst_time 2,turnaround_time: 84, wait: 82, response 82
+Job: 1111
+job arrival 1,burst_time 7,turnaround_time: 7, wait: 0, response 0
+Job: 1112
+job arrival 12,burst_time 5,turnaround_time: 70, wait: 65, response 65
+Job: 1113
+job arrival 2,burst_time 10,turnaround_time: 100, wait: 90, response 14
+Job: 1114
+job arrival 17,burst_time 10,turnaround_time: 96, wait: 86, response 85
+Job: 1115
+job arrival 10,burst_time 4,turnaround_time: 67, wait: 63, response 63
+Job: 1116
+job arrival 2,burst_time 1,turnaround_time: 23, wait: 22, response 22
+Job: 1117
+job arrival 5,burst_time 6,turnaround_time: 41, wait: 35, response 35
+Job: 1118
+job arrival 2,burst_time 6,turnaround_time: 29, wait: 23, response 23
+Job: 1119
+job arrival 4,burst_time 5,turnaround_time: 36, wait: 31, response 31
+Global Statistics
+average turnaround_time: 54.45
+average waiting_time: 48.85
+average response_time: 42.85
+throughput: 176.99115044247787
+boost jobs each: 84
+removed 1120 at 12
+removed 1121 at 25
+INSTANCE -l 10:4,10:13,4:18,3:2,3:6
+ SETTING -m rr -q 8
+
+Job: 1120
+job arrival 4,burst_time 10,turnaround_time: 14, wait: 4, response 1
+Job: 1121
+job arrival 13,burst_time 10,turnaround_time: 19, wait: 9, response 5
+Job: 1122
+job arrival 18,burst_time 4,turnaround_time: 12, wait: 8, response 8
+Job: 1123
+job arrival 2,burst_time 3,turnaround_time: 3, wait: 0, response 0
+Job: 1124
+job arrival 6,burst_time 3,turnaround_time: 10, wait: 7, response 7
+Global Statistics
+average turnaround_time: 11.6
+average waiting_time: 5.6
+average response_time: 4.2
+throughput: 156.25
+boost jobs each: 0
+INSTANCE -l 10:4,10:13,4:18,3:2,3:6
+ SETTING -m fcfs
+
+Job: 1125
+job arrival 4,burst_time 10,turnaround_time: 11, wait: 1, response 1
+Job: 1126
+job arrival 13,burst_time 10,turnaround_time: 15, wait: 5, response 5
+Job: 1127
+job arrival 18,burst_time 4,turnaround_time: 14, wait: 10, response 10
+Job: 1128
+job arrival 2,burst_time 3,turnaround_time: 3, wait: 0, response 0
+Job: 1129
+job arrival 6,burst_time 3,turnaround_time: 12, wait: 9, response 9
+Global Statistics
+average turnaround_time: 11.0
+average waiting_time: 5.0
+average response_time: 5.0
+throughput: 156.25
+boost jobs each: 0
+removed 1130 at 12
+removed 1131 at 23
+INSTANCE -l 10:4,10:13,4:18,3:2,3:6
+ SETTING -q 8,16
+
+Job: 1130
+job arrival 4,burst_time 10,turnaround_time: 26, wait: 16, response 1
+Job: 1131
+job arrival 13,burst_time 10,turnaround_time: 19, wait: 9, response 3
+Job: 1132
+job arrival 18,burst_time 4,turnaround_time: 10, wait: 6, response 6
+Job: 1133
+job arrival 2,burst_time 3,turnaround_time: 3, wait: 0, response 0
+Job: 1134
+job arrival 6,burst_time 3,turnaround_time: 10, wait: 7, response 7
+Global Statistics
+average turnaround_time: 13.6
+average waiting_time: 7.6
+average response_time: 3.4
+throughput: 156.25
+boost jobs each: 0
+removed 1135 at 12
+removed 1136 at 23
+INSTANCE -l 10:4,10:13,4:18,3:2,3:6
+ SETTING -q 8,16,24
+
+Job: 1135
+job arrival 4,burst_time 10,turnaround_time: 26, wait: 16, response 1
+Job: 1136
+job arrival 13,burst_time 10,turnaround_time: 19, wait: 9, response 3
+Job: 1137
+job arrival 18,burst_time 4,turnaround_time: 10, wait: 6, response 6
+Job: 1138
+job arrival 2,burst_time 3,turnaround_time: 3, wait: 0, response 0
+Job: 1139
+job arrival 6,burst_time 3,turnaround_time: 10, wait: 7, response 7
+Global Statistics
+average turnaround_time: 13.6
+average waiting_time: 7.6
+average response_time: 3.4
+throughput: 156.25
+boost jobs each: 0
+removed 1140 at 12
+removed 1141 at 23
+INSTANCE -l 10:4,10:13,4:18,3:2,3:6
+ SETTING -q 8,16,24,32
+
+Job: 1140
+job arrival 4,burst_time 10,turnaround_time: 26, wait: 16, response 1
+Job: 1141
+job arrival 13,burst_time 10,turnaround_time: 19, wait: 9, response 3
+Job: 1142
+job arrival 18,burst_time 4,turnaround_time: 10, wait: 6, response 6
+Job: 1143
+job arrival 2,burst_time 3,turnaround_time: 3, wait: 0, response 0
+Job: 1144
+job arrival 6,burst_time 3,turnaround_time: 10, wait: 7, response 7
+Global Statistics
+average turnaround_time: 13.6
+average waiting_time: 7.6
+average response_time: 3.4
+throughput: 156.25
+boost jobs each: 0
+INSTANCE -l 10:4,10:13,4:18,3:2,3:6
+ SETTING -q 8,16 -m auto_boost -f 0.25
+
+Job: 1145
+job arrival 4,burst_time 10,turnaround_time: 11, wait: 1, response 1
+Job: 1146
+job arrival 13,burst_time 10,turnaround_time: 12, wait: 2, response 2
+Job: 1147
+job arrival 18,burst_time 4,turnaround_time: 11, wait: 7, response 7
+Job: 1148
+job arrival 2,burst_time 3,turnaround_time: 3, wait: 0, response 0
+Job: 1149
+job arrival 6,burst_time 3,turnaround_time: 26, wait: 23, response 23
+Global Statistics
+average turnaround_time: 12.6
+average waiting_time: 6.6
+average response_time: 6.6
+throughput: 156.25
+boost jobs each: 7
+removed 1150 at 12
+removed 1151 at 24
+INSTANCE -l 10:4,10:13,4:18,3:2,3:6
+ SETTING -q 8,16,24 -m auto_boost -f 0.5
+
+Job: 1150
+job arrival 4,burst_time 10,turnaround_time: 13, wait: 3, response 1
+Job: 1151
+job arrival 13,burst_time 10,turnaround_time: 19, wait: 9, response 4
+Job: 1152
+job arrival 18,burst_time 4,turnaround_time: 11, wait: 7, response 7
+Job: 1153
+job arrival 2,burst_time 3,turnaround_time: 3, wait: 0, response 0
+Job: 1154
+job arrival 6,burst_time 3,turnaround_time: 24, wait: 21, response 7
+Global Statistics
+average turnaround_time: 14.0
+average waiting_time: 8.0
+average response_time: 3.8
+throughput: 156.25
+boost jobs each: 15
+removed 1155 at 12
+INSTANCE -l 10:4,10:13,4:18,3:2,3:6
+ SETTING -q 8,16,24,32 -m auto_boost -f 0.75
+Job: 1155
+job arrival 4,burst_time 10,turnaround_time: 20, wait: 10, response 1
+Job: 1156
+job arrival 13,burst_time 10,turnaround_time: 15, wait: 5, response 3
+Job: 1157
+job arrival 18,burst_time 4,turnaround_time: 14, wait: 10, response 10
+Job: 1158
+job arrival 2,burst_time 3,turnaround_time: 3, wait: 0, response 0
+Job: 1159
+job arrival 6,burst_time 3,turnaround_time: 10, wait: 7, response 7
+Global Statistics
+average turnaround_time: 12.4
+average waiting_time: 6.4
+average response_time: 4.2
+throughput: 156.25
+boost jobs each: 22
+removed 1165 at 33
+removed 1169 at 42
+removed 1164 at 50
+INSTANCE -l 7:4,4:10,1:1,4:12,9:19,10:14,4:1,1:16,5:13,9:18
+ SETTING -m rr -q 8
+
+Job: 1160
+job arrival 4,burst_time 7,turnaround_time: 9, wait: 2, response 2
+Job: 1161
+job arrival 10,burst_time 4,turnaround_time: 7, wait: 3, response 3
+Job: 1162
+job arrival 1,burst_time 1,turnaround_time: 1, wait: 0, response 0
+Job: 1163
+job arrival 12,burst_time 4,turnaround_time: 9, wait: 5, response 5
+Job: 1164
+job arrival 19,burst_time 9,turnaround_time: 36, wait: 27, response 24
+Job: 1165
+job arrival 14,burst_time 10,turnaround_time: 39, wait: 29, response 12
+Job: 1166
+job arrival 1,burst_time 4,turnaround_time: 5, wait: 1, response 1
+Job: 1167
+job arrival 16,burst_time 1,turnaround_time: 19, wait: 18, response 18
+Job: 1168
+job arrival 13,burst_time 5,turnaround_time: 13, wait: 8, response 8
+Job: 1169
+job arrival 18,burst_time 9,turnaround_time: 36, wait: 27, response 17
+Global Statistics
+average turnaround_time: 17.4
+average waiting_time: 12.0
+average response_time: 9.0
+throughput: 181.8181818181818
+boost jobs each: 0
+INSTANCE -l 7:4,4:10,1:1,4:12,9:19,10:14,4:1,1:16,5:13,9:18
+ SETTING -m fcfs
+
+Job: 1170
+job arrival 4,burst_time 7,turnaround_time: 9, wait: 2, response 2
+Job: 1171
+job arrival 10,burst_time 4,turnaround_time: 7, wait: 3, response 3
+Job: 1172
+job arrival 1,burst_time 1,turnaround_time: 1, wait: 0, response 0
+Job: 1173
+job arrival 12,burst_time 4,turnaround_time: 9, wait: 5, response 5
+Job: 1174
+job arrival 19,burst_time 9,turnaround_time: 36, wait: 27, response 27
+Job: 1175
+job arrival 14,burst_time 10,turnaround_time: 22, wait: 12, response 12
+Job: 1176
+job arrival 1,burst_time 4,turnaround_time: 5, wait: 1, response 1
+Job: 1177
+job arrival 16,burst_time 1,turnaround_time: 21, wait: 20, response 20
+Job: 1178
+job arrival 13,burst_time 5,turnaround_time: 13, wait: 8, response 8
+Job: 1179
+job arrival 18,burst_time 9,turnaround_time: 28, wait: 19, response 19
+Global Statistics
+average turnaround_time: 15.1
+average waiting_time: 9.7
+average response_time: 9.7
+throughput: 181.8181818181818
+boost jobs each: 0
+removed 1185 at 33
+removed 1189 at 42
+removed 1184 at 50
+INSTANCE -l 7:4,4:10,1:1,4:12,9:19,10:14,4:1,1:16,5:13,9:18
+ SETTING -q 8,16
+
+Job: 1180
+job arrival 4,burst_time 7,turnaround_time: 9, wait: 2, response 2
+Job: 1181
+job arrival 10,burst_time 4,turnaround_time: 7, wait: 3, response 3
+Job: 1182
+job arrival 1,burst_time 1,turnaround_time: 1, wait: 0, response 0
+Job: 1183
+job arrival 12,burst_time 4,turnaround_time: 9, wait: 5, response 5
+Job: 1184
+job arrival 19,burst_time 9,turnaround_time: 36, wait: 27, response 24
+Job: 1185
+job arrival 14,burst_time 10,turnaround_time: 39, wait: 29, response 12
+Job: 1186
+job arrival 1,burst_time 4,turnaround_time: 5, wait: 1, response 1
+Job: 1187
+job arrival 16,burst_time 1,turnaround_time: 19, wait: 18, response 18
+Job: 1188
+job arrival 13,burst_time 5,turnaround_time: 13, wait: 8, response 8
+Job: 1189
+job arrival 18,burst_time 9,turnaround_time: 36, wait: 27, response 17
+Global Statistics
+average turnaround_time: 17.4
+average waiting_time: 12.0
+average response_time: 9.0
+throughput: 181.8181818181818
+boost jobs each: 0
+removed 1195 at 33
+removed 1199 at 42
+removed 1194 at 50
+INSTANCE -l 7:4,4:10,1:1,4:12,9:19,10:14,4:1,1:16,5:13,9:18
+ SETTING -q 8,16,24
+
+Job: 1190
+job arrival 4,burst_time 7,turnaround_time: 9, wait: 2, response 2
+Job: 1191
+job arrival 10,burst_time 4,turnaround_time: 7, wait: 3, response 3
+Job: 1192
+job arrival 1,burst_time 1,turnaround_time: 1, wait: 0, response 0
+Job: 1193
+job arrival 12,burst_time 4,turnaround_time: 9, wait: 5, response 5
+Job: 1194
+job arrival 19,burst_time 9,turnaround_time: 36, wait: 27, response 24
+Job: 1195
+job arrival 14,burst_time 10,turnaround_time: 39, wait: 29, response 12
+Job: 1196
+job arrival 1,burst_time 4,turnaround_time: 5, wait: 1, response 1
+Job: 1197
+job arrival 16,burst_time 1,turnaround_time: 19, wait: 18, response 18
+Job: 1198
+job arrival 13,burst_time 5,turnaround_time: 13, wait: 8, response 8
+Job: 1199
+job arrival 18,burst_time 9,turnaround_time: 36, wait: 27, response 17
+Global Statistics
+average turnaround_time: 17.4
+average waiting_time: 12.0
+average response_time: 9.0
+throughput: 181.8181818181818
+boost jobs each: 0
+removed 1205 at 33
+removed 1209 at 42
+removed 1204 at 50
+INSTANCE -l 7:4,4:10,1:1,4:12,9:19,10:14,4:1,1:16,5:13,9:18
+ SETTING -q 8,16,24,32
+
+Job: 1200
+job arrival 4,burst_time 7,turnaround_time: 9, wait: 2, response 2
+Job: 1201
+job arrival 10,burst_time 4,turnaround_time: 7, wait: 3, response 3
+Job: 1202
+job arrival 1,burst_time 1,turnaround_time: 1, wait: 0, response 0
+Job: 1203
+job arrival 12,burst_time 4,turnaround_time: 9, wait: 5, response 5
+Job: 1204
+job arrival 19,burst_time 9,turnaround_time: 36, wait: 27, response 24
+Job: 1205
+job arrival 14,burst_time 10,turnaround_time: 39, wait: 29, response 12
+Job: 1206
+job arrival 1,burst_time 4,turnaround_time: 5, wait: 1, response 1
+Job: 1207
+job arrival 16,burst_time 1,turnaround_time: 19, wait: 18, response 18
+Job: 1208
+job arrival 13,burst_time 5,turnaround_time: 13, wait: 8, response 8
+Job: 1209
+job arrival 18,burst_time 9,turnaround_time: 36, wait: 27, response 17
+Global Statistics
+average turnaround_time: 17.4
+average waiting_time: 12.0
+average response_time: 9.0
+throughput: 181.8181818181818
+boost jobs each: 0
+removed 1215 at 37
+INSTANCE -l 7:4,4:10,1:1,4:12,9:19,10:14,4:1,1:16,5:13,9:18
+ SETTING -q 8,16 -m auto_boost -f 0.25
+
+Job: 1210
+job arrival 4,burst_time 7,turnaround_time: 9, wait: 2, response 2
+Job: 1211
+job arrival 10,burst_time 4,turnaround_time: 7, wait: 3, response 3
+Job: 1212
+job arrival 1,burst_time 1,turnaround_time: 1, wait: 0, response 0
+Job: 1213
+job arrival 12,burst_time 4,turnaround_time: 9, wait: 5, response 5
+Job: 1214
+job arrival 19,burst_time 9,turnaround_time: 11, wait: 2, response 2
+Job: 1215
+job arrival 14,burst_time 10,turnaround_time: 27, wait: 17, response 16
+Job: 1216
+job arrival 1,burst_time 4,turnaround_time: 5, wait: 1, response 1
+Job: 1217
+job arrival 16,burst_time 1,turnaround_time: 23, wait: 22, response 22
+Job: 1218
+job arrival 13,burst_time 5,turnaround_time: 33, wait: 28, response 28
+Job: 1219
+job arrival 18,burst_time 9,turnaround_time: 37, wait: 28, response 28
+Global Statistics
+average turnaround_time: 16.2
+average waiting_time: 10.8
+average response_time: 10.7
+throughput: 181.8181818181818
+boost jobs each: 13
+removed 1224 at 34
+removed 1225 at 42
+removed 1229 at 51
+INSTANCE -l 7:4,4:10,1:1,4:12,9:19,10:14,4:1,1:16,5:13,9:18
+ SETTING -q 8,16,24 -m auto_boost -f 0.5
+
+Job: 1220
+job arrival 4,burst_time 7,turnaround_time: 9, wait: 2, response 2
+Job: 1221
+job arrival 10,burst_time 4,turnaround_time: 7, wait: 3, response 3
+Job: 1222
+job arrival 1,burst_time 1,turnaround_time: 1, wait: 0, response 0
+Job: 1223
+job arrival 12,burst_time 4,turnaround_time: 9, wait: 5, response 5
+Job: 1224
+job arrival 19,burst_time 9,turnaround_time: 34, wait: 25, response 8
+Job: 1225
+job arrival 14,burst_time 10,turnaround_time: 40, wait: 30, response 12
+Job: 1226
+job arrival 1,burst_time 4,turnaround_time: 5, wait: 1, response 1
+Job: 1227
+job arrival 16,burst_time 1,turnaround_time: 28, wait: 27, response 27
+Job: 1228
+job arrival 13,burst_time 5,turnaround_time: 13, wait: 8, response 8
+Job: 1229
+job arrival 18,burst_time 9,turnaround_time: 37, wait: 28, response 26
+Global Statistics
+average turnaround_time: 18.3
+average waiting_time: 12.9
+average response_time: 9.2
+throughput: 181.8181818181818
+boost jobs each: 27
+removed 1235 at 33
+removed 1234 at 47
+INSTANCE -l 7:4,4:10,1:1,4:12,9:19,10:14,4:1,1:16,5:13,9:18
+ SETTING -q 8,16,24,32 -m auto_boost -f 0.75
+Job: 1230
+job arrival 4,burst_time 7,turnaround_time: 9, wait: 2, response 2
+Job: 1231
+job arrival 10,burst_time 4,turnaround_time: 7, wait: 3, response 3
+Job: 1232
+job arrival 1,burst_time 1,turnaround_time: 1, wait: 0, response 0
+Job: 1233
+job arrival 12,burst_time 4,turnaround_time: 9, wait: 5, response 5
+Job: 1234
+job arrival 19,burst_time 9,turnaround_time: 36, wait: 27, response 21
+Job: 1235
+job arrival 14,burst_time 10,turnaround_time: 36, wait: 26, response 12
+Job: 1236
+job arrival 1,burst_time 4,turnaround_time: 5, wait: 1, response 1
+Job: 1237
+job arrival 16,burst_time 1,turnaround_time: 19, wait: 18, response 18
+Job: 1238
+job arrival 13,burst_time 5,turnaround_time: 13, wait: 8, response 8
+Job: 1239
+job arrival 18,burst_time 9,turnaround_time: 36, wait: 27, response 17
+Global Statistics
+average turnaround_time: 17.1
+average waiting_time: 11.7
+average response_time: 8.7
+throughput: 181.8181818181818
+boost jobs each: 40
+removed 1241 at 10
+removed 1242 at 18
+removed 1247 at 72
+removed 1248 at 106
+removed 1252 at 114
+removed 1245 at 130
+INSTANCE -l 8:11,10:3,10:5,6:15,7:9,10:19,8:14,10:13,9:17,6:10,1:6,6:7,10:18,3:5,7:10,6:13,6:7,6:18,2:16,4:15 SETTING -m rr -q 8
+
+Job: 1240
+job arrival 11,burst_time 8,turnaround_time: 54, wait: 46, response 46
+Job: 1241
+job arrival 3,burst_time 10,turnaround_time: 54, wait: 44, response 0
+Job: 1242
+job arrival 5,burst_time 10,turnaround_time: 118, wait: 108, response 6
+Job: 1243
+job arrival 15,burst_time 6,turnaround_time: 78, wait: 72, response 72
+Job: 1244
+job arrival 9,burst_time 7,turnaround_time: 33, wait: 26, response 26
+Job: 1245
+job arrival 19,burst_time 10,turnaround_time: 119, wait: 109, response 104
+Job: 1246
+job arrival 14,burst_time 8,turnaround_time: 73, wait: 65, response 65
+Job: 1247
+job arrival 13,burst_time 10,turnaround_time: 120, wait: 110, response 52
+Job: 1248
+job arrival 17,burst_time 9,turnaround_time: 117, wait: 108, response 82
+Job: 1249
+job arrival 10,burst_time 6,turnaround_time: 38, wait: 32, response 32
+Job: 1250
+job arrival 6,burst_time 1,turnaround_time: 17, wait: 16, response 16
+Job: 1251
+job arrival 7,burst_time 6,turnaround_time: 22, wait: 16, response 16
+Job: 1252
+job arrival 18,burst_time 10,turnaround_time: 118, wait: 108, response 89
+Job: 1253
+job arrival 5,burst_time 3,turnaround_time: 17, wait: 14, response 14
+Job: 1254
+job arrival 10,burst_time 7,turnaround_time: 45, wait: 38, response 38
+Job: 1255
+job arrival 13,burst_time 6,turnaround_time: 66, wait: 60, response 60
+Job: 1256
+job arrival 7,burst_time 6,turnaround_time: 28, wait: 22, response 22
+Job: 1257
+job arrival 18,burst_time 6,turnaround_time: 103, wait: 97, response 97
+Job: 1258
+job arrival 16,burst_time 2,turnaround_time: 83, wait: 81, response 81
+Job: 1259
+job arrival 15,burst_time 4,turnaround_time: 82, wait: 78, response 78
+Global Statistics
+average turnaround_time: 69.25
+average waiting_time: 62.5
+average response_time: 49.8
+throughput: 144.92753623188406
+boost jobs each: 0
+INSTANCE -l 8:11,10:3,10:5,6:15,7:9,10:19,8:14,10:13,9:17,6:10,1:6,6:7,10:18,3:5,7:10,6:13,6:7,6:18,2:16,4:15 SETTING -m fcfs
+
+Job: 1260
+job arrival 11,burst_time 8,turnaround_time: 56, wait: 48, response 48
+Job: 1261
+job arrival 3,burst_time 10,turnaround_time: 10, wait: 0, response 0
+Job: 1262
+job arrival 5,burst_time 10,turnaround_time: 18, wait: 8, response 8
+Job: 1263
+job arrival 15,burst_time 6,turnaround_time: 82, wait: 76, response 76
+Job: 1264
+job arrival 9,burst_time 7,turnaround_time: 37, wait: 30, response 30
+Job: 1265
+job arrival 19,burst_time 10,turnaround_time: 119, wait: 109, response 109
+Job: 1266
+job arrival 14,burst_time 8,turnaround_time: 77, wait: 69, response 69
+Job: 1267
+job arrival 13,burst_time 10,turnaround_time: 64, wait: 54, response 54
+Job: 1268
+job arrival 17,burst_time 9,turnaround_time: 95, wait: 86, response 86
+Job: 1269
+job arrival 10,burst_time 6,turnaround_time: 42, wait: 36, response 36
+Job: 1270
+job arrival 6,burst_time 1,turnaround_time: 21, wait: 20, response 20
+Job: 1271
+job arrival 7,burst_time 6,turnaround_time: 26, wait: 20, response 20
+Job: 1272
+job arrival 18,burst_time 10,turnaround_time: 104, wait: 94, response 94
+Job: 1273
+job arrival 5,burst_time 3,turnaround_time: 21, wait: 18, response 18
+Job: 1274
+job arrival 10,burst_time 7,turnaround_time: 49, wait: 42, response 42
+Job: 1275
+job arrival 13,burst_time 6,turnaround_time: 70, wait: 64, response 64
+Job: 1276
+job arrival 7,burst_time 6,turnaround_time: 32, wait: 26, response 26
+Job: 1277
+job arrival 18,burst_time 6,turnaround_time: 110, wait: 104, response 104
+Job: 1278
+job arrival 16,burst_time 2,turnaround_time: 87, wait: 85, response 85
+Job: 1279
+job arrival 15,burst_time 4,turnaround_time: 86, wait: 82, response 82
+Global Statistics
+average turnaround_time: 60.3
+average waiting_time: 53.55
+average response_time: 53.55
+throughput: 144.92753623188406
+boost jobs each: 0
+removed 1281 at 10
+removed 1282 at 18
+removed 1287 at 70
+removed 1288 at 104
+removed 1292 at 112
+removed 1285 at 126
+INSTANCE -l 8:11,10:3,10:5,6:15,7:9,10:19,8:14,10:13,9:17,6:10,1:6,6:7,10:18,3:5,7:10,6:13,6:7,6:18,2:16,4:15 SETTING -q 8,16
+
+Job: 1280
+job arrival 11,burst_time 8,turnaround_time: 52, wait: 44, response 44
+Job: 1281
+job arrival 3,burst_time 10,turnaround_time: 126, wait: 116, response 0
+Job: 1282
+job arrival 5,burst_time 10,turnaround_time: 126, wait: 116, response 6
+Job: 1283
+job arrival 15,burst_time 6,turnaround_time: 76, wait: 70, response 70
+Job: 1284
+job arrival 9,burst_time 7,turnaround_time: 33, wait: 26, response 26
+Job: 1285
+job arrival 19,burst_time 10,turnaround_time: 119, wait: 109, response 100
+Job: 1286
+job arrival 14,burst_time 8,turnaround_time: 71, wait: 63, response 63
+Job: 1287
+job arrival 13,burst_time 10,turnaround_time: 120, wait: 110, response 50
+Job: 1288
+job arrival 17,burst_time 9,turnaround_time: 117, wait: 108, response 80
+Job: 1289
+job arrival 10,burst_time 6,turnaround_time: 38, wait: 32, response 32
+Job: 1290
+job arrival 6,burst_time 1,turnaround_time: 17, wait: 16, response 16
+Job: 1291
+job arrival 7,burst_time 6,turnaround_time: 22, wait: 16, response 16
+Job: 1292
+job arrival 18,burst_time 10,turnaround_time: 118, wait: 108, response 87
+Job: 1293
+job arrival 5,burst_time 3,turnaround_time: 17, wait: 14, response 14
+Job: 1294
+job arrival 10,burst_time 7,turnaround_time: 45, wait: 38, response 38
+Job: 1295
+job arrival 13,burst_time 6,turnaround_time: 64, wait: 58, response 58
+Job: 1296
+job arrival 7,burst_time 6,turnaround_time: 28, wait: 22, response 22
+Job: 1297
+job arrival 18,burst_time 6,turnaround_time: 101, wait: 95, response 95
+Job: 1298
+job arrival 16,burst_time 2,turnaround_time: 81, wait: 79, response 79
+Job: 1299
+job arrival 15,burst_time 4,turnaround_time: 80, wait: 76, response 76
+Global Statistics
+average turnaround_time: 72.55
+average waiting_time: 65.8
+average response_time: 48.6
+throughput: 144.92753623188406
+boost jobs each: 0
+removed 1301 at 10
+removed 1302 at 18
+removed 1307 at 70
+removed 1308 at 104
+removed 1312 at 112
+removed 1305 at 126
+INSTANCE -l 8:11,10:3,10:5,6:15,7:9,10:19,8:14,10:13,9:17,6:10,1:6,6:7,10:18,3:5,7:10,6:13,6:7,6:18,2:16,4:15 SETTING -q 8,16,24
+
+Job: 1300
+job arrival 11,burst_time 8,turnaround_time: 52, wait: 44, response 44
+Job: 1301
+job arrival 3,burst_time 10,turnaround_time: 126, wait: 116, response 0
+Job: 1302
+job arrival 5,burst_time 10,turnaround_time: 126, wait: 116, response 6
+Job: 1303
+job arrival 15,burst_time 6,turnaround_time: 76, wait: 70, response 70
+Job: 1304
+job arrival 9,burst_time 7,turnaround_time: 33, wait: 26, response 26
+Job: 1305
+job arrival 19,burst_time 10,turnaround_time: 119, wait: 109, response 100
+Job: 1306
+job arrival 14,burst_time 8,turnaround_time: 71, wait: 63, response 63
+Job: 1307
+job arrival 13,burst_time 10,turnaround_time: 120, wait: 110, response 50
+Job: 1308
+job arrival 17,burst_time 9,turnaround_time: 117, wait: 108, response 80
+Job: 1309
+job arrival 10,burst_time 6,turnaround_time: 38, wait: 32, response 32
+Job: 1310
+job arrival 6,burst_time 1,turnaround_time: 17, wait: 16, response 16
+Job: 1311
+job arrival 7,burst_time 6,turnaround_time: 22, wait: 16, response 16
+Job: 1312
+job arrival 18,burst_time 10,turnaround_time: 118, wait: 108, response 87
+Job: 1313
+job arrival 5,burst_time 3,turnaround_time: 17, wait: 14, response 14
+Job: 1314
+job arrival 10,burst_time 7,turnaround_time: 45, wait: 38, response 38
+Job: 1315
+job arrival 13,burst_time 6,turnaround_time: 64, wait: 58, response 58
+Job: 1316
+job arrival 7,burst_time 6,turnaround_time: 28, wait: 22, response 22
+Job: 1317
+job arrival 18,burst_time 6,turnaround_time: 101, wait: 95, response 95
+Job: 1318
+job arrival 16,burst_time 2,turnaround_time: 81, wait: 79, response 79
+Job: 1319
+job arrival 15,burst_time 4,turnaround_time: 80, wait: 76, response 76
+Global Statistics
+average turnaround_time: 72.55
+average waiting_time: 65.8
+average response_time: 48.6
+throughput: 144.92753623188406
+boost jobs each: 0
+removed 1321 at 10
+removed 1322 at 18
+removed 1327 at 70
+removed 1328 at 104
+removed 1332 at 112
+removed 1325 at 126
+INSTANCE -l 8:11,10:3,10:5,6:15,7:9,10:19,8:14,10:13,9:17,6:10,1:6,6:7,10:18,3:5,7:10,6:13,6:7,6:18,2:16,4:15 SETTING -q 8,16,24,32
+
+Job: 1320
+job arrival 11,burst_time 8,turnaround_time: 52, wait: 44, response 44
+Job: 1321
+job arrival 3,burst_time 10,turnaround_time: 126, wait: 116, response 0
+Job: 1322
+job arrival 5,burst_time 10,turnaround_time: 126, wait: 116, response 6
+Job: 1323
+job arrival 15,burst_time 6,turnaround_time: 76, wait: 70, response 70
+Job: 1324
+job arrival 9,burst_time 7,turnaround_time: 33, wait: 26, response 26
+Job: 1325
+job arrival 19,burst_time 10,turnaround_time: 119, wait: 109, response 100
+Job: 1326
+job arrival 14,burst_time 8,turnaround_time: 71, wait: 63, response 63
+Job: 1327
+job arrival 13,burst_time 10,turnaround_time: 120, wait: 110, response 50
+Job: 1328
+job arrival 17,burst_time 9,turnaround_time: 117, wait: 108, response 80
+Job: 1329
+job arrival 10,burst_time 6,turnaround_time: 38, wait: 32, response 32
+Job: 1330
+job arrival 6,burst_time 1,turnaround_time: 17, wait: 16, response 16
+Job: 1331
+job arrival 7,burst_time 6,turnaround_time: 22, wait: 16, response 16
+Job: 1332
+job arrival 18,burst_time 10,turnaround_time: 118, wait: 108, response 87
+Job: 1333
+job arrival 5,burst_time 3,turnaround_time: 17, wait: 14, response 14
+Job: 1334
+job arrival 10,burst_time 7,turnaround_time: 45, wait: 38, response 38
+Job: 1335
+job arrival 13,burst_time 6,turnaround_time: 64, wait: 58, response 58
+Job: 1336
+job arrival 7,burst_time 6,turnaround_time: 28, wait: 22, response 22
+Job: 1337
+job arrival 18,burst_time 6,turnaround_time: 101, wait: 95, response 95
+Job: 1338
+job arrival 16,burst_time 2,turnaround_time: 81, wait: 79, response 79
+Job: 1339
+job arrival 15,burst_time 4,turnaround_time: 80, wait: 76, response 76
+Global Statistics
+average turnaround_time: 72.55
+average waiting_time: 65.8
+average response_time: 48.6
+throughput: 144.92753623188406
+boost jobs each: 0
+removed 1341 at 10
+removed 1342 at 18
+removed 1345 at 65
+removed 1347 at 83
+removed 1348 at 91
+removed 1352 at 109
+INSTANCE -l 8:11,10:3,10:5,6:15,7:9,10:19,8:14,10:13,9:17,6:10,1:6,6:7,10:18,3:5,7:10,6:13,6:7,6:18,2:16,4:15 SETTING -q 8,16 -m auto_boost -f 0.25
+
+Job: 1340
+job arrival 11,burst_time 8,turnaround_time: 30, wait: 22, response 22
+Job: 1341
+job arrival 3,burst_time 10,turnaround_time: 40, wait: 30, response 0
+Job: 1342
+job arrival 5,burst_time 10,turnaround_time: 40, wait: 30, response 6
+Job: 1343
+job arrival 15,burst_time 6,turnaround_time: 36, wait: 30, response 30
+Job: 1344
+job arrival 9,burst_time 7,turnaround_time: 49, wait: 42, response 42
+Job: 1345
+job arrival 19,burst_time 10,turnaround_time: 49, wait: 39, response 39
+Job: 1346
+job arrival 14,burst_time 8,turnaround_time: 62, wait: 54, response 54
+Job: 1347
+job arrival 13,burst_time 10,turnaround_time: 88, wait: 78, response 63
+Job: 1348
+job arrival 17,burst_time 9,turnaround_time: 85, wait: 76, response 67
+Job: 1349
+job arrival 10,burst_time 6,turnaround_time: 88, wait: 82, response 82
+Job: 1350
+job arrival 6,burst_time 1,turnaround_time: 17, wait: 16, response 16
+Job: 1351
+job arrival 7,burst_time 6,turnaround_time: 22, wait: 16, response 16
+Job: 1352
+job arrival 18,burst_time 10,turnaround_time: 115, wait: 105, response 80
+Job: 1353
+job arrival 5,burst_time 3,turnaround_time: 17, wait: 14, response 14
+Job: 1354
+job arrival 10,burst_time 7,turnaround_time: 107, wait: 100, response 100
+Job: 1355
+job arrival 13,burst_time 6,turnaround_time: 110, wait: 104, response 104
+Job: 1356
+job arrival 7,burst_time 6,turnaround_time: 118, wait: 112, response 22
+Job: 1357
+job arrival 18,burst_time 6,turnaround_time: 113, wait: 107, response 107
+Job: 1358
+job arrival 16,burst_time 2,turnaround_time: 118, wait: 116, response 115
+Job: 1359
+job arrival 15,burst_time 4,turnaround_time: 123, wait: 119, response 119
+Global Statistics
+average turnaround_time: 71.35
+average waiting_time: 64.6
+average response_time: 54.9
+throughput: 144.92753623188406
+boost jobs each: 33
+removed 1361 at 10
+removed 1362 at 18
+removed 1365 at 84
+removed 1368 at 106
+removed 1372 at 114
+INSTANCE -l 8:11,10:3,10:5,6:15,7:9,10:19,8:14,10:13,9:17,6:10,1:6,6:7,10:18,3:5,7:10,6:13,6:7,6:18,2:16,4:15 SETTING -q 8,16,24 -m auto_boost -f 0.5
+
+Job: 1360
+job arrival 11,burst_time 8,turnaround_time: 52, wait: 44, response 44
+Job: 1361
+job arrival 3,burst_time 10,turnaround_time: 66, wait: 56, response 0
+Job: 1362
+job arrival 5,burst_time 10,turnaround_time: 66, wait: 56, response 6
+Job: 1363
+job arrival 15,burst_time 6,turnaround_time: 62, wait: 56, response 56
+Job: 1364
+job arrival 9,burst_time 7,turnaround_time: 33, wait: 26, response 26
+Job: 1365
+job arrival 19,burst_time 10,turnaround_time: 116, wait: 106, response 58
+Job: 1366
+job arrival 14,burst_time 8,turnaround_time: 79, wait: 71, response 71
+Job: 1367
+job arrival 13,burst_time 10,turnaround_time: 86, wait: 76, response 50
+Job: 1368
+job arrival 17,burst_time 9,turnaround_time: 119, wait: 110, response 82
+Job: 1369
+job arrival 10,burst_time 6,turnaround_time: 38, wait: 32, response 32
+Job: 1370
+job arrival 6,burst_time 1,turnaround_time: 17, wait: 16, response 16
+Job: 1371
+job arrival 7,burst_time 6,turnaround_time: 22, wait: 16, response 16
+Job: 1372
+job arrival 18,burst_time 10,turnaround_time: 120, wait: 110, response 89
+Job: 1373
+job arrival 5,burst_time 3,turnaround_time: 17, wait: 14, response 14
+Job: 1374
+job arrival 10,burst_time 7,turnaround_time: 45, wait: 38, response 38
+Job: 1375
+job arrival 13,burst_time 6,turnaround_time: 108, wait: 102, response 102
+Job: 1376
+job arrival 7,burst_time 6,turnaround_time: 28, wait: 22, response 22
+Job: 1377
+job arrival 18,burst_time 6,turnaround_time: 109, wait: 103, response 103
+Job: 1378
+job arrival 16,burst_time 2,turnaround_time: 113, wait: 111, response 111
+Job: 1379
+job arrival 15,burst_time 4,turnaround_time: 118, wait: 114, response 114
+Global Statistics
+average turnaround_time: 70.7
+average waiting_time: 63.95
+average response_time: 52.5
+throughput: 144.92753623188406
+boost jobs each: 67
+removed 1381 at 10
+removed 1382 at 18
+removed 1387 at 70
+removed 1385 at 112
+removed 1392 at 127
+INSTANCE -l 8:11,10:3,10:5,6:15,7:9,10:19,8:14,10:13,9:17,6:10,1:6,6:7,10:18,3:5,7:10,6:13,6:7,6:18,2:16,4:15 SETTING -q 8,16,24,32 -m auto_boost -f 0.75
+Job: 1380
+job arrival 11,burst_time 8,turnaround_time: 52, wait: 44, response 44
+Job: 1381
+job arrival 3,burst_time 10,turnaround_time: 100, wait: 90, response 0
+Job: 1382
+job arrival 5,burst_time 10,turnaround_time: 100, wait: 90, response 6
+Job: 1383
+job arrival 15,burst_time 6,turnaround_time: 76, wait: 70, response 70
+Job: 1384
+job arrival 9,burst_time 7,turnaround_time: 33, wait: 26, response 26
+Job: 1385
+job arrival 19,burst_time 10,turnaround_time: 117, wait: 107, response 86
+Job: 1386
+job arrival 14,burst_time 8,turnaround_time: 71, wait: 63, response 63
+Job: 1387
+job arrival 13,burst_time 10,turnaround_time: 102, wait: 92, response 50
+Job: 1388
+job arrival 17,burst_time 9,turnaround_time: 103, wait: 94, response 80
+Job: 1389
+job arrival 10,burst_time 6,turnaround_time: 38, wait: 32, response 32
+Job: 1390
+job arrival 6,burst_time 1,turnaround_time: 17, wait: 16, response 16
+Job: 1391
+job arrival 7,burst_time 6,turnaround_time: 22, wait: 16, response 16
+Job: 1392
+job arrival 18,burst_time 10,turnaround_time: 120, wait: 110, response 102
+Job: 1393
+job arrival 5,burst_time 3,turnaround_time: 17, wait: 14, response 14
+Job: 1394
+job arrival 10,burst_time 7,turnaround_time: 45, wait: 38, response 38
+Job: 1395
+job arrival 13,burst_time 6,turnaround_time: 64, wait: 58, response 58
+Job: 1396
+job arrival 7,burst_time 6,turnaround_time: 28, wait: 22, response 22
+Job: 1397
+job arrival 18,burst_time 6,turnaround_time: 116, wait: 110, response 110
+Job: 1398
+job arrival 16,burst_time 2,turnaround_time: 81, wait: 79, response 79
+Job: 1399
+job arrival 15,burst_time 4,turnaround_time: 80, wait: 76, response 76
+Global Statistics
+average turnaround_time: 69.1
+average waiting_time: 62.35
+average response_time: 49.4
+throughput: 144.92753623188406
+boost jobs each: 101
