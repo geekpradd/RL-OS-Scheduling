@@ -1,0 +1,840 @@
+INSTANCE -l 1:1,1:1,1:1,1:1,1:1
+SETTING -m rr -q 8
+average turnaround_time: 3.0
+average waiting_time: 2.0
+average response_time: 2.0
+throughput: 833.3333333333334
+
+INSTANCE -l 1:1,1:1,1:1,1:1,1:1
+SETTING -m fcfs
+average turnaround_time: 3.0
+average waiting_time: 2.0
+average response_time: 2.0
+throughput: 833.3333333333334
+
+INSTANCE -l 1:1,1:1,1:1,1:1,1:1
+SETTING -q 8,16
+average turnaround_time: 3.0
+average waiting_time: 2.0
+average response_time: 2.0
+throughput: 833.3333333333334
+
+INSTANCE -l 1:1,1:1,1:1,1:1,1:1
+SETTING -q 8,16,24
+average turnaround_time: 3.0
+average waiting_time: 2.0
+average response_time: 2.0
+throughput: 833.3333333333334
+
+INSTANCE -l 1:1,1:1,1:1,1:1,1:1
+SETTING -q 8,16,24,32
+average turnaround_time: 3.0
+average waiting_time: 2.0
+average response_time: 2.0
+throughput: 833.3333333333334
+
+INSTANCE -l 1:1,1:1,1:1,1:1,1:1
+SETTING -q 8,16 -m auto_boost -f 0.25
+average turnaround_time: 3.0
+average waiting_time: 2.0
+average response_time: 2.0
+throughput: 833.3333333333334
+
+INSTANCE -l 1:1,1:1,1:1,1:1,1:1
+SETTING -q 8,16,24 -m auto_boost -f 0.5
+average turnaround_time: 3.0
+average waiting_time: 2.0
+average response_time: 2.0
+throughput: 833.3333333333334
+
+INSTANCE -l 1:1,1:1,1:1,1:1,1:1
+SETTING -q 8,16,24,32 -m auto_boost -f 0.75
+average turnaround_time: 3.0
+average waiting_time: 2.0
+average response_time: 2.0
+throughput: 833.3333333333334
+
+INSTANCE -l 1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1
+SETTING -m rr -q 8
+average turnaround_time: 5.5
+average waiting_time: 4.5
+average response_time: 4.5
+throughput: 909.090909090909
+
+INSTANCE -l 1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1
+SETTING -m fcfs
+average turnaround_time: 5.5
+average waiting_time: 4.5
+average response_time: 4.5
+throughput: 909.090909090909
+
+INSTANCE -l 1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1
+SETTING -q 8,16
+average turnaround_time: 5.5
+average waiting_time: 4.5
+average response_time: 4.5
+throughput: 909.090909090909
+
+INSTANCE -l 1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1
+SETTING -q 8,16,24
+average turnaround_time: 5.5
+average waiting_time: 4.5
+average response_time: 4.5
+throughput: 909.090909090909
+
+INSTANCE -l 1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1
+SETTING -q 8,16,24,32
+average turnaround_time: 5.5
+average waiting_time: 4.5
+average response_time: 4.5
+throughput: 909.090909090909
+
+INSTANCE -l 1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1
+SETTING -q 8,16 -m auto_boost -f 0.25
+average turnaround_time: 5.5
+average waiting_time: 4.5
+average response_time: 4.5
+throughput: 909.090909090909
+
+INSTANCE -l 1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1
+SETTING -q 8,16,24 -m auto_boost -f 0.5
+average turnaround_time: 5.5
+average waiting_time: 4.5
+average response_time: 4.5
+throughput: 909.090909090909
+
+INSTANCE -l 1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1
+SETTING -q 8,16,24,32 -m auto_boost -f 0.75
+average turnaround_time: 5.5
+average waiting_time: 4.5
+average response_time: 4.5
+throughput: 909.090909090909
+
+INSTANCE -l 1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1
+SETTING -m rr -q 8
+average turnaround_time: 10.5
+average waiting_time: 9.5
+average response_time: 9.5
+throughput: 952.3809523809523
+
+INSTANCE -l 1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1
+SETTING -m fcfs
+average turnaround_time: 10.5
+average waiting_time: 9.5
+average response_time: 9.5
+throughput: 952.3809523809523
+
+INSTANCE -l 1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1
+SETTING -q 8,16
+average turnaround_time: 10.5
+average waiting_time: 9.5
+average response_time: 9.5
+throughput: 952.3809523809523
+
+INSTANCE -l 1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1
+SETTING -q 8,16,24
+average turnaround_time: 10.5
+average waiting_time: 9.5
+average response_time: 9.5
+throughput: 952.3809523809523
+
+INSTANCE -l 1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1
+SETTING -q 8,16,24,32
+average turnaround_time: 10.5
+average waiting_time: 9.5
+average response_time: 9.5
+throughput: 952.3809523809523
+
+INSTANCE -l 1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1
+SETTING -q 8,16 -m auto_boost -f 0.25
+average turnaround_time: 10.5
+average waiting_time: 9.5
+average response_time: 9.5
+throughput: 952.3809523809523
+
+INSTANCE -l 1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1
+SETTING -q 8,16,24 -m auto_boost -f 0.5
+average turnaround_time: 10.5
+average waiting_time: 9.5
+average response_time: 9.5
+throughput: 952.3809523809523
+
+INSTANCE -l 1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1,1:1
+SETTING -q 8,16,24,32 -m auto_boost -f 0.75
+average turnaround_time: 10.5
+average waiting_time: 9.5
+average response_time: 9.5
+throughput: 952.3809523809523
+
+INSTANCE -l 1:1,2:1,3:1,4:1,5:1
+SETTING -m rr -q 8
+average turnaround_time: 7.0
+average waiting_time: 4.0
+average response_time: 4.0
+throughput: 312.5
+
+INSTANCE -l 1:1,2:1,3:1,4:1,5:1
+SETTING -m fcfs
+average turnaround_time: 7.0
+average waiting_time: 4.0
+average response_time: 4.0
+throughput: 312.5
+
+INSTANCE -l 1:1,2:1,3:1,4:1,5:1
+SETTING -q 8,16
+average turnaround_time: 7.0
+average waiting_time: 4.0
+average response_time: 4.0
+throughput: 312.5
+
+INSTANCE -l 1:1,2:1,3:1,4:1,5:1
+SETTING -q 8,16,24
+average turnaround_time: 7.0
+average waiting_time: 4.0
+average response_time: 4.0
+throughput: 312.5
+
+INSTANCE -l 1:1,2:1,3:1,4:1,5:1
+SETTING -q 8,16,24,32
+average turnaround_time: 7.0
+average waiting_time: 4.0
+average response_time: 4.0
+throughput: 312.5
+
+INSTANCE -l 1:1,2:1,3:1,4:1,5:1
+SETTING -q 8,16 -m auto_boost -f 0.25
+average turnaround_time: 7.0
+average waiting_time: 4.0
+average response_time: 4.0
+throughput: 312.5
+
+INSTANCE -l 1:1,2:1,3:1,4:1,5:1
+SETTING -q 8,16,24 -m auto_boost -f 0.5
+average turnaround_time: 7.0
+average waiting_time: 4.0
+average response_time: 4.0
+throughput: 312.5
+
+INSTANCE -l 1:1,2:1,3:1,4:1,5:1
+SETTING -q 8,16,24,32 -m auto_boost -f 0.75
+average turnaround_time: 7.0
+average waiting_time: 4.0
+average response_time: 4.0
+throughput: 312.5
+
+INSTANCE -l 1:1,2:1,3:1,4:1,5:1,6:1,7:1,8:1,9:1,10:1
+SETTING -m rr -q 8
+average turnaround_time: 22.8
+average waiting_time: 17.3
+average response_time: 16.4
+throughput: 178.57142857142858
+
+INSTANCE -l 1:1,2:1,3:1,4:1,5:1,6:1,7:1,8:1,9:1,10:1
+SETTING -m fcfs
+average turnaround_time: 22.0
+average waiting_time: 16.5
+average response_time: 16.5
+throughput: 178.57142857142858
+
+INSTANCE -l 1:1,2:1,3:1,4:1,5:1,6:1,7:1,8:1,9:1,10:1
+SETTING -q 8,16
+average turnaround_time: 22.8
+average waiting_time: 17.3
+average response_time: 16.4
+throughput: 178.57142857142858
+
+INSTANCE -l 1:1,2:1,3:1,4:1,5:1,6:1,7:1,8:1,9:1,10:1
+SETTING -q 8,16,24
+average turnaround_time: 22.8
+average waiting_time: 17.3
+average response_time: 16.4
+throughput: 178.57142857142858
+
+INSTANCE -l 1:1,2:1,3:1,4:1,5:1,6:1,7:1,8:1,9:1,10:1
+SETTING -q 8,16,24,32
+average turnaround_time: 22.8
+average waiting_time: 17.3
+average response_time: 16.4
+throughput: 178.57142857142858
+
+INSTANCE -l 1:1,2:1,3:1,4:1,5:1,6:1,7:1,8:1,9:1,10:1
+SETTING -q 8,16 -m auto_boost -f 0.25
+average turnaround_time: 22.0
+average waiting_time: 16.5
+average response_time: 16.5
+throughput: 178.57142857142858
+
+INSTANCE -l 1:1,2:1,3:1,4:1,5:1,6:1,7:1,8:1,9:1,10:1
+SETTING -q 8,16,24 -m auto_boost -f 0.5
+average turnaround_time: 22.8
+average waiting_time: 17.3
+average response_time: 16.4
+throughput: 178.57142857142858
+
+INSTANCE -l 1:1,2:1,3:1,4:1,5:1,6:1,7:1,8:1,9:1,10:1
+SETTING -q 8,16,24,32 -m auto_boost -f 0.75
+average turnaround_time: 22.0
+average waiting_time: 16.5
+average response_time: 16.5
+throughput: 178.57142857142858
+
+INSTANCE -l 1:1,2:1,3:1,4:1,5:1,6:1,7:1,8:1,9:1,10:1,11:1,12:1,13:1,14:1,15:1,16:1,17:1,18:1,19:1,20:1
+SETTING -m rr -q 8
+average turnaround_time: 105.8
+average waiting_time: 95.3
+average response_time: 52.2
+throughput: 94.78672985781989
+
+INSTANCE -l 1:1,2:1,3:1,4:1,5:1,6:1,7:1,8:1,9:1,10:1,11:1,12:1,13:1,14:1,15:1,16:1,17:1,18:1,19:1,20:1
+SETTING -m fcfs
+average turnaround_time: 77.0
+average waiting_time: 66.5
+average response_time: 66.5
+throughput: 94.78672985781989
+
+INSTANCE -l 1:1,2:1,3:1,4:1,5:1,6:1,7:1,8:1,9:1,10:1,11:1,12:1,13:1,14:1,15:1,16:1,17:1,18:1,19:1,20:1
+SETTING -q 8,16
+average turnaround_time: 103.4
+average waiting_time: 92.9
+average response_time: 52.2
+throughput: 94.78672985781989
+
+INSTANCE -l 1:1,2:1,3:1,4:1,5:1,6:1,7:1,8:1,9:1,10:1,11:1,12:1,13:1,14:1,15:1,16:1,17:1,18:1,19:1,20:1
+SETTING -q 8,16,24
+average turnaround_time: 103.4
+average waiting_time: 92.9
+average response_time: 52.2
+throughput: 94.78672985781989
+
+INSTANCE -l 1:1,2:1,3:1,4:1,5:1,6:1,7:1,8:1,9:1,10:1,11:1,12:1,13:1,14:1,15:1,16:1,17:1,18:1,19:1,20:1
+SETTING -q 8,16,24,32
+average turnaround_time: 103.4
+average waiting_time: 92.9
+average response_time: 52.2
+throughput: 94.78672985781989
+
+INSTANCE -l 1:1,2:1,3:1,4:1,5:1,6:1,7:1,8:1,9:1,10:1,11:1,12:1,13:1,14:1,15:1,16:1,17:1,18:1,19:1,20:1
+SETTING -q 8,16 -m auto_boost -f 0.25
+average turnaround_time: 86.45
+average waiting_time: 75.95
+average response_time: 61.25
+throughput: 94.78672985781989
+
+INSTANCE -l 1:1,2:1,3:1,4:1,5:1,6:1,7:1,8:1,9:1,10:1,11:1,12:1,13:1,14:1,15:1,16:1,17:1,18:1,19:1,20:1
+SETTING -q 8,16,24 -m auto_boost -f 0.5
+average turnaround_time: 92.2
+average waiting_time: 81.7
+average response_time: 58.2
+throughput: 94.78672985781989
+
+INSTANCE -l 1:1,2:1,3:1,4:1,5:1,6:1,7:1,8:1,9:1,10:1,11:1,12:1,13:1,14:1,15:1,16:1,17:1,18:1,19:1,20:1
+SETTING -q 8,16,24,32 -m auto_boost -f 0.75
+average turnaround_time: 105.8
+average waiting_time: 95.3
+average response_time: 52.2
+throughput: 94.78672985781989
+
+INSTANCE -l 5:1,5:2,5:3,5:4,5:5
+SETTING -m rr -q 8
+average turnaround_time: 13.0
+average waiting_time: 8.0
+average response_time: 8.0
+throughput: 192.30769230769232
+
+INSTANCE -l 5:1,5:2,5:3,5:4,5:5
+SETTING -m fcfs
+average turnaround_time: 13.0
+average waiting_time: 8.0
+average response_time: 8.0
+throughput: 192.30769230769232
+
+INSTANCE -l 5:1,5:2,5:3,5:4,5:5
+SETTING -q 8,16
+average turnaround_time: 13.0
+average waiting_time: 8.0
+average response_time: 8.0
+throughput: 192.30769230769232
+
+INSTANCE -l 5:1,5:2,5:3,5:4,5:5
+SETTING -q 8,16,24
+average turnaround_time: 13.0
+average waiting_time: 8.0
+average response_time: 8.0
+throughput: 192.30769230769232
+
+INSTANCE -l 5:1,5:2,5:3,5:4,5:5
+SETTING -q 8,16,24,32
+average turnaround_time: 13.0
+average waiting_time: 8.0
+average response_time: 8.0
+throughput: 192.30769230769232
+
+INSTANCE -l 5:1,5:2,5:3,5:4,5:5
+SETTING -q 8,16 -m auto_boost -f 0.25
+average turnaround_time: 13.0
+average waiting_time: 8.0
+average response_time: 8.0
+throughput: 192.30769230769232
+
+INSTANCE -l 5:1,5:2,5:3,5:4,5:5
+SETTING -q 8,16,24 -m auto_boost -f 0.5
+average turnaround_time: 13.0
+average waiting_time: 8.0
+average response_time: 8.0
+throughput: 192.30769230769232
+
+INSTANCE -l 5:1,5:2,5:3,5:4,5:5
+SETTING -q 8,16,24,32 -m auto_boost -f 0.75
+average turnaround_time: 13.0
+average waiting_time: 8.0
+average response_time: 8.0
+throughput: 192.30769230769232
+
+INSTANCE -l 5:1,5:2,5:3,5:4,5:5,5:6,5:7,5:8,5:9,5:10
+SETTING -m rr -q 8
+average turnaround_time: 23.0
+average waiting_time: 18.0
+average response_time: 18.0
+throughput: 196.078431372549
+
+INSTANCE -l 5:1,5:2,5:3,5:4,5:5,5:6,5:7,5:8,5:9,5:10
+SETTING -m fcfs
+average turnaround_time: 23.0
+average waiting_time: 18.0
+average response_time: 18.0
+throughput: 196.078431372549
+
+INSTANCE -l 5:1,5:2,5:3,5:4,5:5,5:6,5:7,5:8,5:9,5:10
+SETTING -q 8,16
+average turnaround_time: 23.0
+average waiting_time: 18.0
+average response_time: 18.0
+throughput: 196.078431372549
+
+INSTANCE -l 5:1,5:2,5:3,5:4,5:5,5:6,5:7,5:8,5:9,5:10
+SETTING -q 8,16,24
+average turnaround_time: 23.0
+average waiting_time: 18.0
+average response_time: 18.0
+throughput: 196.078431372549
+
+INSTANCE -l 5:1,5:2,5:3,5:4,5:5,5:6,5:7,5:8,5:9,5:10
+SETTING -q 8,16,24,32
+average turnaround_time: 23.0
+average waiting_time: 18.0
+average response_time: 18.0
+throughput: 196.078431372549
+
+INSTANCE -l 5:1,5:2,5:3,5:4,5:5,5:6,5:7,5:8,5:9,5:10
+SETTING -q 8,16 -m auto_boost -f 0.25
+average turnaround_time: 23.0
+average waiting_time: 18.0
+average response_time: 18.0
+throughput: 196.078431372549
+
+INSTANCE -l 5:1,5:2,5:3,5:4,5:5,5:6,5:7,5:8,5:9,5:10
+SETTING -q 8,16,24 -m auto_boost -f 0.5
+average turnaround_time: 23.0
+average waiting_time: 18.0
+average response_time: 18.0
+throughput: 196.078431372549
+
+INSTANCE -l 5:1,5:2,5:3,5:4,5:5,5:6,5:7,5:8,5:9,5:10
+SETTING -q 8,16,24,32 -m auto_boost -f 0.75
+average turnaround_time: 23.0
+average waiting_time: 18.0
+average response_time: 18.0
+throughput: 196.078431372549
+
+INSTANCE -l 5:1,5:2,5:3,5:4,5:5,5:6,5:7,5:8,5:9,5:10,5:11,5:12,5:13,5:14,5:15,5:16,5:17,5:18,5:19,5:20
+SETTING -m rr -q 8
+average turnaround_time: 43.0
+average waiting_time: 38.0
+average response_time: 38.0
+throughput: 198.01980198019803
+
+INSTANCE -l 5:1,5:2,5:3,5:4,5:5,5:6,5:7,5:8,5:9,5:10,5:11,5:12,5:13,5:14,5:15,5:16,5:17,5:18,5:19,5:20
+SETTING -m fcfs
+average turnaround_time: 43.0
+average waiting_time: 38.0
+average response_time: 38.0
+throughput: 198.01980198019803
+
+INSTANCE -l 5:1,5:2,5:3,5:4,5:5,5:6,5:7,5:8,5:9,5:10,5:11,5:12,5:13,5:14,5:15,5:16,5:17,5:18,5:19,5:20
+SETTING -q 8,16
+average turnaround_time: 43.0
+average waiting_time: 38.0
+average response_time: 38.0
+throughput: 198.01980198019803
+
+INSTANCE -l 5:1,5:2,5:3,5:4,5:5,5:6,5:7,5:8,5:9,5:10,5:11,5:12,5:13,5:14,5:15,5:16,5:17,5:18,5:19,5:20
+SETTING -q 8,16,24
+average turnaround_time: 43.0
+average waiting_time: 38.0
+average response_time: 38.0
+throughput: 198.01980198019803
+
+INSTANCE -l 5:1,5:2,5:3,5:4,5:5,5:6,5:7,5:8,5:9,5:10,5:11,5:12,5:13,5:14,5:15,5:16,5:17,5:18,5:19,5:20
+SETTING -q 8,16,24,32
+average turnaround_time: 43.0
+average waiting_time: 38.0
+average response_time: 38.0
+throughput: 198.01980198019803
+
+INSTANCE -l 5:1,5:2,5:3,5:4,5:5,5:6,5:7,5:8,5:9,5:10,5:11,5:12,5:13,5:14,5:15,5:16,5:17,5:18,5:19,5:20
+SETTING -q 8,16 -m auto_boost -f 0.25
+average turnaround_time: 43.0
+average waiting_time: 38.0
+average response_time: 38.0
+throughput: 198.01980198019803
+
+INSTANCE -l 5:1,5:2,5:3,5:4,5:5,5:6,5:7,5:8,5:9,5:10,5:11,5:12,5:13,5:14,5:15,5:16,5:17,5:18,5:19,5:20
+SETTING -q 8,16,24 -m auto_boost -f 0.5
+average turnaround_time: 43.0
+average waiting_time: 38.0
+average response_time: 38.0
+throughput: 198.01980198019803
+
+INSTANCE -l 5:1,5:2,5:3,5:4,5:5,5:6,5:7,5:8,5:9,5:10,5:11,5:12,5:13,5:14,5:15,5:16,5:17,5:18,5:19,5:20
+SETTING -q 8,16,24,32 -m auto_boost -f 0.75
+average turnaround_time: 43.0
+average waiting_time: 38.0
+average response_time: 38.0
+throughput: 198.01980198019803
+
+INSTANCE -l 6:13,9:6,9:2,8:16,8:13
+SETTING -m rr -q 8
+average turnaround_time: 22.0
+average waiting_time: 14.0
+average response_time: 7.8
+throughput: 119.04761904761904
+
+INSTANCE -l 6:13,9:6,9:2,8:16,8:13
+SETTING -m fcfs
+average turnaround_time: 16.6
+average waiting_time: 8.6
+average response_time: 8.6
+throughput: 119.04761904761904
+
+INSTANCE -l 6:13,9:6,9:2,8:16,8:13
+SETTING -q 8,16
+average turnaround_time: 25.8
+average waiting_time: 17.8
+average response_time: 7.2
+throughput: 119.04761904761904
+
+INSTANCE -l 6:13,9:6,9:2,8:16,8:13
+SETTING -q 8,16,24
+average turnaround_time: 25.8
+average waiting_time: 17.8
+average response_time: 7.2
+throughput: 119.04761904761904
+
+INSTANCE -l 6:13,9:6,9:2,8:16,8:13
+SETTING -q 8,16,24,32
+average turnaround_time: 25.8
+average waiting_time: 17.8
+average response_time: 7.2
+throughput: 119.04761904761904
+
+INSTANCE -l 6:13,9:6,9:2,8:16,8:13
+SETTING -q 8,16 -m auto_boost -f 0.25
+average turnaround_time: 18.6
+average waiting_time: 10.6
+average response_time: 7.6
+throughput: 119.04761904761904
+
+INSTANCE -l 6:13,9:6,9:2,8:16,8:13
+SETTING -q 8,16,24 -m auto_boost -f 0.5
+average turnaround_time: 20.2
+average waiting_time: 12.2
+average response_time: 8.0
+throughput: 119.04761904761904
+
+INSTANCE -l 6:13,9:6,9:2,8:16,8:13
+SETTING -q 8,16,24,32 -m auto_boost -f 0.75
+average turnaround_time: 23.8
+average waiting_time: 15.8
+average response_time: 7.2
+throughput: 119.04761904761904
+
+INSTANCE -l 9:11,10:11,9:19,7:19,3:7,7:10,3:18,3:8,3:17,10:10
+SETTING -m rr -q 8
+average turnaround_time: 35.1
+average waiting_time: 28.7
+average response_time: 18.3
+throughput: 140.84507042253523
+
+INSTANCE -l 9:11,10:11,9:19,7:19,3:7,7:10,3:18,3:8,3:17,10:10
+SETTING -m fcfs
+average turnaround_time: 27.3
+average waiting_time: 20.9
+average response_time: 20.9
+throughput: 140.84507042253523
+
+INSTANCE -l 9:11,10:11,9:19,7:19,3:7,7:10,3:18,3:8,3:17,10:10
+SETTING -q 8,16
+average turnaround_time: 35.1
+average waiting_time: 28.7
+average response_time: 18.3
+throughput: 140.84507042253523
+
+INSTANCE -l 9:11,10:11,9:19,7:19,3:7,7:10,3:18,3:8,3:17,10:10
+SETTING -q 8,16,24
+average turnaround_time: 35.1
+average waiting_time: 28.7
+average response_time: 18.3
+throughput: 140.84507042253523
+
+INSTANCE -l 9:11,10:11,9:19,7:19,3:7,7:10,3:18,3:8,3:17,10:10
+SETTING -q 8,16,24,32
+average turnaround_time: 35.1
+average waiting_time: 28.7
+average response_time: 18.3
+throughput: 140.84507042253523
+
+INSTANCE -l 9:11,10:11,9:19,7:19,3:7,7:10,3:18,3:8,3:17,10:10
+SETTING -q 8,16 -m auto_boost -f 0.25
+average turnaround_time: 30.6
+average waiting_time: 24.2
+average response_time: 19.2
+throughput: 140.84507042253523
+
+INSTANCE -l 9:11,10:11,9:19,7:19,3:7,7:10,3:18,3:8,3:17,10:10
+SETTING -q 8,16,24 -m auto_boost -f 0.5
+average turnaround_time: 34.6
+average waiting_time: 28.2
+average response_time: 20.6
+throughput: 140.84507042253523
+
+INSTANCE -l 9:11,10:11,9:19,7:19,3:7,7:10,3:18,3:8,3:17,10:10
+SETTING -q 8,16,24,32 -m auto_boost -f 0.75
+average turnaround_time: 33.5
+average waiting_time: 27.1
+average response_time: 18.5
+throughput: 140.84507042253523
+
+INSTANCE -l 1:2,9:6,7:15,9:18,5:6,8:8,3:9,7:2,3:9,4:4,2:16,7:1,5:12,10:2,10:17,4:10,1:2,6:5,6:2,5:4
+SETTING -m rr -q 8
+average turnaround_time: 55.6
+average waiting_time: 50.0
+average response_time: 42.3
+throughput: 176.99115044247787
+
+INSTANCE -l 1:2,9:6,7:15,9:18,5:6,8:8,3:9,7:2,3:9,4:4,2:16,7:1,5:12,10:2,10:17,4:10,1:2,6:5,6:2,5:4
+SETTING -m fcfs
+average turnaround_time: 50.1
+average waiting_time: 44.5
+average response_time: 44.5
+throughput: 176.99115044247787
+
+INSTANCE -l 1:2,9:6,7:15,9:18,5:6,8:8,3:9,7:2,3:9,4:4,2:16,7:1,5:12,10:2,10:17,4:10,1:2,6:5,6:2,5:4
+SETTING -q 8,16
+average turnaround_time: 55.6
+average waiting_time: 50.0
+average response_time: 42.3
+throughput: 176.99115044247787
+
+INSTANCE -l 1:2,9:6,7:15,9:18,5:6,8:8,3:9,7:2,3:9,4:4,2:16,7:1,5:12,10:2,10:17,4:10,1:2,6:5,6:2,5:4
+SETTING -q 8,16,24
+average turnaround_time: 55.6
+average waiting_time: 50.0
+average response_time: 42.3
+throughput: 176.99115044247787
+
+INSTANCE -l 1:2,9:6,7:15,9:18,5:6,8:8,3:9,7:2,3:9,4:4,2:16,7:1,5:12,10:2,10:17,4:10,1:2,6:5,6:2,5:4
+SETTING -q 8,16,24,32
+average turnaround_time: 55.6
+average waiting_time: 50.0
+average response_time: 42.3
+throughput: 176.99115044247787
+
+INSTANCE -l 1:2,9:6,7:15,9:18,5:6,8:8,3:9,7:2,3:9,4:4,2:16,7:1,5:12,10:2,10:17,4:10,1:2,6:5,6:2,5:4
+SETTING -q 8,16 -m auto_boost -f 0.25
+average turnaround_time: 59.05
+average waiting_time: 53.45
+average response_time: 44.55
+throughput: 176.99115044247787
+
+INSTANCE -l 1:2,9:6,7:15,9:18,5:6,8:8,3:9,7:2,3:9,4:4,2:16,7:1,5:12,10:2,10:17,4:10,1:2,6:5,6:2,5:4
+SETTING -q 8,16,24 -m auto_boost -f 0.5
+average turnaround_time: 56.65
+average waiting_time: 51.05
+average response_time: 44.4
+throughput: 176.99115044247787
+
+INSTANCE -l 1:2,9:6,7:15,9:18,5:6,8:8,3:9,7:2,3:9,4:4,2:16,7:1,5:12,10:2,10:17,4:10,1:2,6:5,6:2,5:4
+SETTING -q 8,16,24,32 -m auto_boost -f 0.75
+average turnaround_time: 54.45
+average waiting_time: 48.85
+average response_time: 42.85
+throughput: 176.99115044247787
+
+INSTANCE -l 10:4,10:13,4:18,3:2,3:6
+SETTING -m rr -q 8
+average turnaround_time: 11.6
+average waiting_time: 5.6
+average response_time: 4.2
+throughput: 156.25
+
+INSTANCE -l 10:4,10:13,4:18,3:2,3:6
+SETTING -m fcfs
+average turnaround_time: 11.0
+average waiting_time: 5.0
+average response_time: 5.0
+throughput: 156.25
+
+INSTANCE -l 10:4,10:13,4:18,3:2,3:6
+SETTING -q 8,16
+average turnaround_time: 13.6
+average waiting_time: 7.6
+average response_time: 3.4
+throughput: 156.25
+
+INSTANCE -l 10:4,10:13,4:18,3:2,3:6
+SETTING -q 8,16,24
+average turnaround_time: 13.6
+average waiting_time: 7.6
+average response_time: 3.4
+throughput: 156.25
+
+INSTANCE -l 10:4,10:13,4:18,3:2,3:6
+SETTING -q 8,16,24,32
+average turnaround_time: 13.6
+average waiting_time: 7.6
+average response_time: 3.4
+throughput: 156.25
+
+INSTANCE -l 10:4,10:13,4:18,3:2,3:6
+SETTING -q 8,16 -m auto_boost -f 0.25
+average turnaround_time: 12.6
+average waiting_time: 6.6
+average response_time: 6.6
+throughput: 156.25
+
+INSTANCE -l 10:4,10:13,4:18,3:2,3:6
+SETTING -q 8,16,24 -m auto_boost -f 0.5
+average turnaround_time: 14.0
+average waiting_time: 8.0
+average response_time: 3.8
+throughput: 156.25
+
+INSTANCE -l 10:4,10:13,4:18,3:2,3:6
+SETTING -q 8,16,24,32 -m auto_boost -f 0.75
+average turnaround_time: 12.4
+average waiting_time: 6.4
+average response_time: 4.2
+throughput: 156.25
+
+INSTANCE -l 7:4,4:10,1:1,4:12,9:19,10:14,4:1,1:16,5:13,9:18
+SETTING -m rr -q 8
+average turnaround_time: 17.4
+average waiting_time: 12.0
+average response_time: 9.0
+throughput: 181.8181818181818
+
+INSTANCE -l 7:4,4:10,1:1,4:12,9:19,10:14,4:1,1:16,5:13,9:18
+SETTING -m fcfs
+average turnaround_time: 15.1
+average waiting_time: 9.7
+average response_time: 9.7
+throughput: 181.8181818181818
+
+INSTANCE -l 7:4,4:10,1:1,4:12,9:19,10:14,4:1,1:16,5:13,9:18
+SETTING -q 8,16
+average turnaround_time: 17.4
+average waiting_time: 12.0
+average response_time: 9.0
+throughput: 181.8181818181818
+
+INSTANCE -l 7:4,4:10,1:1,4:12,9:19,10:14,4:1,1:16,5:13,9:18
+SETTING -q 8,16,24
+average turnaround_time: 17.4
+average waiting_time: 12.0
+average response_time: 9.0
+throughput: 181.8181818181818
+
+INSTANCE -l 7:4,4:10,1:1,4:12,9:19,10:14,4:1,1:16,5:13,9:18
+SETTING -q 8,16,24,32
+average turnaround_time: 17.4
+average waiting_time: 12.0
+average response_time: 9.0
+throughput: 181.8181818181818
+
+INSTANCE -l 7:4,4:10,1:1,4:12,9:19,10:14,4:1,1:16,5:13,9:18
+SETTING -q 8,16 -m auto_boost -f 0.25
+average turnaround_time: 16.2
+average waiting_time: 10.8
+average response_time: 10.7
+throughput: 181.8181818181818
+
+INSTANCE -l 7:4,4:10,1:1,4:12,9:19,10:14,4:1,1:16,5:13,9:18
+SETTING -q 8,16,24 -m auto_boost -f 0.5
+average turnaround_time: 18.3
+average waiting_time: 12.9
+average response_time: 9.2
+throughput: 181.8181818181818
+
+INSTANCE -l 7:4,4:10,1:1,4:12,9:19,10:14,4:1,1:16,5:13,9:18
+SETTING -q 8,16,24,32 -m auto_boost -f 0.75
+average turnaround_time: 17.1
+average waiting_time: 11.7
+average response_time: 8.7
+throughput: 181.8181818181818
+
+INSTANCE -l 8:11,10:3,10:5,6:15,7:9,10:19,8:14,10:13,9:17,6:10,1:6,6:7,10:18,3:5,7:10,6:13,6:7,6:18,2:16,4:15
+SETTING -m rr -q 8
+average turnaround_time: 69.25
+average waiting_time: 62.5
+average response_time: 49.8
+throughput: 144.92753623188406
+
+INSTANCE -l 8:11,10:3,10:5,6:15,7:9,10:19,8:14,10:13,9:17,6:10,1:6,6:7,10:18,3:5,7:10,6:13,6:7,6:18,2:16,4:15
+SETTING -m fcfs
+average turnaround_time: 60.3
+average waiting_time: 53.55
+average response_time: 53.55
+throughput: 144.92753623188406
+
+INSTANCE -l 8:11,10:3,10:5,6:15,7:9,10:19,8:14,10:13,9:17,6:10,1:6,6:7,10:18,3:5,7:10,6:13,6:7,6:18,2:16,4:15
+SETTING -q 8,16
+average turnaround_time: 72.55
+average waiting_time: 65.8
+average response_time: 48.6
+throughput: 144.92753623188406
+
+INSTANCE -l 8:11,10:3,10:5,6:15,7:9,10:19,8:14,10:13,9:17,6:10,1:6,6:7,10:18,3:5,7:10,6:13,6:7,6:18,2:16,4:15
+SETTING -q 8,16,24
+average turnaround_time: 72.55
+average waiting_time: 65.8
+average response_time: 48.6
+throughput: 144.92753623188406
+
+INSTANCE -l 8:11,10:3,10:5,6:15,7:9,10:19,8:14,10:13,9:17,6:10,1:6,6:7,10:18,3:5,7:10,6:13,6:7,6:18,2:16,4:15
+SETTING -q 8,16,24,32
+average turnaround_time: 72.55
+average waiting_time: 65.8
+average response_time: 48.6
+throughput: 144.92753623188406
+
+INSTANCE -l 8:11,10:3,10:5,6:15,7:9,10:19,8:14,10:13,9:17,6:10,1:6,6:7,10:18,3:5,7:10,6:13,6:7,6:18,2:16,4:15
+SETTING -q 8,16 -m auto_boost -f 0.25
+average turnaround_time: 71.35
+average waiting_time: 64.6
+average response_time: 54.9
+throughput: 144.92753623188406
+
+INSTANCE -l 8:11,10:3,10:5,6:15,7:9,10:19,8:14,10:13,9:17,6:10,1:6,6:7,10:18,3:5,7:10,6:13,6:7,6:18,2:16,4:15
+SETTING -q 8,16,24 -m auto_boost -f 0.5
+average turnaround_time: 70.7
+average waiting_time: 63.95
+average response_time: 52.5
+throughput: 144.92753623188406
+
+INSTANCE -l 8:11,10:3,10:5,6:15,7:9,10:19,8:14,10:13,9:17,6:10,1:6,6:7,10:18,3:5,7:10,6:13,6:7,6:18,2:16,4:15
+SETTING -q 8,16,24,32 -m auto_boost -f 0.75
+average turnaround_time: 69.1
+average waiting_time: 62.35
+average response_time: 49.4
+throughput: 144.92753623188406
+

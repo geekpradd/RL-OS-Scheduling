@@ -1,6 +1,6 @@
 from env import SchedulingEnv
 import gym
-from stable_baselines3.common.env_checker import check_env
+# from stable_baselines3.common.env_checker import check_env
 import argparse
 
 def parse_arguments():
