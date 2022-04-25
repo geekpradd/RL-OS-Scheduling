@@ -1,3 +1,5 @@
+# TODO: add what all observations are needed
+
 import gym
 import numpy as np
 from gui import Gui
@@ -16,18 +18,19 @@ def parse_jobs(jobs):
 
 class SchedulingEnv(gym.Env):
     def __init__(self, args):
+        # print(args)
         self.boost = args.get("boost",0)
         jobs = str(args.get("jobList","")).split(",")
         self.quantum_list = str(args.get("quantumList","8,16")).split(",")
-        self.quantum_list = [int(quantum) for quantum in self.quantum_list]
+        self.quantum_list = np.array([int(quantum) for quantum in self.quantum_list])
         self.number_of_queues = len(self.quantum_list) + 1
         self.gui = Gui(1000, 500)
         self.job_list = parse_jobs(jobs)
         self.current_time = 0
         self.queues = list()
         self.init_queues(self.number_of_queues, self.quantum_list)
-        self.observation_space = gym.spaces.Dict({"observation": gym.spaces.Box(low=0, high=1, shape=(1,), dtype=np.float32)})
-        self.action_space = gym.spaces.Dict({"quantumList": gym.spaces.Box(low=1, high=100, shape=(self.number_of_queues,), dtype=np.float32)})
+        self.observation_space = gym.spaces.Box(low=1, high=100, shape=(self.number_of_queues-1,), dtype=np.float32)
+        self.action_space = gym.spaces.Box(low=1, high=100, shape=(self.number_of_queues-1,), dtype=np.float32)
 
     def init_queues(self, number_of_queues, quantum_list):
         for i in range(number_of_queues - 1):
@@ -68,19 +71,19 @@ class SchedulingEnv(gym.Env):
         for job in self.job_list:
             job.reset()
         self.current_time = 0
-        observation = {"observation": np.array([0])}
+        observation = np.array(self.quantum_list)
         return observation  # reward, done, info can't be included
     
         
     def step(self, action):
-        self.quantum_list = action.get("quantumList", self.quantum_list)
+        self.quantum_list = action
         for i in range(self.number_of_queues - 1):
             q = self.queues[i]
             q.quantum = self.quantum_list[q.priority]
             
         pending_jobs = [job for job in self.job_list if not job.is_finished()]
         if len(pending_jobs) == 0:
-            return  {"observation": np.array([0])}, 0, True, {}
+            return self.quantum_list, 0, True, {}
         
         for process in pending_jobs:
             self.add_arrival_to_first_queue(process, priority=0)
@@ -95,7 +98,7 @@ class SchedulingEnv(gym.Env):
             self.gui.draw_process_rect(highest_queue.queue_id, self.current_time, process_id)
 
         self.current_time += 1 
-        observation = {"observation": np.array([0])}
+        observation = self.quantum_list
         return observation, reward, False, {}
     
     
