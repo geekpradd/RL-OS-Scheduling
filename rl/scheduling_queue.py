@@ -57,7 +57,7 @@ class RRQueue(Queue):
         process = self.get_highest_priority_job()
         process_id, reward = Queue.run_process(self, current_time)
 
-        if process.current_run == self.quantum:
+        if process.current_run >= self.quantum:
             self.pop_first()
             self.next_queue.add_process(process)
         return process_id, reward

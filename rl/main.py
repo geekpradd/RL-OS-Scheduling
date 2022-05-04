@@ -18,8 +18,9 @@ args = vars(arg_parser.parse_args())
 env = SchedulingEnv(args)
 
 st = env.reset()
+ac = env.quantum_list
 while True:
-    st, r, done, _ = env.step(st)
+    st, r, done, _ = env.step(ac)
     if done:
         break
 
