@@ -2,11 +2,11 @@ import argparse
 from mlfq import Mlfq
 import PySimpleGUI as sg
 from process import Process
-
+import sys
 
 def main():
-    INSTANCE_INPUT_FILE = "instance_input"
-    SETTING_INPUT_FILE = "setting_input"
+    INSTANCE_INPUT_FILE = sys.argv[1]
+    SETTING_INPUT_FILE = sys.argv[2]
     f = open(INSTANCE_INPUT_FILE, "r")
 
     for line in f.readlines():

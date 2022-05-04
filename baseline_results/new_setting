@@ -1,0 +1,8 @@
+-m rr -q 8
+-m fcfs
+-q 8,16
+-q 8,16,24
+-q 8,16,24,32
+-q 8,16 -m auto_boost -f 0.25
+-q 8,16,24 -m auto_boost -f 0.5
+-q 8,16,24,32 -m auto_boost -f 0.75
