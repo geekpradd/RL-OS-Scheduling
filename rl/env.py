@@ -8,6 +8,8 @@ import PySimpleGUI as sg
 from scheduling_queue import RRQueue
 from scheduling_queue import FCFSQueue
 
+STATE_SPACE_SIZE = 10
+
 def parse_jobs(jobs):
     returned_jobs = list()
     for job in jobs:
@@ -15,6 +17,9 @@ def parse_jobs(jobs):
 
         returned_jobs.append(Process(int(burst), int(arrival)))
     return returned_jobs
+
+def to_stateSpace(jobs):
+    return np.convolve(jobs, np.ones(STATE_SPACE_SIZE+ len(jobs) -1)/STATE_SPACE_SIZE, 'valid')
 
 class SchedulingEnv(gym.Env):
     def __init__(self, args):
@@ -29,7 +34,7 @@ class SchedulingEnv(gym.Env):
         self.current_time = 0
         self.queues = list()
         self.init_queues(self.number_of_queues, self.quantum_list)
-        self.observation_space = gym.spaces.Box(low=1, high=100, shape=(self.number_of_queues-1,), dtype=np.float32)
+        self.observation_space = gym.spaces.Box(np.array([0]*STATE_SPACE_SIZE*2), np.array([np.inf]*STATE_SPACE_SIZE*2), shape = (STATE_SPACE_SIZE*2,),dtype= np.float32) 
         self.action_space = gym.spaces.Box(low=1, high=100, shape=(self.number_of_queues-1,), dtype=np.float32)
 
     def init_queues(self, number_of_queues, quantum_list):
@@ -71,7 +76,7 @@ class SchedulingEnv(gym.Env):
         for job in self.job_list:
             job.reset()
         self.current_time = 0
-        observation = np.array(self.quantum_list)
+        observation = np.append(to_stateSpace([0]),to_stateSpace([0]))
         return observation  # reward, done, info can't be included
     
         
@@ -97,8 +102,15 @@ class SchedulingEnv(gym.Env):
             process_id, reward = highest_queue.run_process(self.current_time)
             self.gui.draw_process_rect(highest_queue.queue_id, self.current_time, process_id)
 
+        total_time = []
+        remaining_time = []
+        for job in self.job_list:
+                if job.arrival > self.current_time:
+                    continue
+                total_time.append(job.burst_time)
+                remaining_time.append(job.time_left)
         self.current_time += 1 
-        observation = self.quantum_list
+        observation = np.append(to_stateSpace(remaining_time),to_stateSpace(total_time))
         return observation, reward, False, {}
     
     

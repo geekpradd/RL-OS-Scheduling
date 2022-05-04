@@ -19,6 +19,14 @@ arg_parser = parse_arguments()
 args = vars(arg_parser.parse_args())
 env = SchedulingEnv(args)
 
+st = env.reset()
+ac = env.quantum_list
+# while True:
+#     st, r, done, _ = env.step(ac)
+#     if done:
+#         obs = env.reset()
+#     break 
+
 agent_dict = {"A2C": A2C, "DQN":DQN, "DDPG":DDPG, "TD3":TD3}
 
 model = agent_dict[args.get("agent", "DQN")]('MlpPolicy', env, verbose=1)
