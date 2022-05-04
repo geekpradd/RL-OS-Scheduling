@@ -26,7 +26,7 @@ class Process:
 
     def get_reward(self):
         if self.is_finished():
-            return self.weights[0]*self.statistics.turnaround + self.weights[1]*self.statistics.wait + self.weights[2]*self.statistics.response_time
+            return -(self.weights[0]*self.statistics.turnaround + self.weights[1]*self.statistics.wait + self.weights[2]*self.statistics.response_time)
         return 0
     
     def finish(self, time):

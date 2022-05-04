@@ -8,7 +8,20 @@ import PySimpleGUI as sg
 from scheduling_queue import RRQueue
 from scheduling_queue import FCFSQueue
 
+
+np.random.seed(2)
 STATE_SPACE_SIZE = 10
+
+def get_testcase(n, q, std_time=10, std_burst=5):
+    tc = []
+    quantums = [8*i for i in range(1, q+1)]
+
+    for i in range(n):
+        t = (np.random.randn()*std_time)
+        b = np.random.randn()*std_burst
+        tc.append(f'{int(abs(t))+1}:{int(abs(b))}')
+    return tc, quantums
+    
 
 def parse_jobs(jobs):
     returned_jobs = list()
@@ -22,28 +35,27 @@ def to_stateSpace(jobs):
     return np.convolve(jobs, np.ones(STATE_SPACE_SIZE+ len(jobs) -1)/STATE_SPACE_SIZE, 'valid')
 
 class SchedulingEnv(gym.Env):
-    def __init__(self, args):
+    def __init__(self, boost, number_of_queues, rendered = False):
         # print(args)
-        self.boost = args.get("boost",0)
-        jobs = str(args.get("jobList","")).split(",")
-        self.quantum_list = str(args.get("quantumList","8,16")).split(",")
-        self.quantum_list = np.array([int(quantum) for quantum in self.quantum_list])
-        self.number_of_queues = len(self.quantum_list) + 1
-        self.gui = Gui(1000, 500)
-        self.job_list = parse_jobs(jobs)
-        self.current_time = 0
-        self.queues = list()
-        self.init_queues(self.number_of_queues, self.quantum_list)
+        if rendered:
+            self.gui = Gui(1000, 500)
+        else:
+            self.gui = None
+        print(number_of_queues)
+        self.number_of_queues = number_of_queues
+        self.boost = boost
         self.observation_space = gym.spaces.Box(np.array([0]*STATE_SPACE_SIZE*2), np.array([np.inf]*STATE_SPACE_SIZE*2), shape = (STATE_SPACE_SIZE*2,),dtype= np.float32) 
         self.action_space = gym.spaces.Box(low=1, high=100, shape=(self.number_of_queues-1,), dtype=np.float32)
 
     def init_queues(self, number_of_queues, quantum_list):
         for i in range(number_of_queues - 1):
             self.queues.append(RRQueue(i, quantum_list[i]))
-            self.gui.draw_rr_queue_header(i, quantum_list[i])
+            if self.gui is not None:
+                self.gui.draw_rr_queue_header(i, quantum_list[i])
 
         self.queues.append(FCFSQueue(number_of_queues - 1))
-        self.gui.draw_fcfs_queue_header(number_of_queues - 1)
+        if self.gui is not None:
+            self.gui.draw_fcfs_queue_header(number_of_queues - 1)
 
         for i in range(number_of_queues - 1):
             self.queues[i].set_next_queue(self.queues[i + 1])
@@ -73,11 +85,22 @@ class SchedulingEnv(gym.Env):
         
     
     def reset(self):
+        number_of_jobs = np.random.randint(20)
+        jobs, self.quantum_list = get_testcase(number_of_jobs, self.number_of_queues)
+        # jobs = str(args.get("jobList","")).s2plit(",")
+        # self.quantum_list = str(args.get("quantumList","8,16")).split(",")
+        # self.quantum_list = np.array([int(quantum) for quantum in self.quantum_list])
+        self.job_list = parse_jobs(jobs)
+        self.queues = list()
+        self.init_queues(self.number_of_queues, self.quantum_list)
         for job in self.job_list:
             job.reset()
         self.current_time = 0
         observation = np.append(to_stateSpace([0]),to_stateSpace([0]))
-        return observation  # reward, done, info can't be included
+        print("Quantums: ", self.quantum_list)
+        print("Jobs:", jobs)
+        print("---------------------------------------------------------------------------------------")
+        return observation
     
         
     def step(self, action):
@@ -100,7 +123,8 @@ class SchedulingEnv(gym.Env):
         reward = 0
         if highest_queue is not None:
             process_id, reward = highest_queue.run_process(self.current_time)
-            self.gui.draw_process_rect(highest_queue.queue_id, self.current_time, process_id)
+            if self.gui is not None:
+                self.gui.draw_process_rect(highest_queue.queue_id, self.current_time, process_id)
 
         total_time = []
         remaining_time = []
@@ -110,11 +134,17 @@ class SchedulingEnv(gym.Env):
                 total_time.append(job.burst_time)
                 remaining_time.append(job.time_left)
         self.current_time += 1 
+        if len(total_time) == 0:
+            total_time = [0]
+            remaining_time = [0]
         observation = np.append(to_stateSpace(remaining_time),to_stateSpace(total_time))
         return observation, reward, False, {}
     
     
     def render(self, mode='human'):
+        if self.gui is None:
+            print("This environment is not printable, initialise with rendered = True")
+            return
         total_turnaround_time = total_wait = total_response = 0
         for i, job in enumerate(self.job_list):
             self.gui.print_process_statistics(i, job, self.number_of_queues)
