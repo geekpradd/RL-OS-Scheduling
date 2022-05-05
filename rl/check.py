@@ -30,12 +30,13 @@ for i in range(100):
     obs = env.reset()
     init_quantum = env.quantum_list
     r= 0
-    while True:
+    for j in range(10000):
         action, _state = model.predict(obs, deterministic=True)
         obs, reward, done, info = env.step(action)
         r += reward
         if done:
             break 
     print (f"Iteration {i}: reward = ", r)
+    env.print_stats()
     print("---------------------------------------------------------------------------------------")
 

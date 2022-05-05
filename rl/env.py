@@ -90,11 +90,9 @@ class SchedulingEnv(gym.Env):
         self.job_list = parse_jobs(jobs)
         self.queues = list()
         self.init_queues(self.number_of_queues, self.quantum_list)
-        for job in self.job_list:
-            job.reset()
         self.current_time = 0
         observation = np.append(to_stateSpace([0]),to_stateSpace([0]))
-        print("Quantums: ", self.quantum_list)
+        print("Initial Quantums: ", self.quantum_list)
         print("Jobs:", jobs)
         return observation
     
@@ -102,8 +100,7 @@ class SchedulingEnv(gym.Env):
     def step(self, action):
         self.quantum_list = action
         for i in range(self.number_of_queues - 1):
-            q = self.queues[i]
-            q.quantum = self.quantum_list[q.priority]
+            self.queues[i].quantum = self.quantum_list[self.queues[i].priority]
             
         pending_jobs = [job for job in self.job_list if not job.is_finished()]
         if len(pending_jobs) == 0:
@@ -137,9 +134,25 @@ class SchedulingEnv(gym.Env):
         return observation, reward, False, {}
     
     
+    def print_stats(self):
+        total_turnaround_time = []
+        total_wait = []
+        total_response = []
+        for i, job in enumerate(self.job_list):
+            total_response += [job.statistics.response_time]
+            total_turnaround_time += [job.statistics.turnaround]
+            total_wait += [job.statistics.wait]
+        print("Total Time: ", self.current_time)
+        print("Average Turnaround Time: ", np.mean(total_turnaround_time))
+        print("Average Wait Time: ", np.mean(total_wait))
+        print("Average Response Time: ", np.mean(total_response))
+        print("Per Process Turnaround Time: ", total_turnaround_time)
+        print("Per Process Wait Time: ", total_wait)
+        print("Per Process Response Time: ", total_response)
+
     def render(self, mode='human'):
         if self.gui is None:
-            print("This environment is not printable, initialise with rendered = True")
+            print("This environment is not renderable, initialise with rendered = True")
             return
         total_turnaround_time = total_wait = total_response = 0
         for i, job in enumerate(self.job_list):

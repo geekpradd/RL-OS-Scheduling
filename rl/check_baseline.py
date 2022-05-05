@@ -18,18 +18,20 @@ def parse_arguments():
 arg_parser = parse_arguments()
 args = vars(arg_parser.parse_args())
 env = SchedulingEnv(args["boost"], args["numQueues"], False)
+print("Agent: Baseline")
 
 # bound on iterations = 100000
 for i in range(100):
     obs = env.reset()
     init_quantum = env.quantum_list
     r= 0
-    while True:
+    for j in range(10000):
         obs, reward, done, info = env.step(init_quantum)
         r += reward
         if done:
             break 
     print (f"Iteration {i}: reward = ", r)
+    env.print_stats()
     print("---------------------------------------------------------------------------------------")
 # env.render()
 

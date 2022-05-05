@@ -30,7 +30,7 @@ class Process:
         return 0
     
     def finish(self, time):
-        assert (self.time_left == 0)
+        assert (self.time_left <= 0)
         self.current_run = 0
         self.finish_time = time
         self.statistics.calculate_turnaround(self.finish_time, self.arrival)
@@ -38,12 +38,12 @@ class Process:
 
     def run(self, current_time):
         self.time_left -= 1
+        self.current_run += 1
 
-        if self.time_left == 0:
+        if self.time_left <= 0:
             self.finish(current_time)
 
         if self.statistics.response_time == -1:
             self.statistics.response_time = current_time - self.arrival
 
-        self.current_run += 1
         return self.process_id, self.get_reward()
