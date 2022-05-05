@@ -3,6 +3,9 @@ import gym
 from stable_baselines3.common.env_checker import check_env
 from stable_baselines3 import A2C, DDPG, DQN, TD3
 import argparse
+import numpy as np
+
+np.random.seed(2)
 
 def parse_arguments():
     ap = argparse.ArgumentParser()
@@ -16,25 +19,23 @@ def parse_arguments():
 
 arg_parser = parse_arguments()
 args = vars(arg_parser.parse_args())
-env = SchedulingEnv(args["boost"], args["numQueues"], True)
+env = SchedulingEnv(args["boost"], args["numQueues"], False)
 
 agent_dict = {"A2C": A2C, "DDPG":DDPG, "TD3":TD3}
 print("Agent: ", args["agent"])
 model = agent_dict[args["agent"]].load(args["file"])
 
 # bound on iterations = 100000
-obs = env.reset()
-init_quantum = env.quantum_list
-print(init_quantum)
-
-r = 0
-for i in range(100000):
-    action, _state = model.predict(obs, deterministic=True)
-    obs, reward, done, info = env.step(action)
-    r += reward
-    if done:
-    #   obs = env.reset()
-      break 
-print ("reward = ", r)
-env.render()
+for i in range(100):
+    obs = env.reset()
+    init_quantum = env.quantum_list
+    r= 0
+    while True:
+        action, _state = model.predict(obs, deterministic=True)
+        obs, reward, done, info = env.step(action)
+        r += reward
+        if done:
+            break 
+    print (f"Iteration {i}: reward = ", r)
+    print("---------------------------------------------------------------------------------------")
 

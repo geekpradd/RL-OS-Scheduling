@@ -11,7 +11,7 @@ class Process:
         self.statistics = Statistics()
         self.finish_time = -1
         self.current_run = 0
-        self.weights = [1,1,1]
+        self.weights = [1,0.5,0.1]
         self.process_id = Process.job_id_counter
         Process.job_id_counter += 1
 

@@ -1,5 +1,3 @@
-# TODO: add what all observations are needed
-
 import gym
 import numpy as np
 from gui import Gui
@@ -9,7 +7,6 @@ from scheduling_queue import RRQueue
 from scheduling_queue import FCFSQueue
 
 
-np.random.seed(2)
 STATE_SPACE_SIZE = 10
 
 def get_testcase(n, q, std_time=10, std_burst=5):
@@ -99,7 +96,6 @@ class SchedulingEnv(gym.Env):
         observation = np.append(to_stateSpace([0]),to_stateSpace([0]))
         print("Quantums: ", self.quantum_list)
         print("Jobs:", jobs)
-        print("---------------------------------------------------------------------------------------")
         return observation
     
         
